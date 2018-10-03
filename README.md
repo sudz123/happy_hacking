@@ -27,8 +27,8 @@ Here are some advantageous links for grasping the code & further procedure. I ho
 1. [Learn HTML](https://www.w3schools.com/html/)
 2. [Learn CSS](https://www.w3schools.com/Css/)
 3. [Learn Javascript](https://www.w3schools.com/js/)
-4.[Learn how to make pull request](https://help.github.com/articles/creating-a-pull-request/)
-5.[Learn how to fork a repository](https://help.github.com/articles/fork-a-repo/)
+4. [Learn how to make pull request](https://help.github.com/articles/creating-a-pull-request/)
+5. [Learn how to fork a repository](https://help.github.com/articles/fork-a-repo/)
 
 A few other tutorial links:
 
