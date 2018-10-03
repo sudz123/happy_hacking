@@ -20,7 +20,7 @@
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 300);
+              setInterval(displayNextImage, 1000);
           }
 
           var images = [], x = -1;
@@ -32,6 +32,10 @@
         #img{
           height: 100vh;
           width: 100%;
+        }
+        .footer {
+          text-align: center;
+          font-size: 12px;
         }
       </style>
    </head>
@@ -54,11 +58,23 @@
            <a href="akshat.html">Akshat Ahuja</a>
            <a href="mufti.html">Mufti Ismi</a>
            <a href="sudz.html">Sudarshan Kamath</a>
+       </p>
+
+       <div class="content-page">
+
+                <!-- footer -->
+                <footer class="footer ">
+                  <script>document.write(new Date().getFullYear());</script>
+                </footer>
+
+       </div>
+
        </p> 
 	   <div class="footer">
 		  <p>ALL RIGHTS RESERVED</p>
 	   </div>
            
        </p>
+
    </body>
 </html>
