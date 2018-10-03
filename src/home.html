@@ -3,6 +3,10 @@
 <html>
    <head>
       <title>change picture</title>
+      <link rel='stylesheet' id='home-styles'  href='../src/home.css' type='text/css' media='all' />
+      <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css" />
       <script type = "text/javascript">
           function displayNextImage() {
               x = (x === images.length - 1) ? 0 : x + 1;
@@ -27,10 +31,30 @@
           images[1] = "images/image2.jpg";
           images[2] = "images/image3.jpg";
       </script>
-      
+
+      <style>
+        #img{
+          height: 100vh;
+          width: 100%;
+        }
+        body {
+            margin: 0 auto;
+    max-width: 100%;
+            }
+      </style>
+
    </head>
 
+<body onload = "startTimer()" class="home">
+
    <body onload = "startTimer()">
+       <div id="header">
+            <nav>
+                <a>HOME</a>
+                <a>ABOUT</a>
+                <a>CONTACT US</a>
+            </nav>
+        </div>
 
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
@@ -39,8 +63,13 @@
        <p>Contributors: </p>
        <p>
            <a href="akshat.html">Akshat Ahuja</a>
+
+           <a href="haloween.html">Go To Haloween Page</a>
+
            <a href="mufti.html">Mufti Ismi</a>
            <a href="sudz.html">Sudarshan Kamath</a>
+           <a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a>
+	        <a href="http://carrielau.com/">Carrie Lau</a>    
        </p>
 	 
 <div class="contact">
@@ -57,18 +86,58 @@
     </form>
 </div>
 
+       <div class="container">
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+          </form>
+        </div>
+
        <div class="content-page">
 
-                <!-- footer -->
-                <footer class="footer ">
-                  <script>document.write(new Date().getFullYear());</script>
-                </footer>
 
        </div>
 
+
        </p> 
+
 	   <div class="footer">
-		  <p>ALL RIGHTS RESERVED</p>
+		   <div class="wrap">
+			   <div class="intro">
+			   <h3>Happy<span>_</span>Hacking</h3>
+			   <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
+			   </div>
+			   <div class="contributors">
+				   <h4>Contributors:</h4>
+				   <ul>
+					   <li><a href="akshat.html">Akshat Ahuja</a></li>
+					   <li><a href="mufti.html">Mufti Ismi</a></li>
+                       			   <li><a href="sudz.html">Sudarshan Kamath</a></li>
+                       			  <li><a href="nir099.html">Nir</a></li>
+					   <li><a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a></li>
+				   </ul>
+			   </div>
+			   <div class="copyright">
+			   <p><script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
+			   </div>
+		   </div>
 	   </div>
            
        </p>
