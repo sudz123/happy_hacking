@@ -7,4 +7,5 @@
     - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Akshat Ahuja](https://www.github.com/akshatah33)
     - [LinkedIn](https://www.linkedin.com/in/akshatahuja/)
-
+- [Glenn Lanzer III](https://github.com/TexasBullet26)
+    - [LinkedIn](https://www.linkedin.com/in/glenn-lanzer/)
