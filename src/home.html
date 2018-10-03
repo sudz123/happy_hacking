@@ -32,11 +32,15 @@
           height: 100vh;
           width: 100%;
         }
+        .footer {
+          text-align: center;
+          font-size: 12px;
+        }
       </style>
    </head>
 
    <body onload = "startTimer()">
-	
+
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
@@ -46,6 +50,17 @@
            <a href="akshat.html">Akshat Ahuja</a>
            <a href="mufti.html">Mufti Ismi</a>
            <a href="sudz.html">Sudarshan Kamath</a>
+       </p>
+
+       <div class="content-page">
+
+                <!-- footer -->
+                <footer class="footer ">
+                  <script>document.write(new Date().getFullYear());</script>
+                </footer>
+
+       </div>
+
        </p> 
 	   <div class="footer">
 		  <p>ALL RIGHTS RESERVED</p>
