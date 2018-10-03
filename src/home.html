@@ -19,20 +19,25 @@
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 3000);
+              setInterval(displayNextImage, 300);
           }
 
           var images = [], x = -1;
-          images[0] = "image1.jpg";
-          images[1] = "image2.jpg";
-          images[2] = "image3.jpg";
+          images[0] = "images/image1.jpg";
+          images[1] = "images/image2.jpg";
+          images[2] = "images/image3.jpg";
       </script>
    </head>
 
    <body onload = "startTimer()">
+	
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
        <button type="button" onclick="goToBamsarts()">bamsarts</button>
+       <p>Contributors: </p>
+       <p>
+           <a href="akshat.html">Akshat Ahuja</a>
+       </p> 
    </body>
 </html>
