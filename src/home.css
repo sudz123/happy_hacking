@@ -1,9 +1,22 @@
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
+* {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    margin: 20px;
+}
+
+footer {
+    color: #ddd;
+    padding: 5px;
+    background-color: #333;
+    border-top: 3px solid #555;
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
