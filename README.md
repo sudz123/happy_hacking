@@ -34,6 +34,8 @@ A few other tutorial links:
 
 1. [Build a website](https://www.w3schools.com/howto/howto_website.asp)
 2. [Hosting the website](https://gist.github.com/TylerFisher/6127328)
+3. [learn git-github](https://try.github.io/)
+4. [learn Markdown](https://www.markdowntutorial.com/)
 
 ## How to run the HTML pages
 
