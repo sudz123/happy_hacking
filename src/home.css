@@ -4,7 +4,7 @@ body {
 }
 
 .footer {
-   position: absolute;
+   position: fixed;
    left: 0;
    bottom:-20px;
    width: 100%;
