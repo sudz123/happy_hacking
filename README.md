@@ -53,7 +53,7 @@ A few other tutorial links:
 
 ![ ](https://www.wikihow.com/images/thumb/9/92/Run-a-HTML-File-Step-5-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-5-Version-3.jpg.webp)
 
-5. Right-click (Windows) or double-click (Mac) the file and select "Open with" from the action menu. 
+5. Right-click (Windows) or double-click (Mac) the file and select "Open with" from the action menu.
 
 ![ ](https://www.wikihow.com/images/thumb/2/2a/Run-a-HTML-File-Step-6-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-6-Version-3.jpg.webp)
 
@@ -61,3 +61,15 @@ A few other tutorial links:
 
 ![ ](https://www.wikihow.com/images/thumb/9/97/Run-a-HTML-File-Step-7.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-7.jpg.webp)
 
+## Contribution
+- Fork this repo
+
+- Create new branch
+
+- Make changes
+
+- Commit and push your branch
+
+- Create new pull request
+
+- And don't forget to add your name to the Contributors.md file
