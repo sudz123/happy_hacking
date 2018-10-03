@@ -20,12 +20,7 @@
           }
 
           function startTimer() {
-            //   setInterval(displayNextImage, 300);
-          }
-
-          function displayInitialImage(){
-              x=0;
-            document.getElementById("img").src = images[0];
+              setInterval(displayNextImage, 300);
           }
 
           var images = [], x = -1;
@@ -41,7 +36,7 @@
       </style>
    </head>
 
-   <body onload = "displayInitialImage()">
+   <body onload = "startTimer()">
        <header id="header">
             <nav>
                 <a>HOME</a>

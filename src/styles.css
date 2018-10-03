@@ -8,12 +8,20 @@ body {
   justify-content: flex-end;
   width: 100vw;
   background-color: #263238;
-  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #header nav a {
   display: inline-block;
+  font-weight: bold;
   padding: 20px 25px;
   cursor: pointer;
   color: white;
+}
+
+#header nav a:hover {
+  background: white;
+  color: #263238;
 }
