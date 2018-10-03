@@ -9,6 +9,10 @@
               document.getElementById("img").src = images[x];
           }
 
+          function goToBamsarts(){
+            window.location.href = 'bamsarts/index.html';
+          }
+
           function displayPreviousImage() {
               x = (x <= 0) ? images.length - 1 : x - 1;
               document.getElementById("img").src = images[x];
@@ -29,5 +33,6 @@
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
+       <button type="button" onclick="goToBamsarts()">bamsarts</button>
    </body>
 </html>
