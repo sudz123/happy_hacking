@@ -7,12 +7,12 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 ## How it works
 - Checkout for open repositories [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
 
-- Fork the repo containing the issue you want to work on.
+- Fork the repo containing the issue you want to work on. For those who are new to github, learn to fork [here](https://help.github.com/articles/fork-a-repo/) 
 
 - Make some edits on your own copy that fixes the issues.
 
-- Create a pull request that will be merged to the main repo.
-(**Remember to indicate what issue you're fixing**)
+- Create a pull request that will be merged to the main repo. Those willing to contribute but are new to github can follow the steps to create pull request [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+(**Remember to indicate what issue you're fixing in the title at the time of submission of pull request**)
 
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
