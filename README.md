@@ -27,3 +27,30 @@ Here are some useful links for understanding the code. I hope this helps. Stay m
 1. [Learn HTML](https://www.w3schools.com/html/)
 2. [Learn CSS](https://www.w3schools.com/Css/)
 3. [Learn Javascript](https://www.w3schools.com/js/)
+
+## How to run the HTML pages
+
+1. Write HTML into a basic text editor
+
+![ ](https://www.wikihow.com/images/thumb/f/fc/Run-a-HTML-File-Step-2-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-2-Version-3.jpg.webp)
+
+2. Save the file as your-file.html
+
+![ ](https://www.wikihow.com/images/thumb/f/ff/Run-a-HTML-File-Step-3-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-3-Version-3.jpg.webp)
+
+3. Make sure that there is a browser installed on your computer.
+
+![ ](https://www.wikihow.com/images/thumb/1/1e/Run-a-HTML-File-Step-4-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-4-Version-3.jpg.webp)
+
+4. Find the saved file.
+
+![ ](https://www.wikihow.com/images/thumb/9/92/Run-a-HTML-File-Step-5-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-5-Version-3.jpg.webp)
+
+5. Right-click (Windows) or double-click (Mac) the file and select "Open with" from the action menu. 
+
+![ ](https://www.wikihow.com/images/thumb/2/2a/Run-a-HTML-File-Step-6-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-6-Version-3.jpg.webp)
+
+6. View your HTML file in your chosen browser.
+
+![ ](https://www.wikihow.com/images/thumb/9/97/Run-a-HTML-File-Step-7.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-7.jpg.webp)
+
