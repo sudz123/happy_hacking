@@ -3,6 +3,7 @@
 <html>
    <head>
       <title>change picture</title>
+      <link rel="stylesheet" href="styles.css" />
       <script type = "text/javascript">
           function displayNextImage() {
               x = (x === images.length - 1) ? 0 : x + 1;
@@ -19,7 +20,12 @@
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 300);
+            //   setInterval(displayNextImage, 300);
+          }
+
+          function displayInitialImage(){
+              x=0;
+            document.getElementById("img").src = images[0];
           }
 
           var images = [], x = -1;
@@ -29,7 +35,14 @@
       </script>
    </head>
 
-   <body onload = "startTimer()">
+   <body onload = "displayInitialImage()">
+       <header id="header">
+            <nav>
+                <a>HOME</a>
+                <a>ABOUT</a>
+                <a>CONTACT US</a>
+            </nav>
+        </header>
 	
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
@@ -41,3 +54,4 @@
        </p> 
    </body>
 </html>
+
