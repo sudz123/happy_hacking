@@ -1,10 +1,10 @@
-# Happy Hacking
+# :tada::tada::smile: Hacking
 Let's have a productive Hacktoberfest. Submit 5 PRs to this account after registering yourself [here](https://hacktoberfest.digitalocean.com/).
 
-# About
+# :construction_worker: About
 My name is Sudarshan Kamath and I am hosting this repository for the month of October, 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy Contributing!
 
-# IMPORTANT
+# :bookmark:IMPORTANT:bookmark:
 Since this repository is gaining some momentum, I expect good grammar in all PRs. I expect proper comments in the code. The code could be trivial with a small change, that is totally fine. **When making changes to existing files, make sure you do not add more than one feature or change more than one component in a PR!** Also these file descriptions should be helpful : 
 
 - *src* contains all the code
@@ -13,25 +13,32 @@ Since this repository is gaining some momentum, I expect good grammar in all PRs
 - *Images* I want all images in this within sub-folders in this folder, according to the page they are on.
 - **THE MORE THE STRUCTURED YOUR CODE IS, THE EASIER IT IS FOR ME TO REVIEW, THE HIGHER CHANCES THAT IT WILL BE MERGED**
 
-## How it works
-- Checkout for open repositories [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
+## :building_construction:How it works
+:white_check_mark:
+Checkout for open repositories [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
 
-- Fork the repo containing the issue you want to work on.
+ :white_check_mark:
+Fork the repo containing the issue you want to work on.
 
-- Make some edits on your own copy that fixes the issues.
+ :white_check_mark:
+Make some edits on your own copy that fixes the issues.
 
-- Create a pull request that will be merged to the main repo.
+:white_check_mark:
+ Create a pull request that will be merged to the main repo.
 (**Remember to indicate what issue you're fixing**)
 
-- **Don't forget to add your name to Contributors.md**
+ :rotating_light:
+**Don't forget to add your name to Contributors.md**:rotating_light:
 
-- *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
-- Your codes will be reviewed and approved.
+:white_check_mark:*You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
-- If you have questions on any issue, kindly use the comment.
+:white_check_mark:Your codes will be reviewed and approved.
 
-## Important Links
+:white_check_mark:If you have questions on any issue, kindly use the comment.
+
+## :pencil2::pencil2:Important Links:pencil2::pencil2:
+
 
 Here are some advantageous links for grasping the code & further procedure. I hope this comforts you. Stay motivated!
 
@@ -46,7 +53,7 @@ A few other tutorial links:
 1. [Build a website](https://www.w3schools.com/howto/howto_website.asp)
 2. [Hosting the website](https://gist.github.com/TylerFisher/6127328)
 
-## How to run the HTML pages
+## :bulb::bulb:How to run the HTML pages:bulb::bulb:
 
 1. Write HTML into a basic text editor
 
