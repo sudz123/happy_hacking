@@ -15,7 +15,7 @@
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 3000);
+              setInterval(displayNextImage, 300);
           }
 
           var images = [], x = -1;
@@ -26,6 +26,7 @@
    </head>
 
    <body onload = "startTimer()">
+	
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
