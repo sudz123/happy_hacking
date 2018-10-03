@@ -12,7 +12,7 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 - Make some edits on your own copy that fixes the issues.
 
 - Create a pull request that will be merged to the main repo.
-(Remember to indicate what issue you're fixing)
+(**Remember to indicate what issue you're fixing**)
 
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
