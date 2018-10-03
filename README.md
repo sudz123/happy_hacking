@@ -7,12 +7,12 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 ## How it works
 - Checkout for open repositories [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
 
-- Fork the repo containing the issue you want to work on.
+- Fork the repo containing the issue you want to work on. For those who are new to github, learn to fork [here](https://help.github.com/articles/fork-a-repo/) 
 
 - Make some edits on your own copy that fixes the issues.
 
-- Create a pull request that will be merged to the main repo.
-(**Remember to indicate what issue you're fixing**)
+- Create a pull request that will be merged to the main repo. Those willing to contribute but are new to github can follow the steps to create pull request [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+(**Remember to indicate what issue you're fixing in the title at the time of submission of pull request**)
 
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
@@ -28,7 +28,35 @@ Here are some useful links for understanding the code. I hope this helps. Stay m
 2. [Learn CSS](https://www.w3schools.com/Css/)
 3. [Learn Javascript](https://www.w3schools.com/js/)
 
-A few basic tutorial links:
+
+A few other tutorial links:
 
 1. [Build a website](https://www.w3schools.com/howto/howto_website.asp)
 2. [Hosting the website](https://gist.github.com/TylerFisher/6127328)
+
+## How to run the HTML pages
+
+1. Write HTML into a basic text editor
+
+![ ](https://www.wikihow.com/images/thumb/f/fc/Run-a-HTML-File-Step-2-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-2-Version-3.jpg.webp)
+
+2. Save the file as your-file.html
+
+![ ](https://www.wikihow.com/images/thumb/f/ff/Run-a-HTML-File-Step-3-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-3-Version-3.jpg.webp)
+
+3. Make sure that there is a browser installed on your computer.
+
+![ ](https://www.wikihow.com/images/thumb/1/1e/Run-a-HTML-File-Step-4-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-4-Version-3.jpg.webp)
+
+4. Find the saved file.
+
+![ ](https://www.wikihow.com/images/thumb/9/92/Run-a-HTML-File-Step-5-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-5-Version-3.jpg.webp)
+
+5. Right-click (Windows) or double-click (Mac) the file and select "Open with" from the action menu. 
+
+![ ](https://www.wikihow.com/images/thumb/2/2a/Run-a-HTML-File-Step-6-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-6-Version-3.jpg.webp)
+
+6. View your HTML file in your chosen browser.
+
+![ ](https://www.wikihow.com/images/thumb/9/97/Run-a-HTML-File-Step-7.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-7.jpg.webp)
+
