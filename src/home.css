@@ -214,3 +214,98 @@ body {
 		margin-top:30px;
 	}
 }
+
+ #img{
+    height: 100vh;
+    width: 100%;
+   }
+ .footer {
+     text-align: center;
+     font-size: 12px;
+     }
+h2{
+  text-align: center;
+}
+
+.contact-form{
+  text-align: center;
+  display: block;
+  margin: auto;
+  background-color: #333;
+  width:80%;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
+  margin-bottom: 5%;
+  padding: 3%;
+  font-family: cursive, monospace; 
+   text-shadow: 1px 1px 0 black; 
+} 
+label{
+  display: block;
+}
+.field {
+  font-size: 20px;
+  background-color: transparent;
+  width: 60%;
+  padding: 6px;
+  margin: 2%;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.message {
+   font-size: 20px;
+  background-color: transparent;
+  width: 60%;
+  height: 100px;
+  padding: 6px;
+  border: 2px solid white;
+  border-radius: 5px;
+   color: white;
+
+}
+.field:hover {
+  border: 2.5px solid gold;
+  border-radius: 6px;
+}
+.message:hover {
+  border: 2.5px solid gold;
+  border-radius: 6px;
+}
+.field:focus {
+  border: 2.5px solid gold;
+  border-radius: 6px;
+  width: 65%;
+}
+#message:focus {
+  border: 2.5px solid gold;
+  border-radius: 6px;
+  width: 65%;
+}
+
+.submit{
+  display: block;
+  width: 40%;
+  height: 2%;
+  background-color: black;
+  color: white;
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:15px 0;
+  font-size:1rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 8px;
+  letter-spacing: 0.2em;
+  border: 2px solid gold;
+  transition: linear 0.5s;
+}
+.submit:hover{
+  border-radius: 15%;
+   border: 2px solid white;
+  
+}
+      </style>
