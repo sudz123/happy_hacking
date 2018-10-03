@@ -1,37 +1,111 @@
 <!DOCTYPE html>
-
 <html>
    <head>
-      <title>change picture</title>
-      <script type = "text/javascript">
-          function displayNextImage() {
-              x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("img").src = images[x];
-          }
-
-          function goToBamsarts(){
-            window.location.href = 'bamsarts/index.html';
-          }
-
-          function displayPreviousImage() {
-              x = (x <= 0) ? images.length - 1 : x - 1;
-              document.getElementById("img").src = images[x];
-          }
-
-          function startTimer() {
-              setInterval(displayNextImage, 300);
-          }
-
-          var images = [], x = -1;
-          images[0] = "images/image1.jpg";
-          images[1] = "images/image2.jpg";
-          images[2] = "images/image3.jpg";
-      </script>
-      <style>
+             <!-- Required meta tags -->
+             <meta charset="utf-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>change picture</title> 
+        <style>
         #img{
-          height: 100vh;
-          width: 100%;
+            height: 100vh;
+            width: 100%;
         }
+        .w3-btn {
+            height: 20%;
+            width: 80px;
+        }
+
+
+        #contact {
+            width: 60%;
+            margin: 0 20%
+        }
+        </style>
+        <div class="w3-top">
+                <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+                  <a href="#home" class="w3-bar-item w3-button"><b>H<sup>2</sup></b> Happy_Hacking</a>
+                  <!-- Float links to the right. Hide them on small screens -->
+                  <div class="w3-right w3-hide-small">
+                    <a href="#about" class="w3-bar-item w3-button">About</a>
+                    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+                  </div>
+                </div>
+              </div>
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <body>
+        <div class="w3-display-container" >
+                <img id="img" src="images/image1.jpg"/>
+                <button class="w3-display-left w3-container w3-btn w3-text-white" type="button" onclick="displayPreviousImage()"><i class="fa fa-angle-left" ></i></button>
+                <button class="w3-display-right w3-container w3-btn w3-text-white" type="button" onclick="displayNextImage()"><i class="fa fa-angle-right" ></i></button>
+       </div>
+       <!-- <button class="w3-button w3-conatiner" type="button" onclick="goToBamsarts()">bamsarts</button>
+       <p>Contributors: </p>
+       <p>
+           <a href="akshat.html">Akshat Ahuja</a>
+       </p>  -->
+       <br><br>
+       <!--About Page-->
+       <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-half w3-container w3-padding-24">
+              <img class="w3-image"  src="https://png.icons8.com/ios/1600/github-2.png" alt=""> 
+            </div>
+            <div class="w3-half w3-container w3-padding-64">
+              <h2><u>About Me</u></h2> 
+              <p class="w3-text">
+                 &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae facilis molestiae, necessitatibus voluptatem corporis libero, eum distinctio dolorum consequatur suscipit nobis temporibus accusantium! Maiores voluptatem et doloremque nostrum impedit deserunt dolorem ipsam fuga ullam, vitae enim odit vero non rem deleniti voluptas consectetur temporibus cumque quas! Accusamus amet cumque laudantium iusto, unde vero illo sit quisquam! Cumque, nostrum saepe officiis dolore, mollitia similique incidunt quia excepturi ipsa ea dicta ducimus aut voluptatem eveniet sunt hic omnis, placeat quam. Illum error neque fugit placeat harum earum fugiat animi nam ut perferendis.
+              </p>
+              <p class="w3-text">
+                    &nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem dolorem fugiat, ut sequi tempora incidunt dolores architecto quos atque dolore sed in reiciendis voluptatibus.
+              </p>
+              <p class="w3-text">
+                    &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquam dolorum, harum quam illo repellat maiores molestiae eligendi hic dignissimos eum quod dolores voluptate ab totam laboriosam eius delectus eveniet reprehenderit. Et delectus atque recusandae! Earum minus sint aliquam quia, doloremque quos fugit sequi esse possimus. Natus harum nihil voluptatibus.
+              </p>
+            </div>
+          </div>
+
+       <!--Contact Page-->
+       <div class="w3-container w3-padding-64" id="contact" >
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center">Contact</h3>
+            <p>Lets get in touch</p>
+            <form action="/action_page.php" target="_blank">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+              <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+              <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+              <button class="w3-button w3-black w3-section" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </form>
+          </div>
+          <footer class="w3-center w3-black w3-padding-16">
+              <div class="w3-text w3-large">
+                  <h3>
+                      Created by X_X
+                  </h3>
+              </div>
+            </footer>
+   </body>
+  
+   <script>
+        var images = ["images/image1.jpg","images/image2.jpg","images/image3.jpg"];
+        var  x = -1;
+    function displayNextImage() {
+        x = (x === images.length - 1) ? 0 : x + 1;
+        document.getElementById("img").src = images[x];
+    }
+
+    function goToBamsarts(){
+      window.location.href = 'bamsarts/index.html';
+    }
+
+    function displayPreviousImage() {
+        x = (x <= 0) ? images.length - 1 : x - 1;
+        document.getElementById("img").src = images[x];
+    }
+</script>
+</html>
+
         .footer {
           text-align: center;
           font-size: 12px;
@@ -69,3 +143,4 @@
        </p>
    </body>
 </html>
+
