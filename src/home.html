@@ -3,7 +3,8 @@
 <html>
    <head>
       <title>change picture</title>
-      <script type = "text/javascript">
+			<link rel="stylesheet" href="home.css">
+			<script type = "text/javascript">
           function displayNextImage() {
               x = (x === images.length - 1) ? 0 : x + 1;
               document.getElementById("img").src = images[x];
@@ -11,6 +12,10 @@
 
           function goToBamsarts(){
             window.location.href = 'bamsarts/index.html';
+          }
+
+					function goToMaria(){
+            window.location.href = 'maria/index.html';
           }
 
           function displayPreviousImage() {
@@ -44,7 +49,12 @@
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
-       <button type="button" onclick="goToBamsarts()">bamsarts</button>
+			 <button type="button" onclick="goToBamsarts()">bamsarts</button>
+
+			 <div class="aboutMe">
+				<button class="buttonStyle" type="button" onclick="goToMaria()">Meet Maria!</button>
+			 </div>
+
        <p>Contributors: </p>
        <p>
            <a href="akshat.html">Akshat Ahuja</a>
@@ -61,11 +71,11 @@
 
        </div>
 
-       </p> 
+       </p>
 	   <div class="footer">
 		  <p>ALL RIGHTS RESERVED</p>
 	   </div>
-           
+
        </p>
    </body>
 </html>
