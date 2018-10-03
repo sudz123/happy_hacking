@@ -27,3 +27,8 @@ Here are some useful links for understanding the code. I hope this helps. Stay m
 1. [Learn HTML](https://www.w3schools.com/html/)
 2. [Learn CSS](https://www.w3schools.com/Css/)
 3. [Learn Javascript](https://www.w3schools.com/js/)
+
+# How to run this app
+
+- open src folder
+- and then open home.html
