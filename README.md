@@ -12,8 +12,8 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 
 - Make some edits on your own copy that fixes the issues.
 
-- Create a pull request that will be merged to the main repo. Those willing to contribute but are new to github can follow the steps to create PR[here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
-(**Remember to indicate what issue you're fixing**)
+- Create a pull request that will be merged to the main repo. Those willing to contribute but are new to github can follow the steps to create pull request [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+(**Remember to indicate what issue you're fixing in the title at the time of submission of pull request**)
 
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
