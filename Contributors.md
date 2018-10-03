@@ -12,3 +12,4 @@
 -[Parth Pandya](https://github.com/parthpandyappp)
     - [LinkedIn](https://www.linkedin.com/in/parth-pandya-4215b0152/)
 - [Awonusi Olajide](https://github.com/zenithcoder)
+- [Deepti Sharma](https://github.com/dsdeeptisharma/)
