@@ -3,6 +3,7 @@
 <html>
    <head>
       <title>change picture</title>
+      <link rel="stylesheet" href="styles.css" />
       <script type = "text/javascript">
           function displayNextImage() {
               x = (x === images.length - 1) ? 0 : x + 1;
@@ -40,7 +41,14 @@
    </head>
 
    <body onload = "startTimer()">
-
+       <header id="header">
+            <nav>
+                <a>HOME</a>
+                <a>ABOUT</a>
+                <a>CONTACT US</a>
+            </nav>
+        </header>
+	
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
