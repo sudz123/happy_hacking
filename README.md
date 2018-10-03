@@ -19,3 +19,11 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 - Your codes will be reviewed and approved
 
 - If you have questions on any issue, kindly use the comment.
+
+## Important Links
+
+Here are some useful links for understanding the code. I hope this helps. Stay motivated!
+
+1. [Learn HTML](https://www.w3schools.com/html/)
+2. [Learn CSS](https://www.w3schools.com/Css/)
+3. [Learn Javascript](https://www.w3schools.com/js/)
