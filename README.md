@@ -16,7 +16,7 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
-- Your codes will be reviewed and approved
+- Your codes will be reviewed and approved.
 
 - If you have questions on any issue, kindly use the comment.
 
@@ -29,3 +29,35 @@ Here are some advantageous links for grasping the code & further procedure. I ho
 3. [Learn Javascript](https://www.w3schools.com/js/)
 4.[Learn how to make pull request](https://help.github.com/articles/creating-a-pull-request/)
 5.[Learn how to fork a repository](https://help.github.com/articles/fork-a-repo/)
+
+A few other tutorial links:
+
+1. [Build a website](https://www.w3schools.com/howto/howto_website.asp)
+2. [Hosting the website](https://gist.github.com/TylerFisher/6127328)
+
+## How to run the HTML pages
+
+1. Write HTML into a basic text editor
+
+![ ](https://www.wikihow.com/images/thumb/f/fc/Run-a-HTML-File-Step-2-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-2-Version-3.jpg.webp)
+
+2. Save the file as your-file.html
+
+![ ](https://www.wikihow.com/images/thumb/f/ff/Run-a-HTML-File-Step-3-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-3-Version-3.jpg.webp)
+
+3. Make sure that there is a browser installed on your computer.
+
+![ ](https://www.wikihow.com/images/thumb/1/1e/Run-a-HTML-File-Step-4-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-4-Version-3.jpg.webp)
+
+4. Find the saved file.
+
+![ ](https://www.wikihow.com/images/thumb/9/92/Run-a-HTML-File-Step-5-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-5-Version-3.jpg.webp)
+
+5. Right-click (Windows) or double-click (Mac) the file and select "Open with" from the action menu. 
+
+![ ](https://www.wikihow.com/images/thumb/2/2a/Run-a-HTML-File-Step-6-Version-3.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-6-Version-3.jpg.webp)
+
+6. View your HTML file in your chosen browser.
+
+![ ](https://www.wikihow.com/images/thumb/9/97/Run-a-HTML-File-Step-7.jpg/aid2609617-v4-728px-Run-a-HTML-File-Step-7.jpg.webp)
+
