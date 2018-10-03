@@ -14,6 +14,8 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 - Create a pull request that will be merged to the main repo.
 (**Remember to indicate what issue you're fixing**)
 
+- **Don't forget to add your name to Contributors.md**
+
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
 - Your codes will be reviewed and approved.
