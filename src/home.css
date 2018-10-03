@@ -1,3 +1,8 @@
+body {
+    margin: 20px auto;
+    max-width: 960px;
+}
+
 .footer {
    position: fixed;
    left: 0;
