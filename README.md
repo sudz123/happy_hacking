@@ -11,6 +11,8 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 
 - Make some edits on your own copy that fixes the issues.
 
+- Add yourself as a contributer in [Contributers.md](https://github.com/sudz123/Happy_Hacking/blob/master/Contributors.md)
+
 - Create a pull request that will be merged to the main repo.
 (**Remember to indicate what issue you're fixing**)
 
