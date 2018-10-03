@@ -7,7 +7,7 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 ## How it works
 - Checkout for open repositories [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
 
-- Fork the repo containing the issue you want to work on. For those who are new to github, learn to fork [here](https://help.github.com/articles/fork-a-repo/) 
+- Fork the repo containing the issue you want to work on. For those who are new to github, learn to fork [here](https://help.github.com/articles/fork-a-repo/). Follow [this] (https://youtu.be/HbSjyU2vf6Y) video tutorial to learn how to fork and contribute.
 
 - Make some edits on your own copy that fixes the issues.
 
