@@ -16,7 +16,7 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 
 - *You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com
 
-- Your codes will be reviewed and approved
+- Your codes will be reviewed and approved.
 
 - If you have questions on any issue, kindly use the comment.
 
@@ -27,3 +27,8 @@ Here are some useful links for understanding the code. I hope this helps. Stay m
 1. [Learn HTML](https://www.w3schools.com/html/)
 2. [Learn CSS](https://www.w3schools.com/Css/)
 3. [Learn Javascript](https://www.w3schools.com/js/)
+
+A few basic tutorial links:
+
+1. [Build a website](https://www.w3schools.com/howto/howto_website.asp)
+2. [Hosting the website](https://gist.github.com/TylerFisher/6127328)
