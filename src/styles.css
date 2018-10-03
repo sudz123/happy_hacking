@@ -1,12 +1,13 @@
 body {
   margin:0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #header{
   display: flex;
   justify-content: flex-end;
-  width: 100vw;
+  width: 100%;
   background-color: #263238;
   box-sizing: border-box;
   padding-right: 10px;
