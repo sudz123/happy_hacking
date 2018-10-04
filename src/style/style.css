@@ -10,6 +10,18 @@ body {
     width: 100%;
     color: #f9690e;
     min-height: 70px;
+
+}
+
+/*GLOW EFFECT FOR TITLE*/
+#page-title{
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+/*TEXT FORMATTINT*/
+p{
+    font-size: large;
+    font-family: 'Mali', cursive;
+
 }
 
 #jumbotron{
