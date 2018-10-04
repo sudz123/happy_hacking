@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     max-width: 100%;
             }
-            
+
 button {
 	background-color: #263238;
 	color: white;
@@ -17,7 +17,23 @@ button:hover {
 	background-color: #48545a;
 }
 
+li {
+  list-style: none!important;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 0 auto;
+  margin-left: 50px!important;
+  margin-right: 50px!important;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  width: auto;
+}
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .footer {
    position: fixed;
@@ -56,7 +72,7 @@ button:hover {
 	-o-transition:0.2s ease-in-out;
 	transition:0.2s ease-in-out;
 	font-size:15px;
-	
+
 }
 
 .contributors h4{
@@ -255,9 +271,9 @@ h2{
   box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
   margin-bottom: 5%;
   padding: 3%;
-  font-family: cursive, monospace; 
-   text-shadow: 1px 1px 0 black; 
-} 
+  font-family: cursive, monospace;
+   text-shadow: 1px 1px 0 black;
+}
 label{
   display: block;
 }
@@ -322,5 +338,5 @@ label{
 .submit:hover{
   border-radius: 15%;
    border: 2px solid white;
-  
+
 }
