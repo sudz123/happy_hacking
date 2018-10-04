@@ -25,3 +25,8 @@
   - [LinkedIn](https://www.linkedin.com/in/navindu-amarakoon-b0140b16a/)
 - [Antonio Djigo](https://github.com/DjigoLab/)
 - [Josh Glass](https://github.com/joshuaGlass808)
+- [Alan Gordon](https://github.com/alangordon)
+  - [LinkedIn](https://www.linkedin.com/in/alan-gordon-63827779/)
+- [Irvin Sandoval](https://github.com/irvandoval)
+
+

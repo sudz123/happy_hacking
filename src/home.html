@@ -1,91 +1,100 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
-      <title>change picture</title>
-      <link rel='stylesheet' id='home-styles'  href='style/home.css' type='text/css' media='all' />
-      <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-      <link rel="stylesheet" href="style/styles1.css" />
-      <script type = "text/javascript">
-          function displayNextImage() {
-              x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("img").src = images[x];
-          }
 
-          function goToBamsarts(){
-            window.location.href = 'bamsarts/index.html';
-          }
+<head>
+  <title>change picture</title>
+  <link rel='stylesheet' id='home-styles' href='style/home.css' type='text/css' media='all' />
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="style/styles1.css" />
+  <script type="text/javascript">
+    function displayNextImage() {
+      x = (x === images.length - 1) ? 0 : x + 1;
+      document.getElementById("img").src = images[x];
+    }
 
-          function displayPreviousImage() {
-              x = (x <= 0) ? images.length - 1 : x - 1;
-              document.getElementById("img").src = images[x];
-          }
+    function goToBamsarts() {
+      window.location.href = 'bamsarts/index.html';
+    }
 
-          function startTimer() {
-              setInterval(displayNextImage, 1000);
-          }
+    function goToHalloween() {
+      window.location.href = 'haloween.html';
+    }
 
-          var images = [], x = -1;
-          images[0] = "images/image1.jpg";
-          images[1] = "images/image2.jpg";
-          images[2] = "images/image3.jpg";
-      </script>
-      <style>
-        #img{
+    function displayPreviousImage() {
+      x = (x <= 0) ? images.length - 1 : x - 1;
+      document.getElementById("img").src = images[x];
+    }
+
+    function startTimer() {
+      setInterval(displayNextImage, 1000);
+    }
+
+    var images = [], x = -1;
+    images[0] = "images/image1.jpg";
+    images[1] = "images/image2.jpg";
+    images[2] = "images/image3.jpg";
+  </script>
+  <style>
+    #img{
           height: 100vh;
           width: 100%;
         }
 
+        .halloweenButton{
+          width: 15em;
+        }
 
+        nav {
+          text-align: center;
+        }
       </style>
-   </head>
+</head>
 
-<body onload = "startTimer()" class="home">
+<body onload="startTimer()" class="home">
+  <div id="header">
+    <nav>
+      <a href="./home.html">HOME</a>
+      <a href="./sudz.html#about">ABOUT</a>
+      <a href="./sudz.html#contact">CONTACT US</a>
+    </nav>
+  </div>
 
-   <body onload = "startTimer()">
-       <div id="header">
-            <nav>
-              <a href="./home.html">HOME</a>
-              <a href="./sudz.html#about">ABOUT</a>
-              <a href="./sudz.html#contact">CONTACT US</a>
-            </nav>
-        </div>
+  <img id="img" src="startpicture.jpg" />
+  <nav>
+    <button type="button" onclick="displayPreviousImage()">Previous</button>
+    <button type="button" onclick="displayNextImage()">Next</button>
+    <button type="button" onclick="goToBamsarts()">bamsarts</button>
+    <button type="button" onclick="goToHalloween()" class="halloweenButton">Goto Halloween Page</button>
+  </nav>
+  <div class="card">
+    <p>Contributors: </p>
+    <p>
+      <a href="akshat.html">Akshat Ahuja</a>
+      <a href="mufti.html">Mufti Ismi</a>
+      <a href="sudz.html">Sudarshan Kamath</a>
+      <a href="sarahperea.html">Sarah Perea</a>
+      <a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a>
+      <a href="http://carrielau.com/">Carrie Lau</a>
+      <a href="./navindu.html">Navindu Amarakoon</a>
+    </p>
 
-       <img id="img" src="startpicture.jpg"/>
-       <button type="button" onclick="displayPreviousImage()">Previous</button>
-       <button type="button" onclick="displayNextImage()">Next</button>
-       <button type="button" onclick="goToBamsarts()">bamsarts</button>
-       <div class="card">
-         <p>Contributors: </p>
-         <p>
-             <a href="akshat.html">Akshat Ahuja</a>
+    <div id="about">
+      <h3>What is Hacktober Fest?</h3>
+      <p>Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with
+        GitHub and Twilio.
+        <ul>
+          <li>Hacktoberfest is open to everyone in the global community!</li>
+          <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
+          <li>You can sign up anytime between October 1 and October 31.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
 
-             <a href="haloween.html">Go To Haloween Page</a>
-
-             <a href="mufti.html">Mufti Ismi</a>
-             <a href="sudz.html">Sudarshan Kamath</a>
-             <a href="sarahperea.html">Sarah Perea</a>
-             <a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a>
-  	         <a href="http://carrielau.com/">Carrie Lau</a>
-  	         <a href="./navindu.html">Navindu Amarakoon</a>
-         </p>
-
-         <div id="about">
-          <h3>What is Hacktober Fest?</h3>
-          <p>Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
-            <ul>
-              <li>Hacktoberfest is open to everyone in the global community!</li>
-              <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
-              <li>You can sign up anytime between October 1 and October 31.</li>
-            </ul>
-          </p>
-         </div>
-       </div>
-
-<div class="contact">
-  <h2>Don't be a stranger. Contact me.</h3>
-
+  <div class="contact">
+    <h2>Don't be a stranger. Contact me.</h2>
     <form class="contact-form" action="#">
       <label for="name"> Name: </label>
       <input type="text" id="name" placeholder="Enter your name" class="field" required><br>
@@ -95,67 +104,49 @@
       <textarea class="message" name="message" placeholder="Say something..." style="resize:vertical;" required></textarea><br>
       <button class="submit"> Submit </button>
     </form>
-</div>
+   </div>
+  
+  <div class="content-page"></div>
 
-       <div class="container">
-          <form action="action_page.php">
-
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-
-          </form>
-        </div>
-
-       <div class="content-page">
-
-
-       </div>
-
-
-       </p>
-
-	   <div class="footer">
-		   <div class="wrap">
-			   <div class="intro">
-			   <h3>Happy<span>_</span>Hacking</h3>
-			   <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
-			   </div>
-			   <div class="contributors">
-				   <h4>Contributors:</h4>
-				   <ul>
-					   <li><a href="akshat.html">Akshat Ahuja</a></li>
-					   <li><a href="mufti.html">Mufti Ismi</a></li>
-              <li><a href="sudz.html">Sudarshan Kamath</a></li>
-              <li><a href="sarahperea.html">Sarah Perea</a></li>
-              <li><a href="nir099.html">Nir</a></li>
-              <li><a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a></li>
-             <li><a href="dulcetti.html">Bruno Dulcetti</a></li>
-					   <li><a href="./navindu.html"> Navindu </a></li>
-             <li><a href="https://github.com/joshuaGlass808" target="blank">Joshua Glass</a></li>
-				   </ul>
-			   </div>
-			   <div class="copyright">
-			   <p><script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
-			   </div>
-		   </div>
-	   </div>
-
-       </p>
-
-   </body>
+  <div class="footer">
+    <div class="wrap">
+      <div class="intro">
+        <h3>Happy<span>_</span>Hacking</h3>
+        <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
+      </div>
+      <div class="contributors">
+        <h4>Contributors:</h4>
+        <ul>
+          <li><a href="./bamsarts/index.html">Bamsarts</a></li>
+          <li><a href="akshat.html">Akshat Ahuja</a></li>
+          <li><a href="https://github.com/CallmeHenry">CallmeHenry</a></li>
+          <li><a href="https://github.com/Yusadolat">Yusuf Adeyemo</a></li>
+          <li><a href="https://github.com/yurichandra">Yuri Chandra</a></li>
+          <li><a href="https://github.com/TexasBullet26">Glenn Lanzer III</a></li>
+          <li><a href="https://github.com/zenithcoder">Awonusi Olajide</a></li>
+          <li><a href="https://github.com/dsdeeptisharma/">Deepti Sharma</a></li>
+          <li><a href="https://github.com/shariffnour">Nura Musa Shariff</a></li>
+          <li><a href="https://github.com/vonralls">Von Ralls</a></li>
+          <li><a href="https://github.com/DjigoLab/">Antonio Djigo</a></li>
+          <li><a href="https://github.com/irvandoval">Irvin Sandoval</a></li>
+          <li><a href="mufti.html">Mufti Ismi</a></li>
+          <li><a href="sudz.html">Sudarshan Kamath</a></li>
+          <li><a href="sarahperea.html">Sarah Perea</a></li>
+          <li><a href="nir099.html">Nir</a></li>
+          <li><a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a></li>
+          <li><a href="dulcetti.html">Bruno Dulcetti</a></li>
+          <li><a href="./navindu.html"> Navindu </a></li>
+          <li><a href="https://github.com/joshuaGlass808" target="blank">Joshua Glass</a></li>
+          <li><a href="./alan.html" target="blank">Alan Gordon</a></li>
+          <li><a href="https://github.com/ChameeraD">Chameera Dulanga</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
+
