@@ -15,3 +15,8 @@
 - [Deepti Sharma](https://github.com/dsdeeptisharma/)
 - [Nura Musa Shariff](https://github.com/shariffnour)
     - [LinkedIn](https://www.linkedin.com/in/nura-shariff-193170150/)
+- [Von Ralls](https://github.com/vonralls)
+- [Navindu Amarakoon](https://github.com/notnavpy)
+  - [LinkedIn](https://www.linkedin.com/in/navindu-amarakoon-b0140b16a/)
+- [Antonio Djigo](https://github.com/DjigoLab/)
+
