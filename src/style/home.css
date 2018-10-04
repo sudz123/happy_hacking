@@ -5,12 +5,13 @@ body {
 
 button {
 	background-color: #263238;
-	color: white;
+	color: rgb(175, 168, 168);
 	border: #9e888f;
 	font-size: 18px;
-	width: 150px;
-	height: 50px;
+	width: 200px;
+	height: 70px;
 	margin: 4px;
+	padding: 50px;
 }
 
 button:hover {
