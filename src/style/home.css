@@ -36,7 +36,7 @@ li {
 }
 
 .footer {
-   position: fixed;
+   position: relative;
    left: 0;
    bottom:-20px;
    width: 100%;
