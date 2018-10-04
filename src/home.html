@@ -31,6 +31,7 @@
           images[1] = "images/image2.jpg";
           images[2] = "images/image3.jpg";
       </script>
+
       <style>
         #img{
           height: 100vh;
@@ -39,6 +40,7 @@
 
 	      
       </style>
+
    </head>
 
 <body onload = "startTimer()" class="home">
@@ -67,6 +69,20 @@
            <a href="dulcetti.html">Bruno Dulcetti</a> 
 	         <a href="./navindu.html">Navindu Amarakoon</a> 
        </p>
+	 
+<div class="contact">
+  <h2>Don't be a stranger. Contact me.</h3>
+
+    <form class="contact-form" action="#">
+      <label for="name"> Name: </label>
+      <input type="text" id="name" placeholder="Enter your name" class="field" required><br>
+      <label for="email"> Email: </label>
+      <input type="email" id="email" placeholder="Enter your email" class="field" required><br>
+      <label for="message"> Message: </label>
+      <textarea class="message" name="message" placeholder="Say something..." style="resize:vertical;" required></textarea><br>
+      <button class="submit"> Submit </button>
+    </form>
+</div>
 
        <div id="about">
         <h3>What is Hacktober Fest?</h3>
