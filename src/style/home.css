@@ -2,6 +2,22 @@ body {
     margin: 0 auto;
     max-width: 100%;
             }
+            
+button {
+	background-color: #263238;
+	color: white;
+	border: #9e888f;
+	font-size: 18px;
+	width: 150px;
+	height: 50px;
+	margin: 4px;
+}
+
+button:hover {
+	background-color: #48545a;
+}
+
+
 
 .footer {
    position: fixed;
@@ -308,4 +324,3 @@ label{
    border: 2px solid white;
   
 }
-      </style>
