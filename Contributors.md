@@ -7,6 +7,7 @@
     - [LinkedIn](https://www.linkedin.com/in/yusadolat/)
 - [Akshat Ahuja](https://www.github.com/akshatah33)
     - [LinkedIn](https://www.linkedin.com/in/akshatahuja/)
+- [Yuri Chandra](https://github.com/yurichandra)
 - [Glenn Lanzer III](https://github.com/TexasBullet26)
     - [LinkedIn](https://www.linkedin.com/in/glenn-lanzer/)
 -[Parth Pandya](https://github.com/parthpandyappp)
@@ -19,4 +20,5 @@
 - [Navindu Amarakoon](https://github.com/notnavpy)
   - [LinkedIn](https://www.linkedin.com/in/navindu-amarakoon-b0140b16a/)
 - [Antonio Djigo](https://github.com/DjigoLab/)
+
 
