@@ -44,7 +44,7 @@ li {
    color: #fff;
    text-align: left;
    font-family:"Playfair Display", Georgia, serif;
-   padding:30px 0;
+   padding:10px 0;
 }
 
 .content-page{
@@ -59,9 +59,8 @@ li {
 	float:none;
 }
 
-.contributors{
-	display:inline-block;
-	float:right;
+.contributors {
+	margin-top: 10px;
 }
 
 .contributors a{
@@ -78,27 +77,20 @@ li {
 .contributors h4{
 	margin:0px;
 	position:relative;
+	border-bottom: 1px solid #888;
 }
 
-.contributors h4:after{
-	content:'';
-	position:absolute;
-	width:50%;
-	height:1px;
-	bottom:-5px;
-	left:0;
-	background:#555;
-}
 
 .contributors ul{
 	list-style-type:none;
 	margin-left:0px;
-	padding-left:10px;
+	padding-left:0px;
 }
 
 .contributors ul li{
 	list-style-type:none;
-	margin-bottom:2.5px;
+	display: inline-block;
+	margin-right: 5px;
 }
 
 .contributors ul li a:hover{
@@ -183,8 +175,7 @@ li {
 }
 
 .footer .intro{
-	display:inline-block;
-	float:left;
+	display: inline-block;
 	-webkit-perspective:3500px;
 	        perspective:3500px;
 }
