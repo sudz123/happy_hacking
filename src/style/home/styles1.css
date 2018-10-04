@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Lora', sans-serif;
 }
 
 #header{
@@ -15,9 +22,6 @@ body {
   
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 
 #header nav a {
   display: inline-block;
@@ -25,9 +29,7 @@ body {
   padding: 20px 25px;
   cursor: pointer;
   color: white;
-  text-decoration: none; 
-  font-family: "Cursive" ;
-
+  text-decoration: none;
 }
 
 #header nav a:hover {

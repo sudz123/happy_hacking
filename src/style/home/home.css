@@ -11,6 +11,9 @@ button {
 	width: 150px;
 	height: 50px;
 	margin: 4px;
+	border-radius: 5px;
+	transition: background 0.5s linear;
+	cursor: pointer;
 }
 
 button:hover {
@@ -290,22 +293,24 @@ label{
 
 }
 .field:hover {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
 }
 .message:hover {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
 }
 .field:focus {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
   width: 65%;
+	outline: none;
 }
 #message:focus {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
   width: 65%;
+	outline: none;
 }
 
 .submit{
@@ -316,7 +321,7 @@ label{
   color: white;
   border:0;
   outline:none;
-  border-radius:0;
+  border-radius:5px;
   padding:15px 0;
   font-size:1rem;
   text-align: center;
@@ -327,7 +332,7 @@ label{
   transition: linear 0.5s;
 }
 .submit:hover{
-  border-radius: 15%;
+  border-radius: 15px;
    border: 2px solid white;
 
 }
