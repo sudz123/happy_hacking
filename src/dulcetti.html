@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bruno Dulcetti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * { box-sizing:border-box; }
+
+        body {
+            animation-name: bg;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            background-color: #d2c0b2;
+            color: #333;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            height: inherit;
+            margin: 0 auto;
+            max-width: 980px;
+        }
+
+        @media only screen and (max-width:1023px) {
+            .container { padding: 20px; }
+        }
+
+        .container > .header > .title { margin-bottom: 10px; margin-top: 0; }
+
+        @media only screen and (max-width:1023px) {
+            .container > .header > .title { font-size: 3em; }
+        }
+
+        @media only screen and (min-width:1024px) {
+            .container > .header > .title { font-size: 4em; }
+        }
+
+        .container > .header > .description { color: #666; margin-bottom: 0; }
+
+        @media only screen and (max-width:1023px) {
+            .container > .header > .description { font-size: 1.5em; }
+        }
+
+        @media only screen and (min-width:1024px) {
+            .container > .header > .description { font-size: 2em; }
+        }
+
+        .container > .content { margin: 0 0 0 auto; text-align: right; }
+        .container > .content > .subtitle { font-size: 1.5em; margin-top: 0; }
+        .container > .content > .social-list { margin: 0; }
+        .container > .content > .social-list > .item { display: inline; list-style: none; margin-left: 10px; }
+        .container > .content > .social-list > .item > .link > .image { opacity: .6; transition: opacity .5s; width: 50px; }
+        .container > .content > .social-list > .item > .link > .image:hover { opacity: 1; transition: opacity .5s; }
+
+        @keyframes bg {
+            0% { background-color: #d2c0b2; }
+            20% { background-color: #94ad9d; }
+            40% { background-color: #a8b4b4; }
+            60% { background-color: #c0cdd3; }
+            80% { background-color: #fff2c5; }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <h1 class="title">Hello, I'm Dulcetti</h1>
+            <p class="description">I'm a Front-End developer and work with React, React Native, Angular, AngularJS, ES6, CSS3, HTML5, UX and others technologies.</p>
+        </header>
+
+        <section class="content">
+            <h2 class="subtitle">Get Connected</h2>
+            <ul class="social-list">
+                <li class="item">
+                    <a href="https://instagram.com/dulcetti" target="_blank" class="link">
+                        <img src="https://freeiconshop.com/wp-content/uploads/edd/instagram-new-outline.png" alt="Instagram Icon" class="image">
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://twitter.com/dulcetti" target="_blank" class="link">
+                        <img src="https://image.flaticon.com/icons/svg/59/59046.svg" alt="Twitter Icon" class="image">
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://github.com/dulcetti" target="_blank" class="link">
+                        <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Github Icon" class="image">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
