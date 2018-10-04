@@ -6,7 +6,7 @@
 }
 
 .hero-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("contact.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/contact.jpeg");
   background-size: cover;
   height: 1000px;
   position: relative;
@@ -29,4 +29,8 @@
 .fields {
 	border-style: groove;
 	border-color: #000;
+}
+
+.center {
+	text-align: center;
 }
