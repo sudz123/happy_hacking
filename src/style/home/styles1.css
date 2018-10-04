@@ -36,3 +36,15 @@ body {
   transition: all 0.2s linear;
 }
 
+#img{
+  height: 100vh;
+  width: 100%;
+}
+
+.halloweenButton{
+  width: 15em;
+}
+
+nav {
+  text-align: center;
+}
