@@ -25,7 +25,7 @@ p{
 }
 
 #jumbotron{
-    background-image: url('../images/jumbotron.jpg');
+    background-image: url('../../images/halloween/jumbotron.jpg');
     min-height: 450px;
     background-position: center;
 }
