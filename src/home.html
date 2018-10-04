@@ -24,7 +24,7 @@
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 300);
+              setInterval(displayNextImage, 1000);
           }
 
           var images = [], x = -1;
@@ -45,7 +45,14 @@
    </head>
 
    <body onload = "startTimer()">
-
+       <header id="header">
+            <nav>
+                <a>HOME</a>
+                <a>ABOUT</a>
+                <a>CONTACT US</a>
+            </nav>
+        </header>
+	
        <img id="img" src="startpicture.jpg"/>
        <button type="button" onclick="displayPreviousImage()">Previous</button>
        <button type="button" onclick="displayNextImage()">Next</button>
@@ -60,6 +67,7 @@
            <a href="akshat.html">Akshat Ahuja</a>
            <a href="mufti.html">Mufti Ismi</a>
            <a href="sudz.html">Sudarshan Kamath</a>
+	   <a href="http://carrielau.com/">Carrie Lau</a>    
        </p>
 
        <div class="content-page">
@@ -77,5 +85,6 @@
 	   </div>
 
        </p>
+
    </body>
 </html>
