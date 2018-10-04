@@ -14,7 +14,7 @@ button {
 }
 
 button:hover {
-	background-color: #48545a;
+	background-color: #2c97cc;/* change the button color when curser is near*/
 }
 
 
