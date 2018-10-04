@@ -48,3 +48,26 @@ p{
     padding: 10px;
 }
 
+.footer {
+   position: relative;
+   left: 0;
+   bottom:-20px;
+   width: 100%;
+   background-color: black;
+   color: #fff;
+   text-align: left;
+   font-family:"Playfair Display", Georgia, serif;
+   padding:10px 0;
+}
+
+.copyright{
+    text-align:center;
+    display:inline-block;
+    clear:both;
+    width:100%;
+}
+
+.footer .copyright p {
+    font-family: "Karla", Arial, sans-serif;
+    font-size: 12px;
+}
