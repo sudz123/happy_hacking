@@ -16,3 +16,5 @@
 - [Von Ralls](https://github.com/vonralls)
 - [Navindu Amarakoon](https://github.com/notnavpy)
   - [LinkedIn](https://www.linkedin.com/in/navindu-amarakoon-b0140b16a/)
+- [Antonio Djigo](https://github.com/DjigoLab/)
+
