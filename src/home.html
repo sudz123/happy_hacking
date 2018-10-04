@@ -17,6 +17,10 @@
             window.location.href = 'bamsarts/index.html';
           }
 
+          function goToHalloween(){
+            window.location.href = 'haloween.html';
+          }
+
           function displayPreviousImage() {
               x = (x <= 0) ? images.length - 1 : x - 1;
               document.getElementById("img").src = images[x];
@@ -36,6 +40,13 @@
           height: 100vh;
           width: 100%;
         }
+        .halloweenButton{
+          width: 15em;
+        }
+
+        nav {
+          text-align: center;
+        }
 
 
       </style>
@@ -53,16 +64,16 @@
         </div>
 
        <img id="img" src="startpicture.jpg"/>
-       <button type="button" onclick="displayPreviousImage()">Previous</button>
-       <button type="button" onclick="displayNextImage()">Next</button>
-       <button type="button" onclick="goToBamsarts()">bamsarts</button>
+      <nav>
+        <button type="button" onclick="displayPreviousImage()">Previous</button>
+        <button type="button" onclick="displayNextImage()">Next</button>
+        <button type="button" onclick="goToBamsarts()">bamsarts</button>
+        <button type="button" onclick="goToHalloween()" class="halloweenButton">Goto Halloween Page</button>
+      </nav>
        <div class="card">
          <p>Contributors: </p>
          <p>
              <a href="akshat.html">Akshat Ahuja</a>
-
-             <a href="haloween.html">Go To Haloween Page</a>
-
              <a href="mufti.html">Mufti Ismi</a>
              <a href="sudz.html">Sudarshan Kamath</a>
              <a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a>
@@ -95,31 +106,6 @@
       <button class="submit"> Submit </button>
     </form>
 </div>
-
-       <div class="container">
-          <form action="action_page.php">
-
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-
-          </form>
-        </div>
-
        <div class="content-page">
 
 
