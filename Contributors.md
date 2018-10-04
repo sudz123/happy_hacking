@@ -13,3 +13,5 @@
     - [LinkedIn](https://www.linkedin.com/in/parth-pandya-4215b0152/)
 - [Awonusi Olajide](https://github.com/zenithcoder)
 - [Deepti Sharma](https://github.com/dsdeeptisharma/)
+- [Nura Musa Shariff](https://github.com/shariffnour)
+    - [LinkedIn](https://www.linkedin.com/in/nura-shariff-193170150/)
