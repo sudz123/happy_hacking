@@ -15,7 +15,7 @@ Since this repository is gaining some momentum, I expect good grammar in all PRs
 
 ## :building_construction:How it works
 :white_check_mark:
-Checkout for open repositories [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
+Check for open issues [here](https://github.com/search?q=label:hacktoberfest+state:open+type:issue)
 
  :white_check_mark:
 Fork the repo containing the issue you want to work on.
