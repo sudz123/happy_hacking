@@ -36,8 +36,12 @@ body {
   transition: all 0.2s linear;
 }
 
+.img-wrapper {
+  max-height: 100vh;
+  overflow: hidden;
+}
 #img{
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 
