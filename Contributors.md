@@ -26,5 +26,4 @@
 - [Alan Gordon](https://github.com/alangordon)
   - [LinkedIn](https://www.linkedin.com/in/alan-gordon-63827779/)
 - [Irvin Sandoval](https://github.com/irvandoval)
-
-
+- [Andre Hofmeister](https://github.com/padme-amidala)
