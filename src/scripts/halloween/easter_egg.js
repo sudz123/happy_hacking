@@ -11,23 +11,17 @@ var allowedKeys = {
   66: 'b'
 };
 
-var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
-var codePosition = 0;
+const konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+let codePosition = 0;
 
 document.addEventListener('keydown', function(e) {
-  var key = allowedKeys[e.keyCode];
-  var requiredKey = konamiCode[codePosition];
+  const key = allowedKeys[e.keyCode];
+  const requiredKey = konamiCode[codePosition];
 
-  if (key === requiredKey) {
-    codePosition++;
-
-    if (codePosition === konamiCode.length) {
-      executeEasterEgg();
-      codePosition = 0;
-    }
-  } else {
-    codePosition = 0;
+  if (key === requiredKey && ++codePosition === konamiCode.length) {
+    executeEasterEgg()
   }
+
 });
 
 function executeEasterEgg() {
