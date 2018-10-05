@@ -1,19 +1,67 @@
 body {
-    margin: 0 auto;
-    max-width: 100%;
-            }
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #263238;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+nav a{
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#startPicture{
+    height: calc(100vh - 30px); /* Height of header. (See padding on header and button, about 20px in total.)*/
+    background-image: url(../../images/home/image1.jpg); /*fallback if JavaScript breaks. */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 2.5s;
+}
+
+#startPictureButtons{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+/* Dillon's self-note: Read up on Border-box. I feel that this isn't the right use for this rule below, but isn't sure.
 * { box-sizing: border-box; }
+
 button {
-	background-color: #263238;
-	color: white;
-	border: #9e888f;
-	font-size: 18px;
-	width: 150px;
-	height: 50px;
-	margin: 4px;
-	transition: background 0.5s linear;
-	cursor: pointer;
-  border-radius: 30px;
+    background-color: #263238;
+    color: white;
+    border: #9e888f;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    margin: 4px;
+    transition: background 0.5s linear;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#halloweenButton{
+    animation: halloween 2s linear infinite;
+    background-image: url(../../images/halloween/4594633-seamless-background-with-pumpkins.jpg);
+    background-size: 100px 100px;
+    font-weight: bolder;
+    color: yellow;
 }
 
 button:hover {
@@ -21,37 +69,47 @@ button:hover {
 }
 
 li {
-  list-style: none!important;
+  list-style: none;
 }
+
 .card {
-    font-size: 20px;
+    width: auto;
+    max-width: 1200px;
+    margin: 50px auto;
     border: 1px solid #ddd;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 50px auto;
-  padding: 20px;
-  text-align: center;
-  transition: 0.3s;
-  width: auto;
-	max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    font-size: 20px;
+    text-align: center;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-#contributors-links a {
-	font-size: 16px;
-	display: inline-block;
-	border: 1px solid #bbb;
-	border-radius: 20px;
-	padding: 0.3em 1em 0.3em 0.5em;
-	margin: 0.2em;
-	background-color: #bbb;
-	color: #000;
-	transition: background .5s ease;
-	text-decoration: none;
-	white-space: nowrap;
+#contributors-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+#contributors-links a {
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    transition: all 0.3s ease; */ Conflict wanted Background. I wanted Background-color. Examine that later. */
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Playfair Display';
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #bbb;
+    color: #000;
+}
+
+/* Dillon: I rarely use :before. Unsure what exactly this do. Will examine later. */
 #contributors-links a:before {
 	content: "";
 	width: 32px; height: 32px; display: inline-block;
@@ -64,14 +122,34 @@ li {
     background-color: #DDD;
 }
 
+.contact{
+    text-align: center;
+    margin: auto;
+    background-color: #333;
+    width:80%;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    font-family: cursive, monospace;
+    text-shadow: 1px 1px 0 black;
+}
+
+.contact .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer {
-   position: relative;
-   left: 0;
-   bottom:-20px;
    width: 100%;
    background-color: #222;
    color: #fff;
    text-align: left;
+   font-family:"Playfair Display", Georgia, serif;
    padding:10px 0;
 }
 
@@ -79,16 +157,19 @@ li {
 	padding-bottom:250px;
 }
 
-.wrap{
-	width:95%;
-	display:block;
-	max-width:1200px;
-	margin:0px auto;
-	float:none;
+.footer h3{
+	font-family:"Playfair Display", Georgia, serif;
+	display:inline-block;
+	float:left;
+	font-size:30px;
+	margin-top:0;
+	position:relative;
+	margin-bottom:20px;
 }
 
 .contributors {
-	margin-top: 10px;
+    width: 80%;
+    margin: 10px auto 0 auto;
 }
 
 .contributors a{
@@ -130,6 +211,9 @@ li {
 	display:inline-block;
 	clear:both;
 	width:100%;
+}
+
+.footer h3 span{
 }
 
 
@@ -198,6 +282,15 @@ li {
 	100%{
 		content:'...';
 	}
+}
+
+@keyframes halloween{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100px 0px;
+    }
 }
 
 .footer .copyright p{
@@ -281,6 +374,9 @@ h2{
   text-align: center;
 }
 
+
+
+
 .contact-form{
   text-align: center;
   display: block;
@@ -295,6 +391,7 @@ h2{
 	text-shadow: 1px 1px 0 black;
 	max-width: 1200px;
 }
+
 label{
   display: block;
 }
