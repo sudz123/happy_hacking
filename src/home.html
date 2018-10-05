@@ -5,6 +5,7 @@
       <title>change picture</title>
       <link rel='stylesheet' id='home-styles'  href='style/home/home.css' type='text/css' media='all' />
       <link rel="stylesheet" href="style/home/styles1.css" />
+	   <script src="../js/jquery.js"></script>
 	   <script src="scripts/home/home.js"></script>
 </head>
 
@@ -13,21 +14,19 @@
     <h3>Happy<span>_</span><strong>Hacking</strong></h3>
     <nav>
       <a href="./home.html">HOME</a>
-      <a href="./sudz.html#about">ABOUT</a>
-      <a href="./sudz.html#contact">CONTACT US</a>
+      <a href="#about" onclick="animatedScroll('#about');">ABOUT</a>
+      <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
     </nav>
   </div>
-
-  <div class="image-wrapper">
-    <img id="img" src="images/home/image1.jpg" />
-    <nav>
-      <button type="button" onclick="displayPreviousImage()">Previous</button>
-      <button type="button" onclick="displayNextImage()">Next</button>
-      <button type="button" onclick="goToBamsarts()">bamsarts</button>
-      <button type="button" onclick="goToHalloween()" class="halloweenButton">Go to Halloween Page</button>
-    </nav>
-  </div>
-  <div class="card">
+  
+  <img id="img" src="startpicture.jpg" />
+  <nav>
+    <button type="button" onclick="displayPreviousImage()">Previous</button>
+    <button type="button" onclick="displayNextImage()">Next</button>
+    <button type="button" onclick="goToBamsarts()">bamsarts</button>
+    <button type="button" onclick="goToHalloween()" class="halloweenButton">Go to Halloween Page</button>
+  </nav>
+  <div class="card" id="about">
     <h1>Contributors: </h1>
     <p id="contributors-links">
       <a href="akshat.html">Akshat Ahuja</a>
@@ -39,7 +38,7 @@
       <a href="./navindu.html">Navindu Amarakoon</a>
     </p>
 
-    <div id="about">
+    <div>
       <h3>What is Hacktober Fest?</h3>
       <p>Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with
         GitHub and Twilio.
@@ -52,7 +51,7 @@
     </div>
   </div>
 
-  <div class="contact">
+  <div id="contact">
     <h2>Don't be a stranger. Contact me.</h2>
     <form class="contact-form" action="#">
       <label for="name"> Name: </label>
