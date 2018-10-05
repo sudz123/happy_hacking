@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
@@ -8,21 +8,22 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #header{
-  display: flex;
-  justify-content: flex-end;
+  display: block;
   width: 100%;
   background-color: #263238;
   box-sizing: border-box;
-  padding-right: 10px;
-  padding-left: 10px;
-  
+  overflow: hidden;
 }
 
-
+#header nav {
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+}
 #header nav a {
   display: inline-block;
   font-weight: bold;
@@ -38,8 +39,18 @@ h1, h2, h3, h4, h5 {
   transition: all 0.2s linear;
 }
 
+.image-wrapper {
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+.image-wrapper nav {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+}
 #img{
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 
