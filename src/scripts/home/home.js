@@ -26,3 +26,9 @@ var images = [], x = -1;
 images[0] = "images/home/image1.jpg";
 images[1] = "images/home/image2.jpg";
 images[2] = "images/home/image3.jpg";
+
+function animatedScroll(elem) {
+    $('html, body').animate({
+        scrollTop: $(elem).offset().top
+    }, 800);
+}
