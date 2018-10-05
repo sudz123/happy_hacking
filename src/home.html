@@ -4,14 +4,13 @@
    <head>
       <title>change picture</title>
       <link rel='stylesheet' id='home-styles'  href='style/home/home.css' type='text/css' media='all' />
-      <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
       <link rel="stylesheet" href="style/home/styles1.css" />
 	   <script src="scripts/home/home.js"></script>
 </head>
 
 <body onload="startTimer()" class="home">
-  <div id="header">
+  <div class="header" id="header">
+    <h3>Happy<span>_</span><strong>Hacking</strong></h3>
     <nav>
       <a href="./home.html">HOME</a>
       <a href="./sudz.html#about">ABOUT</a>
@@ -19,13 +18,15 @@
     </nav>
   </div>
 
-  <img id="img" src="startpicture.jpg" />
-  <nav>
-    <button type="button" onclick="displayPreviousImage()">Previous</button>
-    <button type="button" onclick="displayNextImage()">Next</button>
-    <button type="button" onclick="goToBamsarts()">bamsarts</button>
-    <button type="button" onclick="goToHalloween()" class="halloweenButton">Go to Halloween Page</button>
-  </nav>
+  <div class="image-wrapper">
+    <img id="img" src="images/home/image1.jpg" />
+    <nav>
+      <button type="button" onclick="displayPreviousImage()">Previous</button>
+      <button type="button" onclick="displayNextImage()">Next</button>
+      <button type="button" onclick="goToBamsarts()">bamsarts</button>
+      <button type="button" onclick="goToHalloween()" class="halloweenButton">Go to Halloween Page</button>
+    </nav>
+  </div>
   <div class="card">
     <h1>Contributors: </h1>
     <p id="contributors-links">
@@ -63,13 +64,10 @@
       <button class="submit"> Submit </button>
     </form>
    </div>
-  
-  <div class="content-page"></div>
 
   <div class="footer">
     <div class="wrap">
       <div class="intro">
-        <h3>Happy<span>_</span>Hacking</h3>
         <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
       </div>
       <div class="contributors">
