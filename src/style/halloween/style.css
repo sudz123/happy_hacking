@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: black;  
+    background-color: black;
     font-family: 'Griffy', cursive;
 }
 
@@ -70,4 +70,26 @@ p{
 .footer .copyright p {
     font-family: "Karla", Arial, sans-serif;
     font-size: 12px;
+}
+
+.alert-easter-egg {
+  position: absolute;
+  top: 82px;
+  width: 100%;
+  -webkit-animation: FADE-OUT 1s 1;
+  animation: FADE-OUT 1s 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  opacity: 1;
+}
+
+@-webkit-keyframes FADE-OUT {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes FADE-OUT {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
 }
