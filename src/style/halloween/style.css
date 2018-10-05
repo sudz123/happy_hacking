@@ -42,6 +42,12 @@ p{
     margin-bottom: 10px;
 }
 
+.video{
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
 .orange-content{
     background-color: #f9690e;
     min-height: 400px;
