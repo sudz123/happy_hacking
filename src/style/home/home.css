@@ -1,8 +1,17 @@
 body {
     margin: 0 auto;
     max-width: 100%;
+    margin-top: 50px;
             }
 * { box-sizing: border-box; }
+
+div.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+}
+
 button {
 	background-color: #263238;
 	color: white;
@@ -14,6 +23,11 @@ button {
 	transition: background 0.5s linear;
 	cursor: pointer;
   border-radius: 30px;
+}
+
+nav button {
+    position: relative;
+    bottom: 90px;
 }
 
 button:hover {
