@@ -32,3 +32,4 @@
 - [Agampreet Singh](https://github.com/agampreetsingh)
 - [Drailan John Terrible](https://github.com/drailanjohngss)
 - [Andrew Hong](https://github.com/FlamesRunner)
+- [Chamod Rathnayaka](https://github.com/chamibc)
