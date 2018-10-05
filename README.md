@@ -10,10 +10,10 @@ My name is Sudarshan Kamath and I am hosting this repository for the month of Oc
 
 Since this repository is gaining some momentum, I expect good grammar in all PRs. I expect proper comments in the code. The code could be trivial with a small change, that is totally fine. **When making changes to existing files, make sure you do not add more than one feature or change more than one component in a PR!** Also these file descriptions should be helpful: 
 
-- *src* contains all the code.
+- [*src*](src) contains all the code.
 - *.html* files like these should not have css or javascript code ideally. If they do then remove it and add to respective folders.
-- *styles* I want all the css files in this folder with proper nomenclature.
-- *Images* I want all images in this within sub-folders in this folder, according to the page they are on.
+- [*styles*](src/style) I want all the css files in this folder with proper nomenclature.
+- [*Images*](img) I want all images in this within sub-folders in this folder, according to the page they are on.
 - **THE MORE THE STRUCTURED YOUR CODE IS, THE EASIER IT IS FOR ME TO REVIEW, THE HIGHER CHANCES THAT IT WILL BE MERGED**.
 
 ## :building_construction: How it works
