@@ -11,18 +11,29 @@ button {
 	width: 150px;
 	height: 50px;
 	margin: 4px;
+	transition: background 0.5s linear;
+	cursor: pointer;
+  border-radius: 30px;
 }
 
 button:hover {
 	background-color: #2c97cc;/* change the button color when curser is near*/
 }
 
+nav button {
+    position: relative;
+    bottom: 100px;
+}
+
 li {
   list-style: none!important;
 }
 .card {
+    font-size: 20px;
+    border: 1px solid #ddd;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 0 auto;
+  margin: 50px auto;
+  margin-top: 50px;
   margin-left: 50px!important;
   margin-right: 50px!important;
   padding: 20px;
@@ -33,6 +44,17 @@ li {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#contributors-links a {
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto 5px;
+}
+
+#contributors-links a:hover {
+    background-color: #eee;
 }
 
 .footer {
@@ -290,22 +312,24 @@ label{
 
 }
 .field:hover {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
 }
 .message:hover {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
 }
 .field:focus {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
   width: 65%;
+	outline: none;
 }
 #message:focus {
-  border: 2.5px solid gold;
+  border: 2px solid gold;
   border-radius: 6px;
   width: 65%;
+	outline: none;
 }
 
 .submit{
@@ -316,7 +340,7 @@ label{
   color: white;
   border:0;
   outline:none;
-  border-radius:0;
+  border-radius:5px;
   padding:15px 0;
   font-size:1rem;
   text-align: center;
@@ -327,7 +351,7 @@ label{
   transition: linear 0.5s;
 }
 .submit:hover{
-  border-radius: 15%;
+  border-radius: 15px;
    border: 2px solid white;
 
 }
