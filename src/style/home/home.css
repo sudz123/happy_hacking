@@ -112,7 +112,7 @@ max-width: 1200px;
 }
 
 #contact form{
-width: 70%;
+width: 90%;
 margin: auto;
 padding: 10px;
 }
@@ -121,7 +121,7 @@ padding: 10px;
 font-size: 2.5rem;
 width: 100%;
 padding: 10px;
-color: yellow;
+color: white;
 border-bottom: 10px dotted grey;
 }
 
@@ -133,6 +133,32 @@ align-items: center;
 
 #contact form span input, #contact form span textarea{
 width: 80%;
+transition: linear 0.5s;
+}
+
+#contact form .submit{
+display: block;
+width: 40%;
+height: 2%;
+background-color: black;
+color: white;
+border:0;
+outline:none;
+border-radius:5px;
+padding:15px 0;
+font-size:1rem;
+text-align: center;
+margin: auto;
+margin-top: 8px;
+letter-spacing: 0.2em;
+border-radius: 15px;
+border: 2px solid white;
+transition: linear 0.5s;
+}
+
+#contact form .submit:hover{
+
+border: 2px solid gold;
 }
 
 
@@ -159,7 +185,7 @@ bottom: 90px;
 }
 
 li {
-list-style: none!important;
+list-style: none;
 }
 
 #contributors-links a {
@@ -449,29 +475,6 @@ width: 65%;
 outline: none;
 }
 
-.submit{
-display: block;
-width: 40%;
-height: 2%;
-background-color: black;
-color: white;
-border:0;
-outline:none;
-border-radius:5px;
-padding:15px 0;
-font-size:1rem;
-text-align: center;
-margin: auto;
-margin-top: 8px;
-letter-spacing: 0.2em;
-border: 2px solid gold;
-transition: linear 0.5s;
-}
-.submit:hover{
-border-radius: 15px;
-border: 2px solid white;
-
-}
 .fa {
 padding: 20px;
 font-size: 30px;
