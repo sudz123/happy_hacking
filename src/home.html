@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
-
-    <title>Happy Hackers!</title>
-      <link rel='stylesheet' id='home-styles'  href='style/home/home.css' type='text/css' media='all' />
-      <link rel="stylesheet" href="style/home/styles1.css" />
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-	   <script src="../js/jquery.js"></script>
-	   <script src="scripts/home/home.js"></script>
-</head>
+    <head>
+        <title>Happy Hackers!</title>
+        <link rel='stylesheet' id='home-styles'  href='style/home/home.css' type='text/css' media='all' />
+        <link rel="stylesheet" href="style/home/styles1.css" />
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <script src="../js/jquery.js"></script>
+        <script src="scripts/home/home.js"></script>
+    </head>
 
 <body onload="startTimer()" class="home">
-  <div class="header" id="header">
-    <h3>Happy<span>_</span><strong>Hacking</strong></h3>
-    <nav>
-      <a href="#img" onclick="animatedScroll('#img');">HOME</a>
-      <a href="#about" onclick="animatedScroll('#about');">ABOUT</a>
-      <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
-    </nav>
-  </div>
-  
-  <img id="img" src="startpicture.jpg" />
-  <nav>
-    <button type="button" onclick="displayPreviousImage()">Previous</button>
-    <button type="button" onclick="displayNextImage()">Next</button>
-    <button type="button" onclick="goToBamsarts()">bamsarts</button>
-    <button type="button" onclick="goToHalloween()" class="halloweenButton">Go to Halloween Page</button>
-  </nav>
-  <div class="card" id="about">
+    <header>
+        <h3>Happy<span>_</span><strong>Hacking</strong></h3>
+        <nav>
+            <a href="#img" onclick="animatedScroll('#img');">HOME</a>
+            <a href="#about" onclick="animatedScroll('#about');">ABOUT</a>
+            <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
+        </nav>
+    </header>
+    
+    <div id="startPicture">
+        <div id="startPictureButtons">
+            <span>
+                <button type="button" onclick="displayPreviousImage()">Previous</button>
+                <button type="button" onclick="goToBamsarts()">bamsarts</button>
+                <button type="button" onclick="displayNextImage()">Next</button>
+            </span>
+            <button type="button" onclick="goToHalloween()" id="halloweenButton">Halloween Page</button>
+        </div>
+    </div>
+    
+  <div class="card">
     <h1>Contributors: </h1>
     <p id="contributors-links">
       <a href="akshat.html">Akshat Ahuja</a>
@@ -53,22 +56,27 @@
       </ul>
     </div>
   </div>
+    
+<div id="contact">
+        <h2>Don't be a stranger. Contact me.</h2>
+        <form action="#">
+            <span class="input">
+                <label for="name"> Name: </label>
+                <input type="text" id="name" placeholder="Enter your name" class="field" required>
+            </span>
+            <span class="input">
+                <label for="email"> Email: </label>
+                <input type="email" id="email" placeholder="Enter your email" class="field" required>
+            </span>
+            <span class="text">
+                <label for="message"> Message: </label>
+                <textarea class="message" id="message" name="message" placeholder="Say something..." style="resize:vertical;" required></textarea>
+            </span>
+            <button class="submit"> Submit </button>
+        </form>
+    </div>
 
-  <div id="contact">
-    <h2>Don't be a stranger. Contact me.</h2>
-
-    <form class="contact-form" action="#">
-      <label for="name"> Name: </label>
-      <input type="text" id="name" placeholder="Enter your name" class="field" required><br>
-      <label for="email"> Email: </label>
-      <input type="email" id="email" placeholder="Enter your email" class="field" required><br>
-      <label for="message"> Message: </label>
-      <textarea class="message" id="message" name="message" placeholder="Say something..." style="resize:vertical;" required></textarea><br>
-      <button class="submit"> Submit </button>
-    </form>
-   </div>
-
-  <div class="footer">
+  <footer>
     <div class="wrap">
       <div class="intro">
         <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
@@ -107,7 +115,7 @@
           <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
       </div>
     </div>
-  </div>
+  </footer>
 </body>
 </html>
 
