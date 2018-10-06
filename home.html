@@ -6,10 +6,8 @@
     <link rel='stylesheet' id='home-styles' href='style/home/home.css' type='text/css' media='all' />
     <link rel="stylesheet" href="style/home/styles1.css" />
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <!-- <script src="../js/jquery.js"></script> -->
+    <script src="../js/jquery.js"></script>
     <script src="scripts/home/home.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body onload="startTimer()" class="home">
@@ -26,9 +24,10 @@
         <div id="startPictureButtons">
             <span>
                 <button type="button" onclick="displayPreviousImage()">Previous</button>
-                <button type="button" onclick="goToHalloween()" id="halloweenButton">Halloween Page</button>
+                <button type="button" onclick="goToBamsarts()">bamsarts</button>
                 <button type="button" onclick="displayNextImage()">Next</button>
             </span>
+            <button type="button" onclick="goToHalloween()" id="halloweenButton">Halloween Page</button>
         </div>
     </div>
 
@@ -43,7 +42,6 @@
             <a href="http://carrielau.com/">Carrie Lau</a>
             <a href="./navindu.html">Navindu Amarakoon</a>
             <a href="https://ahong.ca">Andrew Hong</a>
-            <a href="siliwangi.html">Ricky Sukma</a>
         </p>
 
         <div>
@@ -56,8 +54,6 @@
                 <li>Hacktoberfest is open to everyone in the global community!</li>
                 <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
                 <li>You can sign up anytime between October 1 and October 31.</li>
-                <li>For more information and to sign up visit:</li>
-                <li><strong><a href="https://hacktoberfest.digitalocean.com">Hacktoberfest on Digital Ocean</a></strong></li>
             </ul>
         </div>
     </div>
@@ -82,23 +78,6 @@
         </form>
     </div>
 
-    <!-- modal popup -->
-                <div class="modal hide fade" id="myModal">
-                  <div style="color: white" class="modal-header">
-                    <a class="close" data-dismiss="modal">×</a>
-                    <h3><center>HACKTOBERFEST 2018</center></h3>
-                  </div>
-                  <div style="color: white" class="modal-body">
-                    <center>
-                    <img width="800px id="myImage" src="https://hacktoberfest.digitalocean.com/assets/hacktoberfest-2018-social-card-c8d2e1489f647f2e0a26e6f598adeb760872818905b34cd437afc7ac2857ceab.png">
-                    </center>
-                  </div>
-                  <div class="modal-footer">
-                    <center><a href="https://hacktoberfest.digitalocean.com/" class="btn">HacktoberFest</a></center>
-                  </div>
-                </div>
-            <!--  -->
-
     <footer>
         <div class="wrap">
             <div class="intro">
@@ -107,7 +86,7 @@
             <div class="contributors">
                 <h4>Contributors:</h4>
                 <ul>
-                    <li><b><a href="./bamsarts/index.html">Bamsarts</a></b></li>
+                    <li><a href="./bamsarts/index.html">Bamsarts</a></li>
                     <li><a href="akshat.html">Akshat Ahuja</a></li>
                     <li><a href="https://github.com/CallmeHenry">CallmeHenry</a></li>
                     <li><a href="https://github.com/Yusadolat">Yusuf Adeyemo</a></li>
@@ -132,8 +111,6 @@
                     <li><a href="https://github.com/amrtaher1234">Sekab</a></li>
                     <li><a href="https://ahong.ca">Andrew Hong</a></li>
                     <li><a href="siliwangi.html">Ricky Sukma</a></li>
-
-                </ul>
                 </ul>
             </div>
             <div class="copyright">
@@ -141,11 +118,6 @@
                     <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
             </div>
         </div>
-        <script type="text/javascript">
-            $(window).on('load',function(){
-                $('#myModal').modal('show');
-            });
-        </script>
     </footer>
 </body>
 
