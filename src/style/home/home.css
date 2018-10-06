@@ -62,7 +62,7 @@ li {
 	margin: 0.2em;
 	background-color: #bbb;
 	color: #000;
-	transition: background .07s linear;
+	transition: background 0.07s linear;
 	text-decoration: none;
 	white-space: nowrap;
 }
