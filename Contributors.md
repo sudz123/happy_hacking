@@ -37,3 +37,4 @@
 - [Chamod Rathnayaka](https://github.com/chamibc)
 - [Reid Sox-Harris](https://github.com/eosti)
 - [Zero soul Eater](https://github.com/ZeroSoulEater)
+- [Sarthak Trivedi](https://github.com/sarthak-trivedi)
