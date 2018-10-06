@@ -1,0 +1,52 @@
+body {
+	background-color: rgb(50, 50, 50);
+	color: white;
+	font-family: Georgia, Courier New, Arial;
+	font-size: 4rem;
+	font-weight: 520;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+header {
+	margin: 100px 200px;
+	height: 200px;
+
+}
+#profile-links{
+	font-size: 2rem;
+	max-width:400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.fa {
+    font-size: 1rem;
+    width: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin-y: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+	background: white;
+  color: black;
+  padding: 10!important;
+
+}
+
+footer{
+	height:100px;
+	background-color: rgb((72,61,139));
+}

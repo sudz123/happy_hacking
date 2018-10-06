@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Griffy', cursive;
+}
+
+#header{
+    background-color:black;
+    width: 100%;
+    color: #f9690e;
+    min-height: 70px;
+
+}
+
+/*GLOW EFFECT FOR TITLE*/
+#page-title{
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+/*TEXT FORMATTINT*/
+p{
+    font-size: large;
+    font-family: 'Mali', cursive;
+
+}
+
+#jumbotron{
+    background-image: url('../../images/halloween/jumbotron.jpg');
+    min-height: 450px;
+    background-position: center;
+}
+
+#content{
+    color: white;
+    font-size: 18px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+
+#content img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.video{
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.orange-content{
+    background-color: #f9690e;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom:-20px;
+   width: 100%;
+   background-color: black;
+   color: #fff;
+   text-align: left;
+   font-family:"Playfair Display", Georgia, serif;
+   padding:10px 0;
+}
+
+.copyright{
+    text-align:center;
+    display:inline-block;
+    clear:both;
+    width:100%;
+}
+
+.footer .copyright p {
+    font-family: "Karla", Arial, sans-serif;
+    font-size: 12px;
+}
+
+.alert-easter-egg {
+  position: absolute;
+  top: 82px;
+  width: 100%;
+  -webkit-animation: FADE-OUT 1s 1;
+  animation: FADE-OUT 1s 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  opacity: 1;
+}
+
+@-webkit-keyframes FADE-OUT {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes FADE-OUT {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
