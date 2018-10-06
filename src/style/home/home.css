@@ -98,6 +98,44 @@ max-width: 1200px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+#contact{
+text-align: center;
+margin: 50px auto;
+background-color: #333;
+width:80%;
+font-size: 20px;
+color: white;
+box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
+margin-bottom: 5%;
+text-shadow: 1px 1px 0 black;
+max-width: 1200px;
+}
+
+#contact form{
+width: 70%;
+margin: auto;
+padding: 10px;
+}
+
+#contact h2{
+font-size: 2.5rem;
+width: 100%;
+padding: 10px;
+color: yellow;
+border-bottom: 10px dotted grey;
+}
+
+#contact form span{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+#contact form span input, #contact form span textarea{
+width: 80%;
+}
+
+
 button {
 background-color: #263238;
 color: white;
@@ -122,10 +160,6 @@ bottom: 90px;
 
 li {
 list-style: none!important;
-}
-
-.contributors {
-margin-top: 10px;
 }
 
 #contributors-links a {
@@ -153,20 +187,6 @@ vertical-align: -0.6em;
 
 #contributors-links a:hover {
 background-color: #DDD;
-}
-
-#contact{
-text-align: center;
-margin: 50px auto;
-background-color: #333;
-width:80%;
-font-size: 20px;
-color: white;
-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
-margin-bottom: 5%;
-padding: 3%;
-text-shadow: 1px 1px 0 black;
-max-width: 1200px;
 }
 
 footer{
@@ -254,7 +274,9 @@ margin:0px auto;
 float:none;
 }
 
-
+.contributors {
+margin-top: 10px;
+}
 
 .contributors a{
 font-family:"Karla", Arial, sans-serif;
