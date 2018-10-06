@@ -36,3 +36,4 @@
 - [Andrew Hong](https://github.com/FlamesRunner)
 - [Chamod Rathnayaka](https://github.com/chamibc)
 - [Reid Sox-Harris](https://github.com/eosti)
+- [Zero soul Eater](https://github.com/ZeroSoulEater)
