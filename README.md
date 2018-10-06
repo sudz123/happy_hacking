@@ -54,7 +54,7 @@ Here are some advantageous links for grasping the code & further procedure. I ho
 A few other tutorial links:
 
 1. [Build a website](https://www.w3schools.com/howto/howto_website.asp)
-2. [Hosting the website](https://gist.github.com/TylerFisher/6127328)
+2. [Hosting the website](https://gist.github.com/TylerFisher/6127328) OR [Hosting with Netlify(easier)](https://www.netlify.com/docs/)
 
 ## :bulb::bulb:How to run the HTML pages:bulb::bulb:
 
