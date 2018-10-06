@@ -127,12 +127,15 @@ border-bottom: 10px dotted grey;
 
 #contact form span{
 display: flex;
-justify-content: flex-end;
-align-items: center;
+}
+
+#contact form label{
+    width: 100px;
+    align-self: flex-start;
 }
 
 #contact form span input, #contact form span textarea{
-width: 80%;
+width: calc(90% - 100px);
 transition: linear 0.5s;
 }
 
