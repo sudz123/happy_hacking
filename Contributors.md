@@ -38,3 +38,4 @@
 - [Reid Sox-Harris](https://github.com/eosti)
 - [Zero soul Eater](https://github.com/ZeroSoulEater)
 - [Laura Meikle](https://github.com/lmeikle)
+- [Colin Schindler](https://github.com/colinschindler)
