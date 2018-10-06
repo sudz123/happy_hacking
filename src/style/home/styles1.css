@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5 {
 #header nav a:hover {
   background: white;
   color: #263238;
-  transition: all 0.2s linear;
+  transition: all 0.07s linear;
 }
 
 .image-wrapper {

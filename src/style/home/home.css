@@ -21,7 +21,7 @@ button {
 	width: 150px;
 	height: 50px;
 	margin: 4px;
-	transition: background 0.5s linear;
+	transition: background 0.07s linear;
 	cursor: pointer;
   border-radius: 30px;
 }
@@ -63,7 +63,7 @@ li {
 	margin: 0.2em;
 	background-color: #bbb;
 	color: #000;
-	transition: background .5s ease;
+	transition: background 0.07s linear;
 	text-decoration: none;
 	white-space: nowrap;
 }
