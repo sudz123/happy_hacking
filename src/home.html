@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
 
-    <title>Happy Hackers!</title>
-      <link rel='stylesheet' id='home-styles'  href='style/home/home.css' type='text/css' media='all' />
-      <link rel="stylesheet" href="style/home/styles1.css" />
+<head>
+
+  <title>Happy Hackers!</title>
+  <link rel='stylesheet' id='home-styles' href='style/home/home.css' type='text/css' media='all' />
+  <link rel="stylesheet" href="style/home/styles1.css" />
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-	   <script src="../js/jquery.js"></script>
-	   <script src="scripts/home/home.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="scripts/home/home.js"></script>
 </head>
 
 <body onload="startTimer()" class="home">
@@ -20,7 +21,7 @@
       <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
     </nav>
   </div>
-  
+
   <img id="img" src="startpicture.jpg" />
   <nav>
     <button type="button" onclick="displayPreviousImage()">Previous</button>
@@ -63,11 +64,15 @@
       <label for="email"> Email: </label>
       <input type="email" id="email" placeholder="Enter your email" class="field" required><br>
       <label for="message"> Message: </label>
-      <textarea class="message" id="message" name="message" placeholder="Say something..." style="resize:vertical;" required></textarea><br>
+      <textarea class="message" id="message" name="message" placeholder="Say something..." style="resize:vertical;"
+        required></textarea><br>
       <button class="submit"> Submit </button>
     </form>
-   </div>
-
+  </div>
+  <div class="yt-container">
+    <iframe class="iframe" src="https://www.youtube.com/embed/wPlTQjOEPWo" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe>
+  </div>
   <div class="footer">
     <div class="wrap">
       <div class="intro">
@@ -109,5 +114,5 @@
     </div>
   </div>
 </body>
-</html>
 
+</html>
