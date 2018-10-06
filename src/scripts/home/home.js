@@ -4,10 +4,6 @@ function displayNextImage() {
     document.getElementById("img").src = images[x];
 }
 
-function goToBamsarts(){
-  window.location.href = 'bamsarts/index.html';
-}
-
 function goToHalloween(){
   window.location.href = 'haloween.html';
 }

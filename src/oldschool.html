@@ -1,117 +1,219 @@
 <html>
-  <header>
+<header>
     <title>80`s feeling</title>
     <link href="style/style.css" type="text/css" rel="stylesheet" />
     <style>
-      img{
-        float: left;
-      },
-      p{
-        margin-left: 40px;
-        float: left;
-        width: 100px;
-      }
-      h1 {
-          animation:myfirst 5s;
-          -moz-animation:myfirst 5s infinite; /* Firefox */
-          -webkit-animation:myfirst 5s infinite; /* Safari and Chrome */
-      }
+        img {
+            float: left;
+        }
 
-      @-moz-keyframes myfirst /* Firefox */ {
-          0% {background:red;}
-          50% {background:yellow;}
-          100% {background:red;}
-      }
+        ,
+        p {
+            margin-left: 40px;
+            float: left;
+            width: 100px;
+        }
 
-      @-webkit-keyframes myfirst /* Safari and Chrome */ {
-          0% {background:red;}
-          50% {background:yellow;}
-          100% {background:red;}
-      }
-      .fake_ads{
-        float: right;
-      }
-      .fake_ad{
-        height: 200px;
-        width: 150px;
-        background-color: red;
-        margin-bottom: 50px;
-        animation:ads_trans 5s;
-        -moz-animation:ads_trans 5s infinite; /* Firefox */
-        -webkit-animation:ads_trans 5s infinite; /* Safari and Chrome */
-      }
+        h1 {
+            animation: myfirst 5s;
+            -moz-animation: myfirst 5s infinite;
+            /* Firefox */
+            -webkit-animation: myfirst 5s infinite;
+            /* Safari and Chrome */
+        }
 
-      @-moz-keyframes ads_trans /* Firefox */ {
-          0% {background:blue;}
-          50% {background:pink;}
-          100% {background:yellow;}
-      }
+        @-moz-keyframes myfirst
 
-      @-webkit-keyframes ads_trans /* Safari and Chrome */ {
-        0% {background:blue;}
-        50% {background:pink;}
-        100% {background:yellow;}
-      }
-      div h2{
-        text-align: center;
-      }
-      div p{
-        font-size: 20px;
-        text-align: center;
-      }
-      .blinky{
-        animation:blink_text 1s;
-        -moz-animation:blink_text 1s infinite; /* Firefox */
-        -webkit-animation:blink_text 1s infinite; /* Safari and Chrome */
-      }
-      @-moz-keyframes blink_text /* Firefox */ {
-          0% {color:lightgray;}
-          50% {color:red;}
-          100% {color:red;}
-      }
+        /* Firefox */
+            {
+            0% {
+                background: red;
+            }
 
-      @-webkit-keyframes blink_text /* Safari and Chrome */ {
-        0% {color:lightgray;}
-        50% {color:red;}
-        100% {color:red;}
-      }
+            50% {
+                background: yellow;
+            }
+
+            100% {
+                background: red;
+            }
+        }
+
+        @-webkit-keyframes myfirst
+
+        /* Safari and Chrome */
+            {
+            0% {
+                background: red;
+            }
+
+            50% {
+                background: yellow;
+            }
+
+            100% {
+                background: red;
+            }
+        }
+
+        .fake_ads {
+            float: right;
+        }
+
+        .fake_ad {
+            height: 200px;
+            width: 150px;
+            background-color: red;
+            margin-bottom: 50px;
+            animation: ads_trans 5s;
+            -moz-animation: ads_trans 5s infinite;
+            /* Firefox */
+            -webkit-animation: ads_trans 5s infinite;
+            /* Safari and Chrome */
+        }
+
+        @-moz-keyframes ads_trans
+
+        /* Firefox */
+            {
+            0% {
+                background: blue;
+            }
+
+            50% {
+                background: pink;
+            }
+
+            100% {
+                background: yellow;
+            }
+        }
+
+        @-webkit-keyframes ads_trans
+
+        /* Safari and Chrome */
+            {
+            0% {
+                background: blue;
+            }
+
+            50% {
+                background: pink;
+            }
+
+            100% {
+                background: yellow;
+            }
+        }
+
+        div h2 {
+            text-align: center;
+        }
+
+        div p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .blinky {
+            animation: blink_text 1s;
+            -moz-animation: blink_text 1s infinite;
+            /* Firefox */
+            -webkit-animation: blink_text 1s infinite;
+            /* Safari and Chrome */
+        }
+
+        @-moz-keyframes blink_text
+
+        /* Firefox */
+            {
+            0% {
+                color: lightgray;
+            }
+
+            50% {
+                color: red;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        @-webkit-keyframes blink_text
+
+        /* Safari and Chrome */
+            {
+            0% {
+                color: lightgray;
+            }
+
+            50% {
+                color: red;
+            }
+
+            100% {
+                color: red;
+            }
+        }
     </style>
-  </header>
-  <body style="background-color: gray">
-    <h1><marquee behavior="scroll" direction="left">This is my awesome Website </marquee></h1>
+</header>
 
-    <img src="https://media.giphy.com/media/zBuQUdIDLCxBC/giphy.gif" width="150" height="800"/>
+<body style="background-color: gray">
+    <h1>
+        <marquee behavior="scroll" direction="left">This is my awesome Website </marquee>
+    </h1>
+
+    <img src="https://media.giphy.com/media/zBuQUdIDLCxBC/giphy.gif" width="150" height="800" />
     <p>
-      In the 80s Websites did just look fucking nice!
+        In the 80s Websites did just look fucking nice!
     </p>
     <p>
-      Have fun at hacktober 2018!
+        Have fun at hacktober 2018!
     </p>
 
     <div class="fake_ads">
-      <div class="fake_ad">
-        <h2>
-          Free Kredit
-        </h2>
-        <p>
-          just enter your IBAN and Pin
-        </p>
-        <p class="blinky">
-          so easy!!
-        </p>
-      </div>
-      <div class="fake_ad">
-        <h2>
-          Get your free candy
-        </h2>
-        <p>
-          Just give your first born child
-        </p>
-        <p class="blinky">
-          BEST offer in town!!
-        </p>
-      </div>
+        <div class="fake_ad">
+            <h2>
+                Free Kredit
+            </h2>
+            <p>
+                just enter your IBAN and Pin
+            </p>
+            <p class="blinky">
+                so easy!!
+            </p>
+        </div>
+        <div class="fake_ad">
+            <h2>
+                Get your free candy
+            </h2>
+            <p>
+                Just give your first born child
+            </p>
+            <p class="blinky">
+                BEST offer in town!!
+            </p>
+        </div>
+        <div>
+            <footer>
+                <nav>
+                    <ul>
+                        <li style="
+                                list-style-type: none;
+                                top: 95%;
+                                right: 85%;
+                                position: absolute;">
+                            <a href="./home.html" style="
+                                    text-decoration: none;
+                                    color: inherit;">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
     </div>
-    <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
+
+<br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
   </body>
 </html>
