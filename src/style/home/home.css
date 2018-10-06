@@ -98,6 +98,73 @@ max-width: 1200px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+#contact{
+text-align: center;
+margin: 50px auto;
+background-color: #333;
+width:80%;
+font-size: 20px;
+color: white;
+box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
+margin-bottom: 5%;
+text-shadow: 1px 1px 0 black;
+max-width: 1200px;
+}
+
+#contact form{
+width: 90%;
+margin: auto;
+padding: 10px;
+}
+
+#contact h2{
+font-size: 2.5rem;
+width: 100%;
+padding: 10px;
+color: white;
+border-bottom: 10px dotted grey;
+}
+
+#contact form span{
+display: flex;
+}
+
+#contact form label{
+    width: 100px;
+    align-self: flex-start;
+}
+
+#contact form span input, #contact form span textarea{
+width: calc(90% - 100px);
+transition: linear 0.5s;
+}
+
+#contact form .submit{
+display: block;
+width: 40%;
+height: 2%;
+background-color: black;
+color: white;
+border:0;
+outline:none;
+border-radius:5px;
+padding:15px 0;
+font-size:1rem;
+text-align: center;
+margin: auto;
+margin-top: 8px;
+letter-spacing: 0.2em;
+border-radius: 15px;
+border: 2px solid white;
+transition: linear 0.5s;
+}
+
+#contact form .submit:hover{
+
+border: 2px solid gold;
+}
+
+
 button {
 background-color: #263238;
 color: white;
@@ -121,11 +188,7 @@ bottom: 90px;
 }
 
 li {
-list-style: none!important;
-}
-
-.contributors {
-margin-top: 10px;
+list-style: none;
 }
 
 #contributors-links a {
@@ -153,20 +216,6 @@ vertical-align: -0.6em;
 
 #contributors-links a:hover {
 background-color: #DDD;
-}
-
-#contact{
-text-align: center;
-margin: 50px auto;
-background-color: #333;
-width:80%;
-font-size: 20px;
-color: white;
-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
-margin-bottom: 5%;
-padding: 3%;
-text-shadow: 1px 1px 0 black;
-max-width: 1200px;
 }
 
 footer{
@@ -254,7 +303,9 @@ margin:0px auto;
 float:none;
 }
 
-
+.contributors {
+margin-top: 10px;
+}
 
 .contributors a{
 font-family:"Karla", Arial, sans-serif;
@@ -427,29 +478,6 @@ width: 65%;
 outline: none;
 }
 
-.submit{
-display: block;
-width: 40%;
-height: 2%;
-background-color: black;
-color: white;
-border:0;
-outline:none;
-border-radius:5px;
-padding:15px 0;
-font-size:1rem;
-text-align: center;
-margin: auto;
-margin-top: 8px;
-letter-spacing: 0.2em;
-border: 2px solid gold;
-transition: linear 0.5s;
-}
-.submit:hover{
-border-radius: 15px;
-border: 2px solid white;
-
-}
 .fa {
 padding: 20px;
 font-size: 30px;
