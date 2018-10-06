@@ -1,4 +1,4 @@
-## :bulb::bulb:How to run the HTML pages:bulb::bulb:
+# :bulb::bulb:How to run the HTML pages:bulb::bulb:
 
 1. Write HTML into a basic text editor
 
