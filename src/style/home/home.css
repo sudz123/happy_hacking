@@ -302,6 +302,7 @@ background-color: #222;
 color: #fff;
 text-align: left;
 padding:10px 0;
+padding-top: 20px!important;
 }
 
 footer .copyright p{
