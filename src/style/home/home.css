@@ -121,14 +121,13 @@ font-size: 20px;
 border: 1px solid #ddd;
 -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-margin: 50px auto;
-padding: 20px;
+margin: 0px auto;
 text-align: center;
 -webkit-transition: 0.3s;
 -o-transition: 0.3s;
 transition: 0.3s;
-width: auto;
-max-width: 1200px;
+min-height: 100vh;
+padding: 7% 10%;
 }
 
 .card:hover {
