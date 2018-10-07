@@ -176,10 +176,16 @@ text-align: right;
 }
 
 #contact form span input, #contact form span textarea{
-width: calc(90% - 100px);
+width: 90%;
+margin: 5px auto;
 -webkit-transition: linear 0.5s;
 -o-transition: linear 0.5s;
 transition: linear 0.5s;
+max-width: 700px;
+}
+
+#contact form span textarea{
+	height: 200px!important;
 }
 
 #contact form .submit{
@@ -190,9 +196,9 @@ background-color: black;
 color: white;
 border:0;
 outline:none;
-border-radius:5px;
+border-radius:30px!important;
 padding:15px 0;
-font-size:1rem;
+font-size:16px;
 text-align: center;
 margin: auto;
 margin-top: 8px;
