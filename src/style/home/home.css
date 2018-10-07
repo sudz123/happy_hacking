@@ -239,7 +239,7 @@ li {
 list-style: none;
 }
 
-#contributors-links a {
+#maintainers-links a {
 font-size: 16px;
 display: inline-block;
 border: 1px solid #bbb;
@@ -255,7 +255,7 @@ text-decoration: none;
 white-space: nowrap;
 }
 
-#contributors-links a:before {
+#maintainers-links a:before {
 content: "";
 width: 32px; height: 32px; display: inline-block;
 background:
@@ -264,7 +264,7 @@ margin-right: 0.5em;
 vertical-align: -0.6em;
 }
 
-#contributors-links a:hover {
+#maintainers-links a:hover {
 background-color: #DDD;
 }
 
