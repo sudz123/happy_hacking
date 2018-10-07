@@ -78,16 +78,13 @@ opacity:1;
 
 #startPicture{
 background-image: url(../../images/home/image1.jpg), url(../../images/home/image2.jpg),
-url(../../images/home/image3.jpg);
-background-repeat: no-repeat, no-repeat, no-repeat;
-background-size: cover, cover, cover;
-background-attachment: fixed, fixed, fixed;
-background-position: 0% 0%, 100% 0%, 200% 0%;
--webkit-transition: background-image 2.5s;
--o-transition: background-image 2.5s;
-transition: background-image 2.5s;
--webkit-animation: starterPictures 25s ease-in-out infinite alternate;
-animation: starterPictures 25s ease-in-out infinite alternate;
+url(../../images/home/image3.jpg), url(../../images/home/image1.jpg);
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+background-size: cover, cover, cover, cover;
+background-attachment: fixed, fixed, fixed, fixed;
+background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
+-webkit-animation: starterPictures 20s ease-in-out infinite;
+animation: starterPictures 20s ease-in-out infinite;
 height: 80vh;
 }
 
@@ -401,18 +398,6 @@ clear:both;
 width:100%;
 }
 
-@-webkit-keyframes flash{
-50%{
-opacity:0;
-}
-}
-
-@keyframes flash{
-50%{
-opacity:0;
-}
-}
-
 .header h3:after{
 color: #00cc00;
 content:'.';
@@ -450,8 +435,6 @@ content:'...';
 }
 }
 
-
-
 @media screen and (max-width:768px){
 .contributors{
 display:inline-block;
@@ -460,7 +443,6 @@ clear:both;
 margin-top:30px;
 }
 }
-
 
 h2{
 text-align: center;
@@ -564,18 +546,39 @@ background-position: 100px 0px;
 }
 }
 
+@keyframes halloween{
+from{
+background-position: 0 0;
+}
+to{
+background-position: 100px 0px;
+}
+}
+
 @-webkit-keyframes starterPictures{
 from{
-background-position: 0% 0%, 100% 0%, 300% 0%;
+background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
 }to{
-background-position: -300% 0%, -100% 0%, 0% 0%;
+background-position: 300% 0%, 200% 0%, 100% 0%, 0% 0%;
 }
 }
 
 @keyframes starterPictures{
 from{
-background-position: 0% 0%, 100% 0%, 300% 0%;
+background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
 }to{
-background-position: -300% 0%, -100% 0%, 0% 0%;
+background-position: -300% 0%, -200% 0%, -100% 0%, 0% 0%;
+}
+}
+
+@-webkit-keyframes flash{
+50%{
+opacity:0;
+}
+}
+
+@keyframes flash{
+50%{
+opacity:0;
 }
 }
