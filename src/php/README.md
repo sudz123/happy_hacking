@@ -82,11 +82,17 @@ Now, look at the line `if ($bolded)`. This is short for, `if ($bolded == true)`,
 Here are some basic comparison operators:
 
 `a > b`  - a greater than b
+
 `a < b` - a smaller than b
+
 `a => b` - a greater or equal to b
+
 `a <= b` - a smaller or equal to b
+
 `a == b` - a is equal to b; type casting allowed, so values such as the integer 1 are equal to the boolean operator true.
+
 `a === b` - a is equal to b; must be the same types, so values such as the integer 1 are not equal to true and 0 is not equal to false
+
 `a !== b` - a is _not_ equal to b
 
 Lastly, let's have a look at the style of loops PHP uses.
