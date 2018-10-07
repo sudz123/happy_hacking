@@ -511,7 +511,7 @@ outline: none;
 #message:focus {
 border: 2px solid gold;
 border-radius: 6px;
-width: 65%;
+/*width: 65%;*/
 outline: none;
 }
 
