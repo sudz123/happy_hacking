@@ -80,7 +80,7 @@ opacity:1;
 background-image: url(../../images/home/image1.jpg), url(../../images/home/image2.jpg),
 url(../../images/home/image3.jpg), url(../../images/home/image1.jpg);
 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-background-size: cover, cover, cover, cover;
+background-size: 100vw 80vh, 100vw 80vh, 100vw 80vh, 100vw 80vh;
 background-attachment: fixed, fixed, fixed, fixed;
 background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
 -webkit-animation: starterPictures 20s ease-in-out infinite;
@@ -565,9 +565,9 @@ background-position: 300% 0%, 200% 0%, 100% 0%, 0% 0%;
 
 @keyframes starterPictures{
 from{
-background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
+background-position: 0vw 0vh, 100vw 0vh, 200vw 0vh, 300vw 0vh;
 }to{
-background-position: -300% 0%, -200% 0%, -100% 0%, 0% 0%;
+background-position: -300vw 0vh, -200vw 0vh, -100vw 0vh, 0vw 0vh;
 }
 }
 
