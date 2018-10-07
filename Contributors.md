@@ -42,4 +42,5 @@
 - [Laura Meikle](https://github.com/lmeikle)
 - [Colin Schindler](https://github.com/colinschindler)
 - [Bill Hefty](https://github.com/bhefty)
+- [Jay Song](https://github.com/LordofPotatoes)
 - [Sarthak Trivedi](https://github.com/sarthak-trivedi)
