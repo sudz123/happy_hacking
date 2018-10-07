@@ -137,16 +137,16 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 #contact{
 text-align: center;
-margin: 50px auto;
+margin: 0px auto;
 background-color: #333;
-width:80%;
+width:100vw;
 font-size: 20px;
 color: white;
 -webkit-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
-margin-bottom: 5%;
 text-shadow: 1px 1px 0 black;
-max-width: 1200px;
+min-height: 100vh;
+padding: 10% 10%;
 }
 
 #contact form{
@@ -155,12 +155,11 @@ margin: auto;
 padding: 10px;
 }
 
-#contact h2{
-font-size: 2.5rem;
-width: 100%;
-padding: 10px;
-color: white;
-border-bottom: 10px dotted grey;
+#contact h1{
+	margin-top: -50px;
+	padding-top: 50px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
 }
 
 #contact form span{
@@ -173,6 +172,7 @@ display: flex;
 width: 100px;
 -ms-flex-item-align: start;
 align-self: flex-start;
+text-align: right;
 }
 
 #contact form span input, #contact form span textarea{
@@ -205,7 +205,6 @@ transition: linear 0.5s;
 }
 
 #contact form .submit:hover{
-
 border: 2px solid gold;
 }
 
