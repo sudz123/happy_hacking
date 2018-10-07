@@ -210,7 +210,7 @@ border: 2px solid gold;
 
 #video-holder {
 	width: 100%;
-	min-height: 100vh;
+	max-height: 100vh;
 	padding-top: 3%!important;
 }
 
@@ -224,7 +224,7 @@ box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 text-shadow: 1px 1px 0 black;
 position: relative;
 padding-top: 37%;
-margin-bottom: 50px;
+margin-bottom: 5%;
 }
 
 #teaser-video #iframe-video {
