@@ -4,11 +4,11 @@ Let's have a productive Hacktoberfest. Submit 5 PRs to this account after regist
 
 # :construction_worker: About
 
-My name is Sudarshan Kamath and I am hosting this repository for the month of October, 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy Contributing!
+My name is Sudarshan Kamath and I am hosting this repository for the month of October, 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy contributing!
 
 # :bookmark: IMPORTANT :bookmark:
 
-Since this repository is gaining some momentum, I expect good grammar in all PRs. I expect proper comments in the code. The code could be trivial with a small change, that is totally fine. **When making changes to existing files, make sure you do not add more than one feature or change more than one component in a PR!** Also these file descriptions should be helpful: 
+Since this repository is gaining some momentum, I expect good grammar in all PRs. I also expect proper comments in the code. The code could be trivial with a small change, that is totally fine. **When making changes to existing files, make sure you do not add more than one feature or change more than one component in a PR!** Also these file descriptions should be helpful: 
 
 - [*src*](src) contains all the code.
 - *.html* files like these should not have css or javascript code ideally. If they do then remove it and add to respective folders.
@@ -32,11 +32,11 @@ Create a pull request that will be merged to the main repo.
 (**Remember to indicate what issue you're fixing**)
 
 :rotating_light:
-**Don't forget to add your name to Contributors.md( AN EASY PR)**:rotating_light:
+**Don't forget to add your name to Contributors.md(AN EASY PR)**:rotating_light:
 
 :white_check_mark:*You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com/stats
 
-:white_check_mark:Your codes will be reviewed and approved.
+:white_check_mark:Your code will be reviewed and approved.
 
 :white_check_mark:If you have questions on any issue, kindly use the comment.
 
