@@ -40,3 +40,5 @@
 - [Laura Meikle](https://github.com/lmeikle)
 - [Colin Schindler](https://github.com/colinschindler)
 - [Bill Hefty](https://github.com/bhefty)
+- [Udit Agarwal](https://github.com/Udit1999)
+    -[LinkedIn](https://www.linkedin.com/in/udit-agarwal-83416b160)
