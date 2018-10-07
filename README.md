@@ -32,7 +32,7 @@ Create a pull request that will be merged to the main repo.
 (**Remember to indicate what issue you're fixing**)
 
 :rotating_light:
-**Don't forget to add your name to Contributors.md**:rotating_light:
+**Don't forget to add your name to Contributors.md( AN EASY PR)**:rotating_light:
 
 :white_check_mark:*You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com/stats
 
