@@ -107,15 +107,6 @@ justify-content: flex-end;
 padding-bottom: 10px;
 }
 
-#halloweenButton{
--webkit-animation: halloween 3s linear infinite;
-animation: halloween 3s linear infinite;
-background-image: url(../../images/halloween/4594633-seamless-background-with-pumpkins.jpg);
-background-size: 100px 100px;
-font-weight: bolder;
-color: yellow;
-}
-
 .card {
 font-size: 20px;
 border: 1px solid #ddd;
@@ -210,20 +201,21 @@ border: 2px solid gold;
 
 #video-holder {
 	width: 100%;
-	height: 100vh;
-	padding-top: 5%!important;
+	max-height: 100vh;
+	padding-top: 3%!important;
 }
 
 #teaser-video{
 text-align: center;
 margin: 0px auto;
-width:80%;
+width:65%;
 font-size: 20px;
 -webkit-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 text-shadow: 1px 1px 0 black;
 position: relative;
-padding-top: 40%;
+padding-top: 37%;
+margin-bottom: 5%;
 }
 
 #teaser-video #iframe-video {
@@ -237,11 +229,11 @@ padding-top: 40%;
 }
 
 button {
-background-color: #263238;
+background-color: #222;
 color: white;
 border: #9e888f;
-font-size: 18px;
-width: 150px;
+font-size: 16px;
+width: 180px;
 height: 50px;
 margin: 4px;
 -webkit-transition: all 0.07s linear;
