@@ -1,4 +1,4 @@
-* { box-sizing: border-box; }
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
 margin: 0 auto;
 max-width: 100%;
@@ -14,6 +14,7 @@ z-index: 10;
 display: block;
 width: 100%;
 background-color: #263238;
+-webkit-box-sizing: border-box;
 box-sizing: border-box;
 overflow: hidden;
 }
@@ -30,6 +31,7 @@ position: relative;
 }
 
 header h3 span{
+-webkit-animation: flash 1s steps(1) infinite;
 animation: flash 1s steps(1) infinite;
 opacity: 1;
 color: #00cc00;
@@ -56,59 +58,86 @@ color: white;
 text-decoration: none;
 }
 
+header h3{
+padding: 0.5em;
+font-size: 1.6em;
+float: left;
+white-space: nowrap;
+color: #FFF;
+display:inline-block;
+margin: 0;
+position:relative;
+}
+
+header h3 span, .header h3 strong { color: #00cc00; }
+header h3 span{
+-webkit-animation:flash 1s steps(1) infinite;
+animation:flash 1s steps(1) infinite;
+opacity:1;
+}
+
 #startPicture{
-background-image: url(../../images/home/image1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-transition: background-image 2.5s;
-height: 80vh;
+background-image: url(../../images/home/image1.jpg), url(../../images/home/image2.jpg),
+url(../../images/home/image3.jpg), url(../../images/home/image1.jpg);
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+background-size: 100vw 100vh, 100vw 100vh, 100vw 100vh, 100vw 100vh;
+background-attachment: fixed, fixed, fixed, fixed;
+background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
+-webkit-animation: starterPictures 20s ease-in-out infinite;
+animation: starterPictures 20s ease-in-out infinite;
+height: 100vh;
 }
 
 #startPictureButtons{
 height: 100%;
 margin: auto;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
 flex-direction: column;
+-webkit-box-align: center;
+-ms-flex-align: center;
 align-items: center;
+-webkit-box-pack: end;
+-ms-flex-pack: end;
 justify-content: flex-end;
-}
-
-#halloweenButton{
-animation: halloween 3s linear infinite;
-background-image: url(../../images/halloween/4594633-seamless-background-with-pumpkins.jpg);
-background-size: 100px 100px;
-font-weight: bolder;
-color: yellow;
+padding-bottom: 10px;
 }
 
 .card {
 font-size: 20px;
 border: 1px solid #ddd;
+-webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-margin: 50px auto;
-padding: 20px;
+margin: 0px auto;
 text-align: center;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
 transition: 0.3s;
-width: auto;
-max-width: 1200px;
+min-height: 100vh;
+padding: 7% 10%;
 }
 
 .card:hover {
+-webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #contact{
 text-align: center;
-margin: 50px auto;
+margin: 0px auto;
 background-color: #333;
-width:80%;
+width:100%;
 font-size: 20px;
 color: white;
+-webkit-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
-margin-bottom: 5%;
 text-shadow: 1px 1px 0 black;
-max-width: 1200px;
+min-height: 100vh;
+padding: 10% 10%;
 }
 
 #contact form{
@@ -117,26 +146,37 @@ margin: auto;
 padding: 10px;
 }
 
-#contact h2{
-font-size: 2.5rem;
-width: 100%;
-padding: 10px;
-color: white;
-border-bottom: 10px dotted grey;
+#contact h1{
+	margin-top: -50px;
+	padding-top: 50px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
 }
 
 #contact form span{
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 }
 
 #contact form label{
-    width: 100px;
-    align-self: flex-start;
+width: 100px;
+-ms-flex-item-align: start;
+align-self: flex-start;
+text-align: right;
 }
 
 #contact form span input, #contact form span textarea{
-width: calc(90% - 100px);
+width: 90%;
+margin: 5px auto;
+-webkit-transition: linear 0.5s;
+-o-transition: linear 0.5s;
 transition: linear 0.5s;
+max-width: 700px;
+}
+
+#contact form span textarea{
+	height: 200px!important;
 }
 
 #contact form .submit{
@@ -147,32 +187,63 @@ background-color: black;
 color: white;
 border:0;
 outline:none;
-border-radius:5px;
+border-radius:30px!important;
 padding:15px 0;
-font-size:1rem;
+font-size:16px;
 text-align: center;
 margin: auto;
 margin-top: 8px;
 letter-spacing: 0.2em;
 border-radius: 15px;
 border: 2px solid white;
+-webkit-transition: linear 0.5s;
+-o-transition: linear 0.5s;
 transition: linear 0.5s;
 }
 
 #contact form .submit:hover{
-
 border: 2px solid gold;
 }
 
+#video-holder {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 3.5%!important;
+}
+
+#teaser-video{
+text-align: center;
+margin: 0px auto;
+width:70%;
+font-size: 20px;
+-webkit-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
+box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
+text-shadow: 1px 1px 0 black;
+position: relative;
+padding-top: 35%;
+margin-bottom: 3%;
+}
+
+#teaser-video #iframe-video {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 10;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
 
 button {
-background-color: #263238;
+background-color: #222;
 color: white;
 border: #9e888f;
-font-size: 18px;
-width: 150px;
+font-size: 16px;
+width: 180px;
 height: 50px;
 margin: 4px;
+-webkit-transition: all 0.07s linear;
+-o-transition: all 0.07s linear;
 transition: all 0.07s linear;
 cursor: pointer;
 border-radius: 30px;
@@ -191,7 +262,7 @@ li {
 list-style: none;
 }
 
-#contributors-links a {
+#maintainers-links a {
 font-size: 16px;
 display: inline-block;
 border: 1px solid #bbb;
@@ -200,12 +271,14 @@ padding: 0.3em 1em 0.3em 0.5em;
 margin: 0.2em;
 background-color: #bbb;
 color: #000;
+-webkit-transition: background 0.07s linear;
+-o-transition: background 0.07s linear;
 transition: background 0.07s linear;
 text-decoration: none;
 white-space: nowrap;
 }
 
-#contributors-links a:before {
+#maintainers-links a:before {
 content: "";
 width: 32px; height: 32px; display: inline-block;
 background:
@@ -214,7 +287,7 @@ margin-right: 0.5em;
 vertical-align: -0.6em;
 }
 
-#contributors-links a:hover {
+#maintainers-links a:hover {
 background-color: #DDD;
 }
 
@@ -227,6 +300,7 @@ background-color: #222;
 color: #fff;
 text-align: left;
 padding:10px 0;
+padding-top: 20px!important;
 }
 
 footer .copyright p{
@@ -348,37 +422,6 @@ clear:both;
 width:100%;
 }
 
-
-.header h3{
-padding: 0.5em;
-font-size: 1.6em;
-float: left;
-white-space: nowrap;
-color: #FFF;
-display:inline-block;
-margin: 0;
-position:relative;
-}
-
-.header h3 span, .header h3 strong { color: #00cc00; }
-.header h3 span{
--webkit-animation:flash 1s steps(1) infinite;
-animation:flash 1s steps(1) infinite;
-opacity:1;
-}
-
-@-webkit-keyframes flash{
-50%{
-opacity:0;
-}
-}
-
-@keyframes flash{
-50%{
-opacity:0;
-}
-}
-
 .header h3:after{
 color: #00cc00;
 content:'.';
@@ -416,8 +459,6 @@ content:'...';
 }
 }
 
-
-
 @media screen and (max-width:768px){
 .contributors{
 display:inline-block;
@@ -426,7 +467,6 @@ clear:both;
 margin-top:30px;
 }
 }
-
 
 h2{
 text-align: center;
@@ -474,7 +514,7 @@ outline: none;
 #message:focus {
 border: 2px solid gold;
 border-radius: 6px;
-width: 65%;
+/*width: 65%;*/
 outline: none;
 }
 
@@ -521,11 +561,48 @@ background: #125688;
 color: white;
 }
 
+@-webkit-keyframes halloween{
+from{
+background-position: 0 0;
+}
+to{
+background-position: 100px 0px;
+}
+}
+
 @keyframes halloween{
 from{
 background-position: 0 0;
 }
 to{
 background-position: 100px 0px;
+}
+}
+
+@-webkit-keyframes starterPictures{
+from{
+background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
+}to{
+background-position: 300% 0%, 200% 0%, 100% 0%, 0% 0%;
+}
+}
+
+@keyframes starterPictures{
+from{
+background-position: 0vw 0vh, 100vw 0vh, 200vw 0vh, 300vw 0vh;
+}to{
+background-position: -300vw 0vh, -200vw 0vh, -100vw 0vh, 0vw 0vh;
+}
+}
+
+@-webkit-keyframes flash{
+50%{
+opacity:0;
+}
+}
+
+@keyframes flash{
+50%{
+opacity:0;
 }
 }

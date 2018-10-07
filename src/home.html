@@ -11,7 +11,7 @@
     <script src="scripts/home/home.js"></script>
 </head>
 
-<body onload="startTimer()" class="home">
+<body onload="" class="home">
     <header>
         <h3>Happy<span>_</span><strong>Hacking</strong></h3>
         <nav>
@@ -25,26 +25,30 @@
         <div id="startPictureButtons">
             <span>
                 <button type="button" onclick="displayPreviousImage()">Previous</button>
-                <button type="button" onclick="goToHalloween()" id="halloweenButton">Halloween Page</button>
+                <button type="button" onclick="goToHalloween()">Halloween Page</button>
                 <button type="button" onclick="displayNextImage()">Next</button>
             </span>
         </div>
     </div>
 
-    <div class="card">
-        <h1>Contributors: </h1>
-        <p id="contributors-links">
-            <a href="akshat.html">Akshat Ahuja</a>
-            <a href="mufti.html">Mufti Ismi</a>
-            <a href="sudz.html">Sudarshan Kamath</a>
-            <a href="sarahperea.html">Sarah Perea</a>
-            <a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a>
-            <a href="http://carrielau.com/">Carrie Lau</a>
-            <a href="./navindu.html">Navindu Amarakoon</a>
-            <a href="https://ahong.ca">Andrew Hong</a>
+    <div id="video-holder">
+        <center><h1>Watch the Hacktoberfest Teaser!</h1></center>
+        <div id="teaser-video">
+            <iframe
+                id="iframe-video"
+                src="https://www.youtube.com/embed/wPlTQjOEPWo"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </div>    
+    </div>
 
-            <a href="siliwangi.html">Ricky Sukma</a>
-               <a href="https://github.com/sarthak-trivedi" target="blank">Sarthak Trivedi</a>
+    <div class="card">
+        <h1>Maintainers</h1>
+        <p id="maintainers-links">
+            <a href="sudz.html">Sudarshan Kamath</a>
+            <a href="https://github.com/diptanshu-sopho">Diptanshu Sopho</a>
         </p>
 
         <div>
@@ -53,30 +57,29 @@
                 with
                 GitHub and Twilio.
             </p>
-            <ul>
-                <li>Hacktoberfest is open to everyone in the global community!</li>
-                <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
-                <li>You can sign up anytime between October 1 and October 31.</li>
-                <li>For more information and to sign up visit:</li>
-                <li><strong><a href="https://hacktoberfest.digitalocean.com">Hacktoberfest on Digital Ocean</a></strong></li>
-            </ul>
+            <p>
+                <ul>
+                    <li>Hacktoberfest is open to everyone in the global community!</li>
+                    <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
+                    <li>You can sign up anytime between October 1 and October 31.</li>
+                    <li>For more information and to sign up visit:</li>
+                    <li><strong><a href="https://hacktoberfest.digitalocean.com">Hacktoberfest on Digital Ocean</a></strong></li>
+                </ul>
+            </p>
         </div>
     </div>
 
     <div id="contact">
-        <h2>Don't be a stranger, contact me!</h2>
+        <h1>Don't be a stranger, contact me!</h1>
         <form action="#">
             <span class="input">
-                <label for="name"> Name:</label>
-                <input type="text" id="name" placeholder="Enter your name" class="field" required>
+                <input type="text" id="name" placeholder="Name" class="field" required>
             </span>
             <span class="input">
-                <label for="email"> Email:</label>
-                <input type="email" id="email" placeholder="Enter your email" class="field" required>
+                <input type="email" id="email" placeholder="Email" class="field" required>
             </span>
             <span class="text">
-                <label for="message"> Message:</label>
-                <textarea class="message" id="message" name="message" placeholder="Say something..." style="resize:vertical;"
+                <textarea class="message" id="message" name="message" placeholder="Message" style="resize:vertical;"
                     required></textarea>
             </span>
             <button class="submit"> Submit </button>
@@ -104,7 +107,6 @@
                     <li><a href="https://github.com/DjigoLab/">Antonio Djigo</a></li>
                     <li><a href="https://github.com/irvandoval">Irvin Sandoval</a></li>
                     <li><a href="mufti.html">Mufti Ismi</a></li>
-                    <li><a href="sudz.html">Sudarshan Kamath</a></li>
                     <li><a href="sarahperea.html">Sarah Perea</a></li>
                     <li><a href="nir099.html">Nir</a></li>
                     <li><a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a></li>
@@ -114,8 +116,10 @@
                     <li><a href="./alan.html" target="blank">Alan Gordon</a></li>
                     <li><a href="https://github.com/ChameeraD">Chameera Dulanga</a></li>
                     <li><a href="https://github.com/amrtaher1234">Sekab</a></li>
-                    <li><a href="https://ahong.ca">Andrew Hong</a></li>
-                    <li><a href="https://github.com/sarthak-trivedi">Sarthak Trivedi</a></li>
+                    <li><a href="https://ahong.ca">Andrew Hong</a></li>  
+                    <li><a href="siliwangi.html">Ricky Sukma</a></li>
+                    <li><a href="https://github.com/colinschindler">Colin Schindler</a></li>
+                  <li><a href="https://github.com/sarthak-trivedi">Sarthak Trivedi</a></li>
                 </ul>
             </div>
             <div class="copyright">
