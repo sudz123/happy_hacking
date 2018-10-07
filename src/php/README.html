@@ -1175,8 +1175,7 @@ Here&rsquo;s what they look like:</p>
     $DSN = &quot;mysql:host=localhost;dbname=testDatabase;port=3306;charset=utf8mb4&quot;;
     try {
         $PDO = new PDO($DSN, &quot;root&quot;, &quot;password&quot;);
-        $query = $PDO-&gt;prepare(&quot;SELECT username from userTable&quot;);
-        $query-&gt;execute();
+        $query = $PDO-&gt;query(&quot;SELECT username from userTable&quot;);
         echo $query-&gt;rowCount();
     } catch (PDOException $ex) {
         echo &quot;Connection failed, exception: &quot; . $e-&gt;getMessage();
@@ -1186,5 +1185,46 @@ Here&rsquo;s what they look like:</p>
 
 
 <p>This example will connect to database <code>testDatabase</code> and display the number of users that are present in <code>userTable</code>. In general, this is the database connector of choice usually less prone to security flaws and is accepted as good practice.</p>
+<p>In many cases, we will not connect to databases in the same file as where we&rsquo;re making changes or retrieving data. It is better to use classes that handle these for us as it simplifies and improves our code. </p>
+<p>Say we have a database that contains a table, <code>carData</code>. In this table, we store an unique identifier, the car&rsquo;s model, brand and year and the current price. Say we want to loop through this table and display all stored models to the user. This can be accomplished by using a <code>SELECT</code> statement and a <code>foreach</code> loop:</p>
+<div class="codehilite"><pre>&lt;?php
+    $DSN = &quot;mysql:host=localhost;dbname=testDatabase;port=3306;charset=utf8mb4&quot;;
+    try {
+        $PDO = new PDO($DSN, &quot;root&quot;, &quot;password&quot;);
+        $query = $PDO-&gt;query(&quot;SELECT * from carData&quot;);
+        foreach ($query-&gt;fetchAll() as $car) {
+            echo $car[&quot;make&quot;];
+        }
+    } catch (PDOException $ex) {
+        echo &quot;Connection failed, exception: &quot; . $e-&gt;getMessage();
+    }
+?&gt;
+</pre></div>
+
+
+<p>The PDO component remains mostly unchanged, however you might notice that we now employ <code>$query-&gt;fetchAll()</code>. This is a method (or function) of the PDO class, and this permits us to obtain all matching data of our SQL query. In this instance, we also make use of something new: the <code>foreach</code> loop. PHP handles such loops in the following format: <code>foreach ($array as $row)</code> where your array is the collection of data you wish to itterate through and the row is an individual record obtained from the database.</p>
+<p>Finally, let&rsquo;s try to update some of our data. We have our table, <code>carData</code> from the previous example. There&rsquo;s a problem though: our pricing for Ferrari cars don&rsquo;t include the mandatory 10 percent tax from the government! Therefore, we must update our data to reflect this. You may think: I should update each row and multiply the price by 1.1, which is correct, however this is inefficient and will take longer than other solutions. Consider that MySQL can update many rows at once. Armed with the <code>WHERE</code> keyword, we can </p>
+<div class="codehilite"><pre>&lt;?php
+    $model = &quot;Ferrari&quot;;
+    $DSN = &quot;mysql:host=localhost;dbname=testDatabase;port=3306;charset=utf8mb4&quot;;
+    $PDO = new PDO($DSN, &quot;root&quot;, &quot;password&quot;);
+    $PDO-&gt;beginTransaction();
+    try {   
+        $query = $PDO-&gt;prepare(&quot;UPDATE carData SET price = price * 1.1 WHERE model = :model&quot;);
+        $query-&gt;bindParam(&quot;:model&quot;, $model);
+        $query-&gt;execute();
+        $PDO-&gt;commit();
+    } catch (PDOException $ex) {
+        $PDO-&gt;rollBack();
+        echo &quot;Connection failed, exception: &quot; . $e-&gt;getMessage();
+    }
+    $PDO-&gt;endTransaction();
+?&gt;
+</pre></div>
+
+
+<p>Let&rsquo;s have a closer look. We set the model to be updated to &ldquo;Ferrari&rdquo; on the second line, and multiply the price by a factor of 1.1 to fix the pricing. You may ask, what is <code>$PDO-&gt;commit();</code> and <code>$PDO-&gt;rollBack();</code>? These are methods that we use when we perform a transaction using <code>$PDO-&gt;beginTransaction();</code>. They allow us to revert changes when mistakes or exceptions come up, which prevents issues like unsuccessful user registrations showing up in the database. </p>
+<p>Additionally, it&rsquo;s worth noting that by default, PHP PDO automatically commits queries if you do not explicitly state that you want to turn this off with the creation of a transaction. This is why we have the <code>$PDO-&gt;beginTransaction();</code> and <code>$PDO-&gt;endTransaction;</code> components.</p>
 <h2 id="thats-all-for-now">That&rsquo;s all for now&hellip;<a class="headerlink" href="#thats-all-for-now" title="Permanent link"></a></h2>
-<p>Thank you for reading! There will be more to come, so please stay tuned.  </p></article></body></html>
+<p>Stay tuned for more! If you have any questions, please feel free to ask by emailing me at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#110;&#100;&#114;&#101;&#119;&#64;&#97;&#110;&#100;&#114;&#101;&#119;&#45;&#104;&#111;&#110;&#103;&#46;&#109;&#101;">&#97;&#110;&#100;&#114;&#101;&#119;&#64;&#97;&#110;&#100;&#114;&#101;&#119;&#45;&#104;&#111;&#110;&#103;&#46;&#109;&#101;</a>.
+Good luck on your journey to learning PHP!</p></article></body></html>
