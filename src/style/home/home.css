@@ -61,7 +61,7 @@ background-image: url(../../images/home/image1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-transition: background-image 2.5s;
+transition: background-image 3s;
 height: 80vh;
 }
 
@@ -176,6 +176,7 @@ margin: 4px;
 transition: all 0.07s linear;
 cursor: pointer;
 border-radius: 30px;
+outline: none;
 }
 
 button:hover {

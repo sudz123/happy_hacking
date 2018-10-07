@@ -1,8 +1,8 @@
 // function display the next image from the array
-function displayNextImage() {
-    x = (x === images.length - 1) ? 0 : x + 1;
-    document.getElementById("img").src = images[x];
-}
+// function displayNextImage() {
+//     x = (x === images.length - 1) ? 0 : x + 1;
+//     document.getElementById("img").src = images[x];
+// }
 
 function goToHalloween(){
   window.location.href = 'haloween.html';
@@ -16,7 +16,7 @@ function animatedScroll(elem) {
 
 function displayPreviousImage() {
     x = (x <= 0) ? images.length - 1 : x - 1;
-    document.getElementById("img").src = images[x];
+    document.getElementById("startPicture").style.backgroundImage = "url(./images/home/" + images[x] + ")";
 }
 
 function displayNextImage() {
@@ -25,12 +25,10 @@ function displayNextImage() {
 }
 
 function startTimer() {
-    setInterval(displayNextImage, 3000);
+    setInterval(displayNextImage, 3500);
 }
 
 var images = [], x = -1;
 images[0] = "image1.jpg";
 images[1] = "image2.jpg";
 images[2] = "image3.jpg";
-
-
