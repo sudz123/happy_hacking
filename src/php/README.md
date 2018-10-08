@@ -82,11 +82,17 @@ Now, look at the line `if ($bolded)`. This is short for, `if ($bolded == true)`,
 Here are some basic comparison operators:
 
 `a > b`  - a greater than b
+
 `a < b` - a smaller than b
+
 `a => b` - a greater or equal to b
+
 `a <= b` - a smaller or equal to b
+
 `a == b` - a is equal to b; type casting allowed, so values such as the integer 1 are equal to the boolean operator true.
+
 `a === b` - a is equal to b; must be the same types, so values such as the integer 1 are not equal to true and 0 is not equal to false
+
 `a !== b` - a is _not_ equal to b
 
 Lastly, let's have a look at the style of loops PHP uses.
@@ -128,8 +134,7 @@ As PHP is a web programming language, it is essential that we know how to connec
 		$DSN = "mysql:host=localhost;dbname=testDatabase;port=3306;charset=utf8mb4";
 		try {
 			$PDO = new PDO($DSN, "root", "password");
-			$query = $PDO->prepare("SELECT username from userTable");
-			$query->execute();
+			$query = $PDO->query("SELECT username from userTable");
 			echo $query->rowCount();
 		} catch (PDOException $ex) {
 			echo "Connection failed, exception: " . $e->getMessage();
@@ -138,9 +143,50 @@ As PHP is a web programming language, it is essential that we know how to connec
 
 This example will connect to database `testDatabase` and display the number of users that are present in `userTable`. In general, this is the database connector of choice usually less prone to security flaws and is accepted as good practice.
 
+In many cases, we will not connect to databases in the same file as where we're making changes or retrieving data. It is better to use classes that handle these for us as it simplifies and improves our code. 
+
+Say we have a database that contains a table, `carData`. In this table, we store an unique identifier, the car's model, brand and year and the current price. Say we want to loop through this table and display all stored models to the user. This can be accomplished by using a `SELECT` statement and a `foreach` loop:
+
+    <?php
+        $DSN = "mysql:host=localhost;dbname=testDatabase;port=3306;charset=utf8mb4";
+        try {
+            $PDO = new PDO($DSN, "root", "password");
+            $query = $PDO->query("SELECT * from carData");
+            foreach ($query->fetchAll() as $car) {
+                echo $car["make"];
+            }
+        } catch (PDOException $ex) {
+            echo "Connection failed, exception: " . $e->getMessage();
+        }
+    ?>
+
+The PDO component remains mostly unchanged, however you might notice that we now employ `$query->fetchAll()`. This is a method (or function) of the PDO class, and this permits us to obtain all matching data of our SQL query. In this instance, we also make use of something new: the `foreach` loop. PHP handles such loops in the following format: `foreach ($array as $row)` where your array is the collection of data you wish to itterate through and the row is an individual record obtained from the database.
+
+Finally, let's try to update some of our data. We have our table, `carData` from the previous example. There's a problem though: our pricing for Ferrari cars don't include the mandatory 10 percent tax from the government! Therefore, we must update our data to reflect this. You may think: I should update each row and multiply the price by 1.1, which is correct, however this is inefficient and will take longer than other solutions. Consider that MySQL can update many rows at once. Armed with the `WHERE` keyword, we can 
+
+    <?php
+        $model = "Ferrari";
+        $DSN = "mysql:host=localhost;dbname=testDatabase;port=3306;charset=utf8mb4";
+        $PDO = new PDO($DSN, "root", "password");
+        $PDO->beginTransaction();
+        try {   
+            $query = $PDO->prepare("UPDATE carData SET price = price * 1.1 WHERE model = :model");
+            $query->bindParam(":model", $model);
+            $query->execute();
+            $PDO->commit();
+        } catch (PDOException $ex) {
+            $PDO->rollBack();
+            echo "Connection failed, exception: " . $e->getMessage();
+        }
+        $PDO->endTransaction();
+    ?>
+
+Let's have a closer look. We set the model to be updated to "Ferrari" on the second line, and multiply the price by a factor of 1.1 to fix the pricing. You may ask, what is `$PDO->commit();` and `$PDO->rollBack();`? These are methods that we use when we perform a transaction using `$PDO->beginTransaction();`. They allow us to revert changes when mistakes or exceptions come up, which prevents issues like unsuccessful user registrations showing up in the database. 
+
+Additionally, it's worth noting that by default, PHP PDO automatically commits queries if you do not explicitly state that you want to turn this off with the creation of a transaction. This is why we have the `$PDO->beginTransaction();` and `$PDO->endTransaction;` components.
+
 ## That's all for now...
 
-Thank you for reading! There will be more to come, so please stay tuned.  
-
-
+Stay tuned for more! If you have any questions, please feel free to ask by emailing me at andrew@andrew-hong.me.
+Good luck on your journey to learning PHP!
 
