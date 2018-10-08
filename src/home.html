@@ -4,8 +4,10 @@
 <head>
     <title>Happy Hackers!</title>
     <link href="style/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/home/grid/simple-grid.min.css" />
     <link rel='stylesheet' id='home-styles' href='style/home/home.css' type='text/css' media='all' />
     <link rel="stylesheet" href="style/home/styles1.css" />
+
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <script src="../js/jquery.js"></script>
     <script src="scripts/home/home.js"></script>
@@ -32,16 +34,14 @@
     </div>
 
     <div id="video-holder">
-        <center><h1>Watch the Hacktoberfest Teaser!</h1></center>
+        <center>
+            <h1>Watch the Hacktoberfest Teaser!</h1>
+        </center>
         <div id="teaser-video">
-            <iframe
-                id="iframe-video"
-                src="https://www.youtube.com/embed/wPlTQjOEPWo"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
+            <iframe id="iframe-video" src="https://www.youtube.com/embed/wPlTQjOEPWo" frameborder="0" allow="autoplay; encrypted-media"
                 allowfullscreen>
             </iframe>
-        </div>    
+        </div>
     </div>
 
     <div class="card">
@@ -66,6 +66,33 @@
                     <li><strong><a href="https://hacktoberfest.digitalocean.com">Hacktoberfest on Digital Ocean</a></strong></li>
                 </ul>
             </p>
+        </div>
+    </div>
+
+    <div class="blog-posts">
+        <div class="blog_container">
+            <div class="row">
+                <div class="col-4 " id="a">
+                    <div class="blog-card">
+                        <div class=" blog-image"> </div>
+                        <div class=" blog-text">
+                            <div class="blog-title">
+                                Nerd Fonts and their use
+                            </div>
+
+                            <div class="blog-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <div class="blog-link">
+                                <a href="wwww.youtube.com">Read Full Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -116,15 +143,18 @@
                     <li><a href="./alan.html" target="blank">Alan Gordon</a></li>
                     <li><a href="https://github.com/ChameeraD">Chameera Dulanga</a></li>
                     <li><a href="https://github.com/amrtaher1234">Sekab</a></li>
-                    <li><a href="https://ahong.ca">Andrew Hong</a></li>  
+                    <li><a href="https://ahong.ca">Andrew Hong</a></li>
                     <li><a href="siliwangi.html">Ricky Sukma</a></li>
                     <li><a href="https://github.com/colinschindler">Colin Schindler</a></li>
-                  <li><a href="https://github.com/sarthak-trivedi">Sarthak Trivedi</a></li>
+                    <li><a href="https://github.com/sarthak-trivedi">Sarthak Trivedi</a></li>
                 </ul>
             </div>
             <div class="copyright">
                 <p>
-                    <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> ALL RIGHTS RESERVED
+                </p>
             </div>
         </div>
     </footer>
