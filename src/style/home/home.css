@@ -77,8 +77,8 @@ opacity:1;
 }
 
 #startPicture{
-background-image: url(../../images/home/image1.jpg), url(../../images/home/image2.jpg),
-url(../../images/home/image3.jpg), url(../../images/home/image1.jpg);
+background-image: url(../../images/home/hacktoberfest2018.png), url(../../images/home/hacktoberfest2017.jpeg),
+url(../../images/home/hacktoberfest2016.jpg), url(../../images/home/hackopensource.jpg);
 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 background-size: 100vw 100vh, 100vw 100vh, 100vw 100vh, 100vw 100vh;
 background-attachment: fixed, fixed, fixed, fixed;

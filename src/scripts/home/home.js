@@ -29,8 +29,8 @@ function startTimer() {
 }
 
 var images = [], x = -1;
-images[0] = "image1.jpg";
-images[1] = "image2.jpg";
-images[2] = "image3.jpg";
+images[0] = "hacktoberfest2018.png";
+images[1] = "hacktoberfest2017.jpeg";
+images[2] = "hacktoberfest2016.jpg";
 
 
