@@ -606,3 +606,30 @@ opacity:0;
 opacity:0;
 }
 }
+
+body > .container {
+	width: 100%!important;
+	height: 97vh;
+	padding:0px 0px;
+}
+
+#myCarousel {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%!important;
+}
+.carousel-inner > .item	{
+	height: 100%!important;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height:100%!important;
+    margin: auto;
+}
+
+.carousel-control {
+	height: 100%;
+}
