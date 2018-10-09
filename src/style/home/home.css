@@ -77,6 +77,7 @@ opacity:1;
 }
 
 #startPicture{
+
 background-image: url(../../images/home/image1.jpg), url(../../images/home/image2.jpg),
 url(../../images/home/image3.jpg), url(../../images/home/image1.jpg);
 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
@@ -247,6 +248,7 @@ margin: 4px;
 transition: all 0.07s linear;
 cursor: pointer;
 border-radius: 30px;
+outline: none;
 }
 
 button:hover {
