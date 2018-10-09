@@ -17,6 +17,7 @@ background-color: #263238;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 overflow: hidden;
+padding-right:15px;
 }
 
 header h3{
@@ -47,12 +48,13 @@ animation: dots 3s linear infinite;
 header nav{
 text-align: right;
 white-space: nowrap;
+font-size:0.8rem;
 }
 
 header nav a{
 display: inline-block;
 font-weight: bold;
-padding: 20px 25px;
+padding: 20px 15px;
 cursor: pointer;
 color: white;
 text-decoration: none;
