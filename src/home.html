@@ -21,11 +21,12 @@
         <h3>Happy<span>_</span><strong>Hacking</strong></h3>
         <nav>
             <a href="#img" onclick="animatedScroll('#startPicture');">HOME</a>
+            <a href="#video-holder" onclick="animatedScroll('#video-holder');">WATCH TEASER</a>
             <a href="#about" onclick="animatedScroll('.card');">ABOUT</a>
             <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
+            <a onclick="goToHalloween();">HALLOWEEN PAGE</a>
         </nav>
     </header>
-
 
     <div class="container">
       <br>
@@ -51,7 +52,14 @@
           <div class="item">
             <img src="images/home/hackopensource.jpg">
           </div>
-        </div>
+
+    <div id="startPicture">
+        <div id="startPictureButtons">
+            <span>
+                <button type="button" onclick="displayPreviousImage()">Previous</button>
+                <button type="button" onclick="displayNextImage()">Next</button>
+            </span>
+    </div>
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
