@@ -6,18 +6,16 @@ body {
 	font-weight: 520;
 	text-align: justify;
   text-justify: inter-word;
+  padding: 4rem;
+  position: relative;
 }
 
-header {
-	margin: 100px 200px;
-	height: 200px;
-
-}
 #profile-links{
 	font-size: 2rem;
 	max-width:400px;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 5rem;
 }
 
 .fa {
@@ -47,6 +45,11 @@ header {
 }
 
 footer{
-	height:100px;
+	font-size: 1rem;
+	height:50px;
 	background-color: rgb((72,61,139));
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
