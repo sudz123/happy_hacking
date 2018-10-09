@@ -17,6 +17,7 @@ background-color: #263238;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 overflow: hidden;
+padding-right:15px;
 }
 
 header h3{
