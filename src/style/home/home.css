@@ -611,9 +611,11 @@ label {
 }
 
 .blog-image {
-	height: 195px;
 	width: 185px;
 	border-radius: 5px;
+	position: relative;
+	top: 45%;
+	transform: translateY(-50%);
 }
 
 .blog-text {
