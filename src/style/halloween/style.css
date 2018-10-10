@@ -48,10 +48,30 @@ p{
 	text-align: center;
 }
 
-.orange-content{
+.orange-content {
     background-color: #f9690e;
     min-height: 400px;
-    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .orange-content {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.orange-content img {
+    width:100%; 
+    border-radius: 10px;
+}
+
+.orange-content p,
+.orange-content h2 {
+    color: #fff;
+}
+
+.orange-content h2 {
+    margin-top: 20px;
 }
 
 .footer {
