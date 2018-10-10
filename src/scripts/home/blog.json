@@ -3,7 +3,7 @@
       "postId": "1",
       "title": "5 things I learnt by participating in Hacktoberfest",
       "description": "To start off, I had never contributed to any open source projects. I wanted to, but never got my hands into it, or let’s say I hesitated to find suitable projects. One day, a...",
-      "image": "",
+      "image": "./images/home/blog/hacktoberfest_2017.png",
       "link": "https://medium.com/introcept-hub/5-things-i-learned-by-participating-in-hacktoberfest-917e2993ff5d"
     },
     {
@@ -17,14 +17,14 @@
       "postId": "3",
       "title": "My First Hacktoberfest",
       "description": "Contributing to Open Source and projects can seem like a daunting process. Your favorite search engine will return a ton of results on guides and repositories to get started...",
-      "image": "h",
+      "image": "./images/home/blog/hacktoberfest.jpg",
       "link": "https://medium.freecodecamp.org/my-first-hacktoberfest-experiences-of-contributing-to-open-source-as-a-first-timer-b538f7c129dc"
     },
     {
       "postId": "4",
       "title": "A Bitter Guide To Open Source",
       "description": "Lets just get this out of the way. I’m the worst Open Source maintainer in recorded history. Ok, maybe not the worst, but I haven’t done my best each time.I have failed on a... ",
-      "image": "l",
+      "image": "./images/home/blog/bitter_guide.gif",
       "link": "https://medium.com/codezillas/a-bitter-guide-to-open-source-a8e3b6a3c1c4"
     }
   ]
