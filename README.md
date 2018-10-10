@@ -6,11 +6,17 @@ Let's have a productive Hacktoberfest. Submit 5 PRs to this account after regist
 
 My name is Sudarshan Kamath and I am hosting this repository for the month of October, 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy contributing!
 
-Iff you want to see what the site looks like you can through github.
+If you want to see what the site looks like you can through github.
 All you need to do it click the HTML file you want to view, click the button Raw and then change the url. You need to remove ".githubusercontent" and replace it with just "git" so the link looks like this - https://rawgit.com
+
+- UPDATE \*
+
+If you want to continue using the rawgit trick on another project, you might need to switch to just using githack. Like with gitraw, all you need to do is change "githubusercontent" for "githack" the link now looks like this - https://raw.githack.com/
 
 Here is what our homepage looks like!
 https://rawgit.com/sudz123/Happy_Hacking/master/src/home.html
+https://raw.githack.com/sudz123/Happy_Hacking/master/src/home.html
+(both show the same thing, one using rawgit and the other using githack)
 
 # :bookmark: IMPORTANT :bookmark:
 
@@ -40,7 +46,7 @@ Create a pull request that will be merged to the main repo.
 :rotating_light:
 **Don't forget to add your name to Contributors.md(AN EASY PR)**:rotating_light:
 
-:white_check_mark:_You can check your progress here after every merged PR_ : https://hacktoberfest.digitalocean.com/stats
+:white*check_mark:\_You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com/stats
 
 :white_check_mark:Your code will be reviewed and approved.
 
