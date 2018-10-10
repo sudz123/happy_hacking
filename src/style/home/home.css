@@ -591,36 +591,65 @@ label {
 }
 
 .blog-card {
-	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
 	border-radius: 5px;
-	height: 370px;
+	height: 210px;
+	margin: 0 auto;
+	width: 480px;
 }
 
 .blog-card:hover {
+	cursor: pointer;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.blog-image-container {
+	height: 195px;
+	width: 185px;
+	margin: 0 auto;
+}
+
 .blog-image {
-	height: 150px;
-	border-bottom: 0.5px solid black;
+	height: 195px;
+	width: 185px;
+	border-radius: 5px;
 }
 
 .blog-text {
-	height: 160px;
-	padding: 15px;
+	padding: 10px 12px 5px 5px;
+	text-align: start;
 }
 
 .blog-title {
-	height: 30px;
-	font-size: 16px;
-	font-weight: 550;
+	font-size: 14px;
+	font-weight: 600;
+	height: 42px;
 }
 
 .blog-description {
 	font-size: 14px;
-	height: 145px;
 	line-height: 1.5;
+	height: 120px;
+}
+
+.blog-link {
+	font-size: 13px;
+	text-align: right;
+}
+
+.blog-link a {
+	text-decoration: none;
+	color: #542189;
+}
+
+#blog_container {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.blog-link a:hover {
+	text-decoration: underline;
 }
 
 @-webkit-keyframes halloween {
