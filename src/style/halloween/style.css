@@ -48,7 +48,7 @@ p{
 	text-align: center;
 }
 
-.orange-content{
+.orange-content {
     background-color: #f9690e;
     min-height: 400px;
 }
@@ -65,8 +65,13 @@ p{
     border-radius: 10px;
 }
 
-.orange-content p {
+.orange-content p,
+.orange-content h2 {
     color: #fff;
+}
+
+.orange-content h2 {
+    margin-top: 20px;
 }
 
 .footer {
