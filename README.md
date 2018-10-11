@@ -75,4 +75,4 @@ A few other tutorial links:
 - [Functionality with JavaScript](./src/scripts/README-JS.md)
 
 ## HALL OF FAME
-We would like to heartily thank **[Sarah D. Perea](https://github.com/sarahperea)** for her contributions to this repository! She has helped create an amazing homepage and her contributions have helped us grow and spread the art of Open Sourcing, Happy Hacking ;)
+We would like to heartily thank **[Sarah D. Perea](https://github.com/sarahperea)** for her contributions to this repository! She has helped create an amazing homepage and her contributions have helped us grow and spread the art of Open Sourcing. Happy Hacking ;)
