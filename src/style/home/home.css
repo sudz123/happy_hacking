@@ -77,37 +77,6 @@ animation:flash 1s steps(1) infinite;
 opacity:1;
 }
 
-#startPicture{
-background-image: url(../../images/home/hacktoberfest2018.png), url(../../images/home/hacktoberfest2017.jpeg),
-url(../../images/home/hacktoberfest2016.jpg), url(../../images/home/hackopensource.jpg);
-background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-background-size: 100vw 100vh, 100vw 100vh, 100vw 100vh, 100vw 100vh;
-background-attachment: fixed, fixed, fixed, fixed;
-background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
--webkit-animation: starterPictures 20s ease-in-out infinite;
-animation: starterPictures 20s ease-in-out infinite;
-height: 100vh;
-}
-
-#startPictureButtons{
-height: 100%;
-margin: auto;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
--ms-flex-direction: column;
-flex-direction: column;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
--webkit-box-pack: end;
--ms-flex-pack: end;
-justify-content: flex-end;
-padding-bottom: 10px;
-}
-
 .card {
 font-size: 20px;
 border: 1px solid #ddd;
@@ -370,7 +339,6 @@ text-align: center;
 font-size: 12px;
 }
 
-
 .wrap{
 width:95%;
 display:block;
@@ -399,7 +367,6 @@ margin:0px;
 position:relative;
 border-bottom: 1px solid #888;
 }
-
 
 .contributors ul{
 list-style-type:none;
@@ -573,40 +540,24 @@ background-position: 100px 0px;
 }
 
 @keyframes halloween{
-from{
-background-position: 0 0;
-}
-to{
-background-position: 100px 0px;
-}
-}
-
-@-webkit-keyframes starterPictures{
-from{
-background-position: 0% 0%, 100% 0%, 200% 0%, 300% 0%;
-}to{
-background-position: 300% 0%, 200% 0%, 100% 0%, 0% 0%;
-}
-}
-
-@keyframes starterPictures{
-from{
-background-position: 0vw 0vh, 100vw 0vh, 200vw 0vh, 300vw 0vh;
-}to{
-background-position: -300vw 0vh, -200vw 0vh, -100vw 0vh, 0vw 0vh;
-}
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: 100px 0px;
+	}
 }
 
 @-webkit-keyframes flash{
-50%{
-opacity:0;
-}
+	50%{
+		opacity:0;
+	}
 }
 
 @keyframes flash{
-50%{
-opacity:0;
-}
+	50%{
+	opacity:0;
+	}
 }
 
 body > .container {
@@ -615,16 +566,13 @@ body > .container {
 	padding:0px 0px;
 }
 
-#myCarousel {
+#myCarousel,
+.carousel-inner,
+.carousel-inner > .item,
+.carousel-control {
 	height: 100%;
 }
 
-.carousel-inner {
-	height: 100%!important;
-}
-.carousel-inner > .item	{
-	height: 100%!important;
-}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 100%;
@@ -632,6 +580,3 @@ body > .container {
     margin: auto;
 }
 
-.carousel-control {
-	height: 100%;
-}
