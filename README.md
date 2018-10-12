@@ -46,7 +46,7 @@ Create a pull request that will be merged to the main repo.
 :rotating_light:
 **Don't forget to add your name to Contributors.md(AN EASY PR)**:rotating_light:
 
-:white*check_mark:\_You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com/stats
+:white_check_mark:\_You can check your progress here after every merged PR* : https://hacktoberfest.digitalocean.com/stats
 
 :white_check_mark:Your code will be reviewed and approved.
 
