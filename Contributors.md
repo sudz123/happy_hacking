@@ -45,3 +45,5 @@
 - [Jay Song](https://github.com/LordofPotatoes)
 - [Sarthak Trivedi](https://github.com/sarthak-trivedi)
 - [Rahul Makhija](https://github.com/rahuls360)
+- [Hayden Sykes](https://github.com/hasykes)
+
