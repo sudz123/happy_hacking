@@ -106,7 +106,6 @@ color: white;
 -webkit-box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 box-shadow:0 4px 10px 4px rgba(0,0,0,0.4);
 text-shadow: 1px 1px 0 black;
-min-height: 100vh;
 padding: 10% 10%;
 margin-bottom: -80px;
 }
