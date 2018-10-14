@@ -27,7 +27,6 @@ p:hover {
   text-decoration: none;
   border-radius: 50%;
   padding: 10px;
-  margin-y: 20px;
 }
 .fa:hover {
   opacity: 0.7;
