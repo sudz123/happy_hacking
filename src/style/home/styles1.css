@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 body {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-h1, h2, h3, h4, h5 {
-  font-family: 'Roboto Mono', monospace;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Mono", monospace;
 }
 
-#header{
+#header {
   display: block;
   width: 100%;
   background-color: #263238;
@@ -49,12 +53,12 @@ h1, h2, h3, h4, h5 {
   bottom: 1em;
   width: 100%;
 }
-#img{
+#img {
   height: auto;
   width: 100%;
 }
 
-.halloweenButton{
+.halloweenButton {
   width: 15em;
 }
 
