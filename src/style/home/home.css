@@ -84,8 +84,7 @@ header h3 span {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  min-height: 100vh;
-  padding: 7% 10%;
+  padding: 1% 10%;
 }
 
 .card:hover {
@@ -362,12 +361,14 @@ footer {
   margin: 0px;
   position: relative;
   border-bottom: 1px solid #888;
+  padding-bottom: 10px;
 }
 
 .contributors ul {
   list-style-type: none;
   margin-left: 0px;
   padding-left: 0px;
+  padding-top: 10px;
 }
 
 .contributors ul li {
