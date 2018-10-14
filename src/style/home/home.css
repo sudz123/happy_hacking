@@ -63,17 +63,6 @@ header nav a {
   text-decoration: none;
 }
 
-header h3 {
-  padding: 0.5em;
-  font-size: 1.6em;
-  float: left;
-  white-space: nowrap;
-  color: #fff;
-  display: inline-block;
-  margin: 0;
-  position: relative;
-}
-
 header h3 span,
 .header h3 strong {
   color: #00cc00;
