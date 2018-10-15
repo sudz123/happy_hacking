@@ -47,4 +47,5 @@
 - [Rahul Makhija](https://github.com/rahuls360)
 - [Hayden Sykes](https://github.com/hasykes)
 - [Vishwajeet Srivastava](https://github.com/vjs3)
+- [Francesco Mistri](https://github.com/Ball-Man)
 
