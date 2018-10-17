@@ -1,6 +1,5 @@
 #back_to_home {
   outline: none;
-
   text-decoration: none;
   background-color: orange;
   color: black;
@@ -15,4 +14,7 @@
   color: white;
   padding: 15px;
   border-radius: 30px;
+}
+.halloween-body {
+  overflow-x: hidden;
 }
