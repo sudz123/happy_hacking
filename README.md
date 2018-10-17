@@ -6,7 +6,7 @@ Let's have a productive Hacktoberfest. Submit 5 PRs to this account after regist
 
 My name is Sudarshan Kamath and I am hosting this repository for the month of October, 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy contributing!
 
-The project follows the following [Code of Conduct](CODE_OF_CONDUCT.MD).
+The project follows the following [Code of Conduct](CODE_OF_CONDUCT.md).
 
 If you want to see what the site looks like you can through github.
 All you need to do it click the HTML file you want to view, click the button Raw and then change the url. You need to remove ".githubusercontent" and replace it with just "git" so the link looks like this - https://rawgit.com
