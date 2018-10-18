@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f6ba56-1ed5-4ac2-adba-54e94d88c658" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/style.css" afterPath="$PROJECT_DIR$/src/style/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sudz.html" afterPath="$PROJECT_DIR$/src/sudz.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/home/home.css" afterPath="$PROJECT_DIR$/src/style/home/home.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +28,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dulcetti.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/dulcetti.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1132">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/style/home/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-462">
+              <caret line="571" column="15" lean-forward="true" selection-start-line="571" selection-start-column="15" selection-end-line="571" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -58,6 +78,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/sudz.html" />
         <option value="$PROJECT_DIR$/src/style/style.css" />
+        <option value="$PROJECT_DIR$/src/style/home/home.css" />
       </list>
     </option>
   </component>
@@ -130,6 +151,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Happy_Hacking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Happy_Hacking" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539877462554</updated>
-      <workItem from="1539877463753" duration="968000" />
+      <workItem from="1539877463753" duration="1305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="968000" />
+    <option name="totallyTimeSpent" value="1305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
@@ -269,6 +312,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/dulcetti.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1132">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="571" column="15" lean-forward="true" selection-start-line="571" selection-start-column="15" selection-end-line="571" selection-end-column="15" />
           <folding />
         </state>
       </provider>
