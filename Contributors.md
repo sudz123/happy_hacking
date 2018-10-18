@@ -49,3 +49,5 @@
 - [Paulo Henrique](https://github.com/paulokenza)
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Tom Braul](https://github.com/tombraul)
+- [Marios Georgiou](https://github.com/Mariosgeorgiou)
+
