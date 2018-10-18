@@ -48,4 +48,5 @@
 - [Hayden Sykes](https://github.com/hasykes)
 - [Vishwajeet Srivastava](https://github.com/vjs3)
 - [Francesco Mistri](https://github.com/Ball-Man)
+- [Mike Perry Y Attara](https://github.com/mikeattara)
 
