@@ -49,3 +49,4 @@
 - [Paulo Henrique](https://github.com/paulokenza)
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Tom Braul](https://github.com/tombraul)
+- [klaudiakp](https://github.com/klaudiakp)
