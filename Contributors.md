@@ -53,6 +53,7 @@
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
 - [Michelle Vick](https://github.com/vivega-mv)
+- [Rafael M](https://github.com/RafaGrey)
 - [Farzan F A](https://github.com/Farzanfa)
 - [Adam Freeman](https://github.com/adamfr33man)
 - [Jaeren Tredway](https://github.com/JaerenTredway)
