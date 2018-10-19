@@ -51,6 +51,7 @@
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
+- [Jeremy Ruffell](https://github.com/JeremyRuffell)
 - [Marios Georgiou](https://github.com/Mariosgeorgiou)
 - [Ilham Dinulkholis](https://github.com/greatMerchants)
 - [Jonathan Zhang](https://github.com/jonathanzhang53)
