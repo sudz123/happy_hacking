@@ -6,6 +6,8 @@
   padding: 15px;
   border-radius: 30px;
   transition-duration: 0.5s;
+  display: table;
+  margin: 15px auto;
 }
 #back_to_home:hover {
   outline: none;
