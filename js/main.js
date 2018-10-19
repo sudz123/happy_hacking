@@ -17,9 +17,9 @@ jQuery(document).ready(function(){
 		});
 	}
 
-  setTimeout(function(){
-    $('.scroll-link').removeClass('jabardasti')
-  }, 800)
+  	setTimeout(function(){
+    		$('.scroll-link').removeClass('jabardasti')
+  	}, 800)
 
 	setInterval(function(){
 		$('.scroll-link').addClass('neeche')
@@ -31,44 +31,44 @@ jQuery(document).ready(function(){
 	$(window).resize(function(){
 		var wid=$('.portfolio-img').width();
 		$('.details').css('width', ''+wid+'');
-    var htemp=$(window).innerHeight();
-    $('.hero').css('height', ''+htemp+'');
+    		var htemp=$(window).innerHeight();
+    		$('.hero').css('height', ''+htemp+'');
 	})
 
 	$(window).load(function(){
 		var wid=$('.portfolio-img').width();
 		$('.details').css('width', ''+wid+'');
-    var htemp=$(window).innerHeight();
-    $('.hero').css('height', ''+htemp+'');
+		    var htemp=$(window).innerHeight();
+		    $('.hero').css('height', ''+htemp+'');
 	})
 
 	$('.box1').hover(function(){
-    setTimeout(function(){
-      $('.box1 .stuff').toggleClass('show')
-      $('.box1 .img-init').toggleClass('img-init-active')
-    }, 500)
-  })
+	    setTimeout(function(){
+	      $('.box1 .stuff').toggleClass('show')
+	      $('.box1 .img-init').toggleClass('img-init-active')
+	    }, 500)
+  	})
 
-  $('.box2').hover(function(){
-    setTimeout(function(){
-      $('.box2 .stuff').toggleClass('show')
-      $('.box2 .img-init').toggleClass('img-init-active')
-    }, 500)
-  })
+	  $('.box2').hover(function(){
+	    setTimeout(function(){
+	      $('.box2 .stuff').toggleClass('show')
+	      $('.box2 .img-init').toggleClass('img-init-active')
+	    }, 500)
+	  })
 
-  $('.box3').hover(function(){
-    setTimeout(function(){
-      $('.box3 .stuff').toggleClass('show')
-      $('.box3 .img-init').toggleClass('img-init-active')
-    }, 500)
-  })
+	  $('.box3').hover(function(){
+	    setTimeout(function(){
+	      $('.box3 .stuff').toggleClass('show')
+	      $('.box3 .img-init').toggleClass('img-init-active')
+	    }, 500)
+	  })
 
-  $('.box4').hover(function(){
-    setTimeout(function(){
-      $('.box4 .stuff').toggleClass('show')
-      $('.box4 .img-init').toggleClass('img-init-active')
-    }, 500)
-  })
+	  $('.box4').hover(function(){
+	    setTimeout(function(){
+	      $('.box4 .stuff').toggleClass('show')
+	      $('.box4 .img-init').toggleClass('img-init-active')
+	    }, 500)
+	  })
 
 	$('.scroll-link').click(function(){
 		$('html, body').animate({ scrollTop: $('.about').offset().top}, 750)
@@ -79,23 +79,23 @@ jQuery(document).ready(function(){
 	})
 
 	$("body").on("input propertychange", ".floating-label-form-group", function(e) {
-      	$(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
-    }).on("focus", ".floating-label-form-group", function() {
-      	$(this).addClass("floating-label-form-group-with-focus");
-    }).on("blur", ".floating-label-form-group", function() {
-      	$(this).removeClass("floating-label-form-group-with-focus");
-    })
+      		$(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
+    	}).on("focus", ".floating-label-form-group", function() {
+      		$(this).addClass("floating-label-form-group-with-focus");
+    	}).on("blur", ".floating-label-form-group", function() {
+      		$(this).removeClass("floating-label-form-group-with-focus");
+   	 })
 
     $("#portfolio-flters li").click(function(){
-    	$("#portfolio-flters li").removeClass('filter-active');
-    	$(this).addClass('filter-active');
-    	var selectedFilter = $(this).data("filter");
-    	$("#portfolio-wrapper").fadeTo(100, 0);
+	$("#portfolio-flters li").removeClass('filter-active');
+	$(this).addClass('filter-active');
+	var selectedFilter = $(this).data("filter");
+	$("#portfolio-wrapper").fadeTo(100, 0);
 	    $(".portfolio-item").fadeOut().css('transform', 'scale(0)');
-    	setTimeout(function() {
-      		$(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
-      		$("#portfolio-wrapper").fadeTo(300, 1);
-    	}, 300);
+	setTimeout(function() {
+		$(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
+		$("#portfolio-wrapper").fadeTo(300, 1);
+	}, 300);
   	})
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
