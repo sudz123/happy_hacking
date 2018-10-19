@@ -52,6 +52,7 @@
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
+- [Farzan F A](https://github.com/Farzanfa)
 - [Adam Freeman](https://github.com/adamfr33man)
 - [Jaeren Tredway](https://github.com/JaerenTredway)
 - [Jeremy Ruffell](https://github.com/JeremyRuffell)
