@@ -20,6 +20,7 @@
 - [Deepti Sharma](https://github.com/dsdeeptisharma/)
 - [Bruno Dulcetti](https://github.com/dulcetti/)
   - [LinkedIn](https://www.linkedin.com/in/dulcetti/)
+- [ShadowRider](https://github.com/IIShadowRiderII)
 - [Nura Musa Shariff](https://github.com/shariffnour)
   - [LinkedIn](https://www.linkedin.com/in/nura-shariff-193170150/)
 - [Von Ralls](https://github.com/vonralls)
