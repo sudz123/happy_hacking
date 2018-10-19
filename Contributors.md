@@ -18,6 +18,7 @@
   - [LinkedIn](https://www.linkedin.com/in/glenn-lanzer/)
 - [Sarah Perea](https://github.com/sarahperea) - [LinkedIn](https://www.linkedin.com/in/sarahperea/) -[Parth Pandya](https://github.com/parthpandyappp) - [LinkedIn](https://www.linkedin.com/in/parth-pandya-4215b0152/)
 - [Awonusi Olajide](https://github.com/zenithcoder)
+- [Pasan Jayawickrama](https://github.com/pasanjayawickrama)
 - [Deepti Sharma](https://github.com/dsdeeptisharma/)
 - [Bruno Dulcetti](https://github.com/dulcetti/)
   - [LinkedIn](https://www.linkedin.com/in/dulcetti/)
