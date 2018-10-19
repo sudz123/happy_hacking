@@ -50,6 +50,7 @@
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
+- [Jonathan Zhang](https://github.com/jonathanzhang53)
 - [Gagan](https://github.com/gagan0183) 
 - [klaudiakp](https://github.com/klaudiakp)
 - [Noa Nilsson](https://github.com/n0anilsson)
