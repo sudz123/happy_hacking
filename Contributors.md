@@ -50,6 +50,7 @@
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
+- [klaudiakp](https://github.com/klaudiakp)
 - [Noa Nilsson](https://github.com/n0anilsson)
 - [Daniel Miller](https://github.com/dMilluh)
 - [Gilles Igot](https://github.com/gillesigot)
