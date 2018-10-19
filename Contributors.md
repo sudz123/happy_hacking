@@ -1,4 +1,4 @@
-# Contributors
+#Contributors
 
 - [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
@@ -59,6 +59,7 @@
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
+- [DanielxSantos](https://github.com/danielxsantos)
 - [Michelle Vick](https://github.com/vivega-mv)
 - [Rafael M](https://github.com/RafaGrey)
 - [Farzan F A](https://github.com/Farzanfa)
