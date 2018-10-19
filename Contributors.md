@@ -80,3 +80,4 @@
 - [Federico Centurioni](https://github.com/FedericoCenturioni)
 - [SheiUn](https://github.com/sheiun)
 - [Sushma Unnibhavi](https://github.com/sushmaunnibhavi)
+- [Yohanan Baruchel](https://github.com/ybaruchel)
