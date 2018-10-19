@@ -20,6 +20,7 @@
 - [Sarah Perea](https://github.com/sarahperea) - [LinkedIn](https://www.linkedin.com/in/sarahperea/) -[Parth Pandya](https://github.com/parthpandyappp) - [LinkedIn](https://www.linkedin.com/in/parth-pandya-4215b0152/)
 - [Awonusi Olajide](https://github.com/zenithcoder)
 - [Pasan Jayawickrama](https://github.com/pasanjayawickrama)
+- [Ina Singhal](https://github.com/pasanjayawickrama) - [linkedIn](https://www.linkedin.com/in/ina-singhal-204383169/)
 - [Deepti Sharma](https://github.com/dsdeeptisharma/)
 - [Bruno Dulcetti](https://github.com/dulcetti/)
   - [LinkedIn](https://www.linkedin.com/in/dulcetti/)
