@@ -1,6 +1,7 @@
 # Contributors
 
 - [Ashish Sinha](https://github.com/sinashish)
+- [Muhammad Ali](https://github.com/designsbyali)
 - [Udit Agarwal](https://github.com/Udit1999)
   - [LinkedIn](https://www.linkedin.com/in/udit-agarwal-83416b160)
 - [Sudarshan Kamath](https://github.com/sudz123)
