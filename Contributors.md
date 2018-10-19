@@ -70,3 +70,4 @@
 - [Gilles Igot](https://github.com/gillesigot)
 - [Mohammed Shafi](https://github.com/ifahs1)
 - [Mattia Effendi](https://github.com/iDoppioclick)
+- [Federico Centurioni](https://github.com/Federico Centurioni)
