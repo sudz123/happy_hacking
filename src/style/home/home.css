@@ -4,9 +4,8 @@
 }
 
 body {
-  margin: 0 auto;
   max-width: 100%;
-  margin-top: 50px;
+  margin: 50px auto 0;
 }
 
 header {
@@ -79,7 +78,7 @@ header h3 span {
   border: 1px solid #ddd;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 0px auto;
+  margin: 0 auto;
   text-align: center;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -94,7 +93,6 @@ header h3 span {
 
 #contact {
   text-align: center;
-  margin: 0px auto;
   background-color: #333;
   width: 100%;
   font-size: 20px;
@@ -103,7 +101,7 @@ header h3 span {
   box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
   text-shadow: 1px 1px 0 black;
   padding: 10% 10%;
-  margin-bottom: -80px;
+  margin: 0 auto -80px;
 }
 
 #contact form {
@@ -158,8 +156,7 @@ header h3 span {
   padding: 15px 0;
   font-size: 16px;
   text-align: center;
-  margin: auto;
-  margin-top: 8px;
+  margin: 8px auto auto;
   letter-spacing: 0.2em;
   border-radius: 15px;
   border: 2px solid white;
@@ -179,7 +176,6 @@ header h3 span {
 
 #teaser-video {
   text-align: center;
-  margin: 0px auto;
   width: 70%;
   font-size: 20px;
   -webkit-box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
@@ -187,7 +183,7 @@ header h3 span {
   text-shadow: 1px 1px 0 black;
   position: relative;
   padding-top: 35%;
-  margin-bottom: 3%;
+  margin: 0 auto 3%;
 }
 
 #teaser-video #iframe-video {
@@ -285,7 +281,7 @@ footer .intro {
 footer a.btn {
   display: inline-block;
   float: left;
-  margin-top: 0px;
+  margin-top: 0;
   clear: left;
   text-decoration: none;
   color: #888;
@@ -358,7 +354,7 @@ footer {
 }
 
 .contributors h4 {
-  margin: 0px;
+  margin: 0;
   position: relative;
   border-bottom: 1px solid #888;
   padding-bottom: 10px;
@@ -366,8 +362,8 @@ footer {
 
 .contributors ul {
   list-style-type: none;
-  margin-left: 0px;
-  padding-left: 0px;
+  margin-left: 0;
+  padding-left: 0;
   padding-top: 10px;
 }
 
@@ -544,7 +540,7 @@ label {
   }
 
   to {
-    background-position: 100px 0px;
+    background-position: 100px 0;
   }
 }
 
@@ -554,7 +550,7 @@ label {
   }
 
   to {
-    background-position: 100px 0px;
+    background-position: 100px 0;
   }
 }
 
@@ -573,7 +569,7 @@ label {
 body > .container {
   width: 100% !important;
   height: 97vh;
-  padding: 0px 0px;
+  padding: 0 0;
 }
 
 #myCarousel,
