@@ -59,6 +59,7 @@
 - [Paulo Henrique](https://github.com/paulokenza)
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
+- [Mike Capps](https://github.com/MikeCapps2006)
 - [Tom Braul](https://github.com/tombraul)
 - [DanielxSantos](https://github.com/danielxsantos)
 - [Michelle Vick](https://github.com/vivega-mv)
