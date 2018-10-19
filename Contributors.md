@@ -50,5 +50,6 @@
 - [Mike Perry Y Attara](https://github.com/mikeattara)
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Tom Braul](https://github.com/tombraul)
+- [Mohammed Shafi](https://github.com/ifahs1)
 - [Mattia Effendi](https://github.com/iDoppioclick)
 
