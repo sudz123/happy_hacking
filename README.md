@@ -11,8 +11,6 @@ The project follows the following [Code of Conduct](CODE_OF_CONDUCT.md).
 If you want to see what the site looks like you can through github.
 All you need to do it click the HTML file you want to view, click the button Raw and then change the url. You need to remove ".githubusercontent" and replace it with just "git" so the link looks like this - https://rawgit.com
 
-- UPDATE \*
-
 If you want to continue using the rawgit trick on another project, you might need to switch to just using githack. Such as, using gitraw, all you need to do is change "githubusercontent" for "githack" the link now looks like this - https://raw.githack.com/
 
 Here is what our homepage looks like!
