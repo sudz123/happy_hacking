@@ -85,3 +85,4 @@
 - [Sushma Unnibhavi](https://github.com/sushmaunnibhavi)
 - [Yohanan Baruchel](https://github.com/ybaruchel)
 - [Haqverdi Behbduov](https://github.com/Haqverdi)
+- [Vipul Chaudhary](https://github.com/vipul-)
