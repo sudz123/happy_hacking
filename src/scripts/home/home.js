@@ -1,5 +1,5 @@
 function goToHalloween(){
-  window.location.href = 'haloween.html';
+  window.location.href = 'halloween.html';
 }
 
 function animatedScroll(elem) {
