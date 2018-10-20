@@ -5,7 +5,7 @@ For example, WordPress is a common and popular blogging platform that is written
 
 It assists to create dynamic web pages such as CRUD systems (create, read, update, delete), photo galleries and more! Nowadays, frameworks like Laravel or Symfony exist to simplify PHP development by adding functionality such as web templating and caching. 
 
-Documentation for the language can be found at https://secure.php.net/, and tutorials are present for just about anything you want to know about the langauge.
+Documentation for the language can be found at [https://secure.php.net/](https://secure.php.net/), and tutorials are present for just about anything you want to know about the langauge.
 
 ## Hello, world!
 
@@ -77,7 +77,7 @@ That variable is of the type boolean, and determines whether or not our outputte
 
 The next line **does** tell the function to use the value it is given instead of the default, so our text becomes bolded since `$bolded = true`.
 
-Now, look at the line `if ($bolded)`. This is short for, `if ($bolded == true)`, which checks if the function should bold the text. There are quite a few operators that you can use within an if statement, however this tutorial will not cover them completely. Check [W3Schools](https://w3schools.com) for more examples. 
+Now, look at the line `if ($bolded)`. This is short for, `if ($bolded == true)`, which checks if the function should bold the text. There are quite a few operators that you can use within an if statement, however this tutorial will not cover them completely. Check [W3Schools](https://www.w3schools.com/php/default.asp) for more examples. 
 
 Here are some basic comparison operators:
 
