@@ -16,6 +16,7 @@
   - [LinkedIn](https://www.linkedin.com/in/akshatahuja/)
 - [Yuri Chandra](https://github.com/yurichandra)
 - [Edison Shek](https://github.com/most111)
+- [Karan Reddy](https://github.com/karanreddy77)
 - [Glenn Lanzer III](https://github.com/TexasBullet26)
   - [LinkedIn](https://www.linkedin.com/in/glenn-lanzer/)
 - [Sarah Perea](https://github.com/sarahperea)
