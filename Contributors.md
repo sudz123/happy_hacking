@@ -3,6 +3,7 @@
 - [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
 - [Muhammad Ali](https://github.com/designsbyali)
+- [Brian Barry](https://github.com/bribarry)
 - [Hamid Reside](https://github.com/hallowcard13)
 - [Udit Agarwal](https://github.com/Udit1999)
   - [LinkedIn](https://www.linkedin.com/in/udit-agarwal-83416b160)
