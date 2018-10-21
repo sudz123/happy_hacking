@@ -91,3 +91,4 @@
 - [naulluan](https://github.com/naulluan)
 - [Ted Liao](https://github.com/ted850914)
 - [Denis Skiba](https://github.com/dskiba)
+- [Vidhu Bansal](https://github.com/vidban)
