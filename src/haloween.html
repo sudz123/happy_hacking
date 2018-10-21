@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+﻿    <!DOCTYPE html>
 <html>
 
 <head>
@@ -23,7 +23,7 @@
             background-image: url('images/halloween/img.gif');
         }
     </style>
-<body class="halloween-body" >
+<body class="halloween-body" onload="myMove()" >
     <header id="header">
         <div class="container">
             <div class="navbar-brand mt-3">
@@ -32,7 +32,32 @@
         </div>
     </header>
 
-    <section id="jumbotron"></section>
+     <section id="jumbotron">
+        <div id="floatingwitch">
+            <img src="images/halloween/floatingwitch.png">
+        </div>
+    </section>
+<script>
+function myMove() {
+  var elem = document.getElementById("floatingwitch"); 
+  var elem1= document.getElementById("jumbotron");
+  var height=elem1.clientHeight;
+  var width=elem1.clientWidth;  
+  var pos = 0;
+  var posright=0;
+  var id = setInterval(frame, 12);
+  function frame() {
+    pos++;
+    posright=posright+width/height; 
+    if (pos >= height||posright>=width) {
+      clearInterval(id);
+    } else {
+      elem.style.top = pos + 'px'; 
+      elem.style.left = posright + 'px'; 
+    }
+  }
+}
+</script>
 <div class="body-bg" >
     <section id="content" class="mt-4 container">
         <div class="row">
