@@ -87,4 +87,5 @@
 - [Haqverdi Behbduov](https://github.com/Haqverdi)
 - [Vipul Chaudhary](https://github.com/vipul-)
 - [Xander Grzywinski](https://github.com/salaxander)
+- [Ted Liao](https://github.com/ted850914)
 - [Denis Skiba](https://github.com/dskiba)
