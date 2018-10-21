@@ -92,3 +92,4 @@
 - [Ted Liao](https://github.com/ted850914)
 - [Denis Skiba](https://github.com/dskiba)
 - [Vyshanvy](https://github.com/vyshnavy)
+- [Vidhu Bansal](https://github.com/vidban)
