@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: black;
+  background-image: url('../../../img/halloween/seamless-background-with-pumpkins.jpg');
   font-family: "Griffy", cursive;
 }
 
@@ -140,4 +141,8 @@ p {
   100% {
     opacity: 0;
   }
+}
+
+.footer {
+  background-color: transparent;
 }
