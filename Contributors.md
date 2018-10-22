@@ -95,3 +95,5 @@
 - [PixoDev](https://github.com/PixoDev)
 - [Vidhu Bansal](https://github.com/vidban)
 - [Siarhei Bahdanovich](https://github.com/siarhei-bahdanovich)
+- [Nap Joseph Calub](https://github.com/njncalub)
+
