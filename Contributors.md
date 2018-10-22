@@ -96,3 +96,4 @@
 - [Vidhu Bansal](https://github.com/vidban)
 - [Siarhei Bahdanovich](https://github.com/siarhei-bahdanovich)
 - [Daniele Ventura](https://github.com/Orasz)
+- [Nap Joseph Calub](https://github.com/njncalub)
