@@ -572,6 +572,18 @@ body > .container {
   padding: 0 0;
 }
 
+#head nav a:hover{
+	color: white;
+	text-decoration: none;
+	background-color:  grey;
+}
+
+#head nav a:active{
+	color: white;
+	text-decoration: none;
+
+}
+
 #myCarousel,
 .carousel-inner,
 .carousel-inner > .item,
