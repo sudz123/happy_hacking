@@ -1,22 +1,23 @@
 #back_to_home {
-  outline: none;
-  text-decoration: none;
-  background-color: orange;
-  color: black;
-  padding: 15px;
-  border-radius: 30px;
-  transition-duration: 0.5s;
-  display: table;
-  margin: 15px auto;
+	outline: none;
+	text-decoration: none;
+	font-family: "Griffy", cursive;
+	background-color: orange;
+	color: black;
+	padding: 15px;
+	border-radius: 30px;
+	transition-duration: 0.5s;
+	display: inline-block;
+	margin: 15px auto;
 }
 #back_to_home:hover {
-  outline: none;
-  text-decoration: none;
-  background-color: orange;
-  color: white;
-  padding: 15px;
-  border-radius: 30px;
+	outline: none;
+	text-decoration: none;
+	background-color: orange;
+	color: white;
+	padding: 15px;
+	border-radius: 30px;
 }
 .halloween-body {
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
