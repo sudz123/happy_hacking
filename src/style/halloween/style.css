@@ -116,8 +116,9 @@ p {
 	font-size: 12px;
 }
 
-/*Button To-the-top in the footer  */
-#back_to_top {
+/*Buttons To-the-top and Back-to-home in the footer  */
+#back_to_top,
+#back_to_home {
 	outline: none;
 	text-decoration: none;
 	font-family: "Griffy", cursive;
@@ -129,13 +130,17 @@ p {
 	display: inline-block;
 	margin: 15px auto;
 }
-#back_to_top:hover {
+#back_to_top:hover,
+#back_to_home:hover {
 	outline: none;
 	text-decoration: none;
 	background-color: orange;
 	color: white;
 	padding: 15px;
 	border-radius: 30px;
+}
+.halloween-body {
+	overflow-x: hidden;
 }
 
 .alert-easter-egg {
