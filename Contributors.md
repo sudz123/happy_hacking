@@ -71,6 +71,7 @@
 - [Rafael M](https://github.com/RafaGrey)
 - [Farzan F A](https://github.com/Farzanfa)
 - [Adam Freeman](https://github.com/adamfr33man)
+- [Eduardo Lauer](https://github.com/edumlauer)
 - [Jaeren Tredway](https://github.com/JaerenTredway)
 - [Jeremy Ruffell](https://github.com/JeremyRuffell)
 - [Marios Georgiou](https://github.com/Mariosgeorgiou)
