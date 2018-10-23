@@ -79,6 +79,7 @@
 - [Gagan](https://github.com/gagan0183)
 - [klaudiakp](https://github.com/klaudiakp)
 - [Noa Nilsson](https://github.com/n0anilsson)
+- [Faiqa Shafqat](https://github.com/FaiqaShafqat79)
 - [Daniel Miller](https://github.com/dMilluh)
 - [Gilles Igot](https://github.com/gillesigot)
 - [Mohammed Shafi](https://github.com/ifahs1)
