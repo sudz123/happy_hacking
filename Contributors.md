@@ -113,4 +113,4 @@
 - [Mughees Ali](https://github.com/IMughees)
 - [Numan Rafique](https://github.com/Numanrafique)
 - [M. mursaleen](https://github.com/mmursaleen)
-- [Bradley B.].(https://github.com/budachb)
+- [Bradley B.](https://github.com/budachb)
