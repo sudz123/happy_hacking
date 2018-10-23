@@ -17,6 +17,7 @@
 - [Akshat Ahuja](https://www.github.com/akshatah33)
   - [LinkedIn](https://www.linkedin.com/in/akshatahuja/)
 - [Yuri Chandra](https://github.com/yurichandra)
+- [Ivana Livaja](https://github.com/ivilili)
 - [Edison Shek](https://github.com/most111)
 - [Karan Reddy](https://github.com/karanreddy77)
 - [Glenn Lanzer III](https://github.com/TexasBullet26)
