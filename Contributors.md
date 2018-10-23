@@ -26,6 +26,7 @@
 - [Parth Pandya](https://github.com/parthpandyappp)
   - [LinkedIn](https://www.linkedin.com/in/parth-pandya-4215b0152/)
 - [Awonusi Olajide](https://github.com/zenithcoder)
+- [Faisal Malik](https://github.com/faisalmalik932)
 - [Pasan Jayawickrama](https://github.com/pasanjayawickrama)
 - [Ina Singhal](https://github.com/pasanjayawickrama)
   - [linkedIn](https://www.linkedin.com/in/ina-singhal-204383169/)
