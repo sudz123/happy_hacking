@@ -99,6 +99,7 @@
 - [Siarhei Bahdanovich](https://github.com/siarhei-bahdanovich)
 - [Daniele Ventura](https://github.com/Orasz)
 - [Nap Joseph Calub](https://github.com/njncalub)
+- [Malik Naveed](https://github.com/maliknaveed6200)
 - [Annas Amer](https://github.com/annasamer3)
 - [Tabeel Iqbal](https://github.com/tabeeliqbal)
 - [Muhammad Usman](https://github.com/itkidunya)
@@ -107,4 +108,3 @@
 - [Inzamam ul haq](https://github.com/engrinzamam)
 - [Mughees Ali](https://github.com/IMughees)
 - [M. mursaleen](https://github.com/mmursaleen)
-
