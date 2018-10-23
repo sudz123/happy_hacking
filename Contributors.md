@@ -56,6 +56,7 @@
 - [Jay Song](https://github.com/LordofPotatoes)
 - [Sarthak Trivedi](https://github.com/sarthak-trivedi)
 - [Rahul Makhija](https://github.com/rahuls360)
+- [Sarthak Aggarwal](https://github.com/sarthak1995)
 - [Hayden Sykes](https://github.com/hasykes)
 - [Vishwajeet Srivastava](https://github.com/vjs3)
 - [Francesco Mistri](https://github.com/Ball-Man)
