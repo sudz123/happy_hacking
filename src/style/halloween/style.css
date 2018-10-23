@@ -22,6 +22,16 @@ p {
 	font-family: "Mali", cursive;
 }
 
+/*BODY HEADER FORMATTING*/
+.body-header{
+	background-color: rgba(0,0,0,0.8)
+}
+
+/*BODY PARAGRAPH FORMATTING*/
+.body-paragraph{
+	background-color: rgba(0,0,0,0.8)
+}
+
 #jumbotron {
   min-height: 450px;
   background: url("../../images/halloween/jumbotron.jpg") center;
