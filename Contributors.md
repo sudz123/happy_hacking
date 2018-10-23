@@ -100,6 +100,8 @@
 - [Daniele Ventura](https://github.com/Orasz)
 - [Nap Joseph Calub](https://github.com/njncalub)
 - [Lee Qixian](https://github.com/njncalub)
+- [Malik Naveed](https://github.com/maliknaveed6200)
+- [Annas Amer](https://github.com/annasamer3)
 - [Tabeel Iqbal](https://github.com/tabeeliqbal)
 - [Muhammad Usman](https://github.com/itkidunya)
 - [ილია](https://github.com/natchkebiailia)
