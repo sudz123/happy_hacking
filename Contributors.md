@@ -97,4 +97,5 @@
 - [Siarhei Bahdanovich](https://github.com/siarhei-bahdanovich)
 - [Daniele Ventura](https://github.com/Orasz)
 - [Nap Joseph Calub](https://github.com/njncalub)
+- [Inzamam ul haq](https://github.com/engrinzamam)
 - [Mughees Ali](https://github.com/IMughees)
