@@ -62,9 +62,10 @@ Here are some important links for learning the basics of web & further understan
 1. [Learn HTML](https://www.w3schools.com/html/)
 2. [Learn CSS](https://www.w3schools.com/Css/)
 3. [Learn Javascript](https://www.w3schools.com/js/)
-4. [Learn Bootstrap](https://www.w3schools.com/bootstrap/)
-5. [Learn how to make pull request](https://help.github.com/articles/creating-a-pull-request/)
-6. [Learn how to fork a repository](https://help.github.com/articles/fork-a-repo/)
+4. [Learn PHP](https://www.w3schools.com/php/)
+5. [Learn Bootstrap](https://www.w3schools.com/bootstrap/)
+6. [Learn how to make pull request](https://help.github.com/articles/creating-a-pull-request/)
+7. [Learn how to fork a repository](https://help.github.com/articles/fork-a-repo/)
 
 A few other tutorial links:
 
@@ -77,7 +78,7 @@ A few other tutorial links:
 - [Styling with CSS](./src/style/README-CSS.md)
 - [Functionality with JavaScript](./src/scripts/README-JS.md)
 - [CSS Tips and tricks](https://css-tricks.com)
-
+- [Learn HTML and CSS](https://www.oreilly.com)
 ## HALL OF FAME
 
 We would like to heartily thank **[Sarah D. Perea](https://github.com/sarahperea)** for her contributions to this repository! She has helped in creating an amazing homepage and her contributions have helped us grow and spread the art of Open Sourcing. Happy Hacking ;)
