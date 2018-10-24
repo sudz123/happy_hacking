@@ -15,7 +15,7 @@ If you want to continue using the rawgit trick on another project, you might nee
 Here is what our homepage looks like!
 https://rawgit.com/sudz123/Happy_Hacking/master/src/home.html
 https://raw.githack.com/sudz123/Happy_Hacking/master/src/home.html
-(both show the same thing, one using rawgit and the other using githack)
+(both show the same thing, one using rawgit and the other using githack.)
 
 # :bookmark: IMPORTANT :bookmark:
 
