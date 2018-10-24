@@ -120,3 +120,7 @@
 - [Gilad Bar](https://github.com/gomugilad6)
 - [Akshama](https://github.com/Akshama)
 - [Muhammad Awais Haider](https://github.com/muhammadawaishaider)
+- [Manoela Reis](https://github.com/manoela-reis)
+- [Kevin Ullyott](https://github.com/Orrison)
+    - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
+- [Akshama](https://github.com/Akshama)
