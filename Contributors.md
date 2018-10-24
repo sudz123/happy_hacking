@@ -89,6 +89,7 @@
 - [Federico Centurioni](https://github.com/FedericoCenturioni)
 - [SheiUn](https://github.com/sheiun)
 - [Sushma Unnibhavi](https://github.com/sushmaunnibhavi)
+- [Nikhil Shrivastava](https://github.com/Nikhilshrivastava)
 - [Yohanan Baruchel](https://github.com/ybaruchel)
 - [Haqverdi Behbduov](https://github.com/Haqverdi)
 - [Vipul Chaudhary](https://github.com/vipul-)
