@@ -36,6 +36,7 @@ p {
   min-height: 450px;
   background: url("../../images/halloween/jumbotron.jpg") center;
   position: relative;
+	overflow: hidden;
 }
 
 #floatingwitch {
