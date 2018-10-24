@@ -20,6 +20,9 @@
     <!--mali google font-->
     <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
 
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="scripts/halloween/halloween.js"></script>
 </head>
 
@@ -120,9 +123,7 @@
         <section id="content" class="mt-4 container">
             <div class="row">
                 <div class="video">
-                    <div class="col-md-12">
-                        <iframe width="420" height="315" src="https://www.youtube.com/embed/-vnbaB0pAuE"></iframe>
-                    </div>
+                    <!-- Video is embedded thru jQuery -->
                 </div>
             </div>
         </section>
@@ -150,6 +151,21 @@
         horror.
     </div>
 
+<script>
+jQuery( document ).ready(function() {
+    var vid_width = jQuery('.video').width();
+    var vid_height = vid_width * 9/16;
+    jQuery(".video").prepend("<iframe width='" + vid_width+ "' height='" + vid_height + "' src='https://www.youtube.com/embed/-vnbaB0pAuE?rel=0' frameborder='0' allowfullscreen>");
+});
+jQuery( window ).resize(function() {
+    jQuery(".video iframe").remove();
+    var vid_width = jQuery('.video').width();
+    var vid_height = vid_width * 9/16;
+    jQuery(".video").prepend("<iframe width='" + vid_width+ "' height='" + vid_height + "' src='https://www.youtube.com/embed/-vnbaB0pAuE?rel=0' frameborder='0' allowfullscreen>");
+});
+</script>
 </body>
+
+
 
 </html>
