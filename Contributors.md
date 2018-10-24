@@ -66,6 +66,7 @@
 - [Sriram S. Nair](https://github.com/sriramsnair)
 - [Mike Capps](https://github.com/MikeCapps2006)
 - [Tom Braul](https://github.com/tombraul)
+- [Jack Hao](https://github.com/jackhhao)
 - [DanielxSantos](https://github.com/danielxsantos)
 - [Michelle Vick](https://github.com/vivega-mv)
 - [Rafael M](https://github.com/RafaGrey)
