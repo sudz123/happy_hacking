@@ -1,5 +1,6 @@
 ﻿# Contributors
 
+- [Jack Gong] (https://github.com/AwesomeJackify)
 - [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
 - [Muhammad Ali](https://github.com/designsbyali)
