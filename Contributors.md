@@ -111,6 +111,7 @@
 - [ილია](https://github.com/natchkebiailia)
 - [Saba Younis](https://github.com/sabayounis)
 - [Inzamam ul haq](https://github.com/engrinzamam)
+- [Mudassar Nazeer](https://github.com/MudassarNazeer1)
 - [Mughees Ali](https://github.com/IMughees)
 - [Numan Rafique](https://github.com/Numanrafique)
 - [M. mursaleen](https://github.com/mmursaleen)
