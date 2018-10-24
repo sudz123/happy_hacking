@@ -26,6 +26,7 @@ header {
 header h3 {
   padding: 0.5em;
   font-size: 1.6em;
+  line-height: 1.5;
   float: left;
   white-space: nowrap;
   color: #fff;
