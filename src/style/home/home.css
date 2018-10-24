@@ -615,6 +615,10 @@ body > .container {
   transition: background 0.07s linear;
 }
 
+.profilecard .pc {
+  margin: 0 10px;
+}
+
 .baseline {
   color: #000;
   font-size: 14px;
