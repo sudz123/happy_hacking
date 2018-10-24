@@ -1,0 +1,21 @@
+Some basics of tensor flow using program..
+  import tensorflow as tf##we can not take array as tensor .
+node1=tf.constant(3.0,tf.float32)
+node2=tf.constant(4.0)
+
+s=tf.Session()
+print(s.run([node1,node2]))
+s.close()
+
+with tf.Session() as s:
+    output=s.run([node1,node2])
+    print(output)
+
+a=tf.constant(3.0)
+b=tf.constant(5.0)
+d=tf.constant(6.0)
+c=a*b
+s=tf.Session()
+print(s.run(c))
+
+#we can take various other problems in same way,basically this is the basic idea about how to use tensorflow
