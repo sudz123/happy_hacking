@@ -193,12 +193,13 @@
                         </ul>
                     </div>
                     <div class="copyright">
-                        <p>
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script> ALL RIGHTS RESERVED
+                        <p id='pcopyright'>
+                            
                         </p>
                     </div>
+                    <script>
+                          document.getElementById("pcopyright").innerHTML=new Date().getFullYear() + ' ALL RIGHTS RESERVED'
+                    </script> 
                 </div>
             </footer>
         </div>
