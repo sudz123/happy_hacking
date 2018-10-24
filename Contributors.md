@@ -1,4 +1,4 @@
-# Contributors
+﻿# Contributors
 
 - [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
@@ -119,3 +119,4 @@
 - [Bradley B.](https://github.com/budachb)
 - [Gilad Bar](https://github.com/gomugilad6)
 - [Akshama](https://github.com/Akshama)
+- [Muhammad Awais Haider](https://github.com/muhammadawaishaider)
