@@ -225,6 +225,10 @@ li {
   list-style: none;
 }
 
+hr {
+  width: 75%;
+}
+
 #maintainers-links a {
   font-size: 16px;
   display: inline-block;
