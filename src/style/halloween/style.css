@@ -153,6 +153,10 @@ p {
 	overflow-x: hidden;
 }
 
+.body-bg {
+	background-image: url('../../images/halloween/img.gif');
+}
+
 .alert-easter-egg {
 	position: absolute;
 	top: 82px;
