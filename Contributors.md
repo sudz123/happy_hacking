@@ -1,5 +1,5 @@
 ﻿# Contributors
-
+- [Kishan Kaushik](https://github.com/kishankaushik)
 - [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
 - [Muhammad Ali](https://github.com/designsbyali)
@@ -124,3 +124,5 @@
 - [Kevin Ullyott](https://github.com/Orrison)
     - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
 - [Akshama](https://github.com/Akshama)
+- [Carlo Carlo Lizano](https://github.com/clizano)
+

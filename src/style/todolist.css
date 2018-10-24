@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+:root {
+    --shadow: rgba(51, 51, 51, 0.3) 1px 1px 1px 1px;
+}
+
+body {
+    
+}
+
+header {
+    height: 30px;
+    padding: 10px 20px;
+    background-color: rgb(110, 110, 110);
+    position: relative;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+
+header input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+}
+
+header input:focus {
+    outline: none;
+}
+
+
+.add {
+    top: 5px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 17px;
+    position: absolute;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+main {
+    margin: 10px 20px;
+}
+
+.card {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+.card img{
+    margin: 2px;
+}
+
+.card img:first-of-type{
+    margin-left: auto;
+}
+
+
+.removeCard{
+    transform: translate(-100vw, 0);
+    opacity: 0;
+}
+
+
+.doneCard{
+    background-color : rgb(10, 165, 10); 
+}
+
+hr {
+    border-color: #333;
+    opacity: .3;
+}
+
+.newCard{
+    opacity: 0.2;
+}
