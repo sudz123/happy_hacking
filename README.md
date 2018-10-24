@@ -77,6 +77,7 @@ A few other tutorial links:
 - [Running HTML pages](./src/README-HTML.md)
 - [Styling with CSS](./src/style/README-CSS.md)
 - [Functionality with JavaScript](./src/scripts/README-JS.md)
+- [Functionality with php](./src/php/README-JS.md)
 - [CSS Tips and tricks](https://css-tricks.com)
 - [Learn HTML and CSS](https://www.oreilly.com)
 ## HALL OF FAME
