@@ -1,4 +1,4 @@
-# Contributors
+﻿# Contributors
 
 - [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
@@ -115,4 +115,4 @@
 - [Numan Rafique](https://github.com/Numanrafique)
 - [M. mursaleen](https://github.com/mmursaleen)
 - [Bradley B.](https://github.com/budachb)
-- [Gilad Bar](https://github.com/gomugilad6)
+- [Mubashar](https://github.com/Mubashar1992/Happy_Hacking)
