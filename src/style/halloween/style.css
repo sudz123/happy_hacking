@@ -43,7 +43,7 @@ p {
   position: absolute;
 }
 
-#content {
+section {
 	color: white;
 	font-size: 18px;
 	min-height: 200px;
