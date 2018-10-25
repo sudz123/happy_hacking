@@ -26,6 +26,7 @@ header {
 header h3 {
   padding: 0.5em;
   font-size: 1.6em;
+  line-height: 1.5;
   float: left;
   white-space: nowrap;
   color: #fff;
@@ -174,6 +175,10 @@ header h3 span {
   padding: 3.5% 0 3.5% 0 !important;
 }
 
+#video-holder h1 {
+  text-align: center;
+}
+
 #teaser-video {
   text-align: center;
   width: 70%;
@@ -194,6 +199,7 @@ header h3 span {
   bottom: 0;
   left: 0;
   right: 0;
+  border: 0;
 }
 
 button {
@@ -223,6 +229,10 @@ nav button {
 
 li {
   list-style: none;
+}
+
+hr {
+  width: 75%;
 }
 
 #maintainers-links a {
@@ -615,6 +625,10 @@ body > .container {
   transition: background 0.07s linear;
 }
 
+.profilecard .pc {
+  margin: 0 10px;
+}
+
 .baseline {
   color: #000;
   font-size: 14px;
@@ -628,6 +642,14 @@ body > .container {
 .card_img {
   border-radius: 50%;
   margin: 10px;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.card_img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
 }
 
 .name {
