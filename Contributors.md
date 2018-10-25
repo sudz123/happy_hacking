@@ -13,6 +13,7 @@
   - [LinkedIn](https://www.linkedin.com/in/diptanshu-agarwal/)
 - [CallmeHenry](https://github.com/CallmeHenry)
 - [Yusuf Adeyemo](https://github.com/Yusadolat)
+- [nuntjw](https://github.com/nuntjw)
   - [LinkedIn](https://www.linkedin.com/in/yusadolat/)
 - [Akshat Ahuja](https://www.github.com/akshatah33)
   - [LinkedIn](https://www.linkedin.com/in/akshatahuja/)
