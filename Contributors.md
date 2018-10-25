@@ -131,5 +131,5 @@
 - [Carlo Carlo Lizano](https://github.com/clizano)
 - [Frank Schiller](https://github.com/frankles12)
 - [Conrad Fitzgerald](https://github.com/conradfitzgerald)
+- [Bolaram Paul](https://github.com/bolaram)
 - [Dimitar Jilanov](https://github.com/djilanov)
-
