@@ -1,6 +1,6 @@
 # :tada::tada::smile: Hacking
 
-Let's have a productive Hacktoberfest. Submit 5 PRs to this account after registering yourself [here](https://hacktoberfest.digitalocean.com/).
+Let's have a productive Hacktoberfest!!! Submit 5 PRs to this account after registering yourself [here](https://hacktoberfest.digitalocean.com/).
 
 # :construction_worker: About
 
