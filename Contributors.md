@@ -19,6 +19,7 @@
   - [LinkedIn](https://www.linkedin.com/in/akshatahuja/)
 - [Yuri Chandra](https://github.com/yurichandra)
 - [Ivana Livaja](https://github.com/ivilili)
+- [axux](https://github.com/axux)
 - [Edison Shek](https://github.com/most111)
 - [Karan Reddy](https://github.com/karanreddy77)
 - [Glenn Lanzer III](https://github.com/TexasBullet26)
