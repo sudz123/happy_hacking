@@ -126,4 +126,5 @@
     - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
 - [Akshama](https://github.com/Akshama)
 - [Carlo Carlo Lizano](https://github.com/clizano)
+- [Frank Schiller](https://github.com/frankles12)
 - [Conrad Fitzgerald](https://github.com/conradfitzgerald)
