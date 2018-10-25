@@ -128,6 +128,7 @@
 - [Akshama](https://github.com/Akshama)
 - [rana faisal](https://github.com/IRanaFaisal)
 - [Carlo Carlo Lizano](https://github.com/clizano)
+- [Frank Schiller](https://github.com/frankles12)
 - [Conrad Fitzgerald](https://github.com/conradfitzgerald)
 - [Dimitar Jilanov](https://github.com/djilanov)
 
