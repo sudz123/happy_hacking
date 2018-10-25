@@ -17,6 +17,12 @@ https://rawgit.com/sudz123/Happy_Hacking/master/src/home.html
 https://raw.githack.com/sudz123/Happy_Hacking/master/src/home.html
 (both show the same thing, one using rawgit and the other using githack)
 
+# :bookmark: Looking for more advanced projects? :bookmark:
+
+If you are looking for something a little more advanced, checkout the Optimizer project at the link below.
+
+https://github.com/sudz123/Optimizer
+
 # :bookmark: IMPORTANT :bookmark:
 
 Since this repository is gaining some momentum, We expect good grammar in all PRs. We also expect proper comments in the code. The code could be trivial with a small change, that is totally fine.
