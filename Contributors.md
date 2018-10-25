@@ -125,5 +125,7 @@
 - [Kevin Ullyott](https://github.com/Orrison)
     - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
 - [Akshama](https://github.com/Akshama)
+- [rana faisal](https://github.com/IRanaFaisal)
 - [Carlo Carlo Lizano](https://github.com/clizano)
 - [Conrad Fitzgerald](https://github.com/conradfitzgerald)
+
