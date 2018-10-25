@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html id="html">
+    <head>
+        <title>Pretty Colours</title>
+        <script>function toDegrees (angle) {
+            return angle * (180 / Math.PI);
+        }
+        
+        function sinIt(x) {
+            return Math.abs(Math.sin(toDegrees(x)));
+        }
+        
+        (function() {
+            document.onmousemove = handleMouseMove;
+            function handleMouseMove(event) {
+                event = event;
+        
+                fontSize = event.pageX/5;
+        
+        
+                r = sinIt(event.pageX/100000) * 255;
+                g = sinIt(event.pageY/50000) * 255;
+                b = sinIt(Math.cos(event.pageX/7500)) * 255;
+        
+                document.getElementById("html").style.backgroundColor = "rgba(" + r + ", " + g + ", " + b + ", 1)";
+                // document.getElementById("header").style.color = "rgb(" + g + ", " + r + ", " + b + ")";
+                // document.getElementById("sub").style.color = "rgb(" + b + ", " + g + ", " + r + ")";
+        
+            }
+        }
+        )();</script>
+    </head><body>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    html {
+        background-color: black;
+        color: white;
+        font-family: 'Roboto';
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+    </style>
+
+    <h1 id="header">Hi There, I'm Heggrik!</h1>
+    <p>I'm here for Hacktoberfest, i'm guessing you are to!.</p>
+    
+    <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
+    
+    </body>
+</html>
