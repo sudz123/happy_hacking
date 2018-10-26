@@ -1,6 +1,7 @@
 ﻿# Contributors
 - [Kishan Kaushik](https://github.com/kishankaushik)
-- [Ashish Patel](https://github.com/ashishpatelcs) - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
+- [Ashish Patel](https://github.com/ashishpatelcs)
+  - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
 - [Muhammad Ali](https://github.com/designsbyali)
 - [Brian Barry](https://github.com/bribarry)
@@ -136,3 +137,4 @@
 - [Bolaram Paul](https://github.com/bolaram)
 - [Dimitar Jilanov](https://github.com/djilanov)
 - [Michael Matherson](https://github.com/michaelmatherson)
+- [Umme Ammara](https://github.com/UmmeAmmaraa/)
