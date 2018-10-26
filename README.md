@@ -61,7 +61,7 @@ Create a pull request that will be merged into the main repo.
 
 :white_check_mark: If you have questions on any issue, kindly use the comment.
 
-## :pencil2::pencil2:Important Links:pencil2::pencil2:
+## :pencil2:pencil2:Important Links:pencil2::pencil2:
 
 Here are some important links for learning the basics of web & further understanding of code. We hope this comforts you. Stay motivated!
 
