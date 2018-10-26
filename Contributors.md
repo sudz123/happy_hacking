@@ -1,4 +1,6 @@
 ﻿# Contributors
+- [Yoga Agung](https://github.com/yogaap24)
+  - [LinkedIn](https://www.linkedin.com/in/yogaap24/)
 - [Tyler McDonald](https://github.com/ManiacalBilby)
   - [LinkedIn](https://www.linkedin.com/in/tylerwmcdonald/)
 - [Sudarshan Kamath](https://github.com/sudz123)
@@ -143,4 +145,3 @@
 - [Haider Khaleel](https://github.com/haiderkhaleel23)
 - [Michael Matherson](https://github.com/michaelmatherson)
 - [Umme Ammara](https://github.com/UmmeAmmaraa/)
-- [Yoga Agung](https://github.com/yogaap24)
