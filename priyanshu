@@ -1,0 +1,6 @@
+#include<stdio.h>
+void main()
+{
+printf("Happy-Hacking,It's Awesome.");
+
+}
