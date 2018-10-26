@@ -371,3 +371,5 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+img.responsive {max-width:100%}
