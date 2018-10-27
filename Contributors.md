@@ -149,3 +149,5 @@
 - [Umme Ammara](https://github.com/UmmeAmmaraa/)
 - [Surayya Yousuf](https://github.com/surayyayousaf)
 - [SJ](https://github.com/bluejay2011)
+- [Amulya Gaur](https://github.com/amulyagaur)
+  - [LinkedIn](https://www.linkedin.com/in/amulya-gaur-792054109/)
