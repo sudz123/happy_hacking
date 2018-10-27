@@ -9,6 +9,8 @@
   - [LinkedIn](https://www.linkedin.com/in/yogaap24/)
 - [Tyler McDonald](https://github.com/ManiacalBilby)
   - [LinkedIn](https://www.linkedin.com/in/tylerwmcdonald/)
+- [Grzegorz Pasieka](https://github.com/AlithAnar)
+  - [LinkedIn](https://www.linkedin.com/in/grzegorz-pasieka-396b8294/)
 - [Kishan Kaushik](https://github.com/kishankaushik)
 - [Ashish Patel](https://github.com/ashishpatelcs)
   - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
