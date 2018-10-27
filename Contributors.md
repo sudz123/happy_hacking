@@ -149,3 +149,4 @@
 - [Umme Ammara](https://github.com/UmmeAmmaraa/)
 - [Surayya Yousuf](https://github.com/surayyayousaf)
 - [SJ](https://github.com/bluejay2011)
+- [Abdulsamad Aliyu](https://github.com/nitrocoder234)
