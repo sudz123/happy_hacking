@@ -1,4 +1,6 @@
 ﻿# Contributors
+- [Grzegorz Pasieka](https://github.com/AlithAnar)
+  - [LinkedIn](https://www.linkedin.com/in/grzegorz-pasieka-396b8294/)
 - [Yoga Agung](https://github.com/yogaap24)
   - [LinkedIn](https://www.linkedin.com/in/yogaap24/)
 - [Tyler McDonald](https://github.com/ManiacalBilby)
