@@ -162,3 +162,5 @@
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
+- [Athul Jayaram](https://github.com/juniorhero)
+  - [LinkedIn](https://www.linkedin.com/in/athuljayaram/)
