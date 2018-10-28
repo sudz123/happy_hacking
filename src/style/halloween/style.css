@@ -50,7 +50,7 @@ section {
 	margin-bottom: 10px;
 }
 
-#content img {
+section img {
 	border-radius: 5px;
 	margin-bottom: 10px;
 
@@ -60,7 +60,7 @@ section {
 	transition: all 0.3s ease-out;
 }
 
-#content img:hover {
+section img:hover {
 	transform: scale(1.1);
 	box-shadow: 0px 5px 15px rgba(48, 112, 42, 0.2);	
 }
