@@ -150,6 +150,8 @@
 - [Umme Ammara](https://github.com/UmmeAmmaraa/)
 - [Surayya Yousuf](https://github.com/surayyayousaf)
 - [SJ](https://github.com/bluejay2011)
+- [Amulya Gaur](https://github.com/amulyagaur)
+  - [LinkedIn](https://www.linkedin.com/in/amulya-gaur-792054109/)
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
