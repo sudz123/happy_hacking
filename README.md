@@ -89,7 +89,7 @@ A few other tutorial links:
 - [Learn HTML and CSS](https://www.oreilly.com)
 - [Design Patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 - [Freecodecamp](https://www.freecodecamp.org/)
-
+- codecademy.com
 ## HALL OF FAME
 
 We would like to heartily thank **[Sarah D. Perea](https://github.com/sarahperea)** for her contributions to this repository! She has helped in creating an amazing homepage and her contributions have helped us grow and spread the art of Open Sourcing. Happy Hacking ;)
