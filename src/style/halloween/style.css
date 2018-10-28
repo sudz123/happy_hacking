@@ -62,7 +62,7 @@ section img {
 
 section img:hover {
 	transform: scale(1.1);
-	box-shadow: 0px 5px 15px rgba(48, 112, 42, 0.2);	
+	box-shadow: 0px 5px 15px rgba(48, 112, 42, 0.2);
 }
 
 #countdown {
@@ -195,4 +195,16 @@ section img:hover {
 
 .navbar {
 	background-color: #000000;
+}
+
+.zoom {
+  transition: transform .5s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.zoom-container {
+  overflow: hidden;
 }
