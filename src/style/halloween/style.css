@@ -81,6 +81,7 @@ section img:hover {
 	margin: auto;
 	display: block;
 	text-align: center;
+	width: 100%;
 }
 
 .orange-content {
