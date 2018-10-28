@@ -56,7 +56,9 @@ Before clicking button:
 After clicking button:
 <div style="color:blue;">Click the button to change my color!</div>
 
+
 **Closures**
+
 A Closure is when a function can access variables in outer functions ( scopes ) even after those outer functions have returned / terminated.
 
 ```
