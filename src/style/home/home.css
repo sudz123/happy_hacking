@@ -602,6 +602,19 @@ body > .container {
   height: 100% !important;
   margin: auto;
 }
+@media(max-width: 1024px) {
+  #myCarousel,
+  .carousel-inner,
+  .carousel-inner > .item,
+  .carousel-control {
+    height: auto;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    height: auto;
+  }
+  
+}
 
 /* ===== Card ===== */
 .card-container {
