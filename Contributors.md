@@ -1,4 +1,4 @@
-﻿# Contributors
+# Contributors
 - [Sudarshan Kamath](https://github.com/sudz123)
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
@@ -151,6 +151,7 @@
 - [Umme Ammara](https://github.com/UmmeAmmaraa/)
 - [Surayya Yousuf](https://github.com/surayyayousaf)
 - [SJ](https://github.com/bluejay2011)
+- [Farzan F AJ](https://github.com/farzanfa00)
 - [Sagar Utekar](https://github.com/Sagar2366)
 - [prateek552](https://github.com/bluejay2011)
 - [Amulya Gaur](https://github.com/amulyagaur)
