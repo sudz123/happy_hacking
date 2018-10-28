@@ -1,4 +1,6 @@
-# Contributors
+﻿# Contributors
+- [kanda](https://github.com/kanda94/)
+  - [LinkedIn](https://www.linkedin.com/in/chamith-rasintha-74b007161/)
 - [Sudarshan Kamath](https://github.com/sudz123)
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
