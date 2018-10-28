@@ -51,10 +51,14 @@ button.addEventListener("click", function() {
 ```
 
 Before clicking button:
+```
 <div>Click the button to change my color!</div>
+```
 
 After clicking button:
+```
 <div style="color:blue;">Click the button to change my color!</div>
+```
 
 **Closures**
 
