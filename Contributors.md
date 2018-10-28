@@ -21,6 +21,7 @@
 - [Udit Agarwal](https://github.com/Udit1999)
   - [LinkedIn](https://www.linkedin.com/in/udit-agarwal-83416b160)
 - [CallmeHenry](https://github.com/CallmeHenry)
+- [Ronish Zadode](https://github.com/ronishz)
 - [Yusuf Adeyemo](https://github.com/Yusadolat)
 - [nuntjw](https://github.com/nuntjw)
   - [LinkedIn](https://www.linkedin.com/in/yusadolat/)
