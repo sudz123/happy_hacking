@@ -147,7 +147,7 @@ As PHP is a web programming language, it is essential that we know how to connec
         }
     ?>
 
-This example will connect to database `testDatabase` and display the number of users that are present in `userTable`. In general, this is the database connector of choice usually less prone to security flaws and is accepted as good practice.
+This example will connect to the `testDatabase` database and display the number of users that are present in `userTable`. In general, this is the database connector of choice usually less prone to security flaws and is accepted as good practice.
 
 In many cases, we will not connect to databases in the same file as where we're making changes or retrieving data. It is better to use classes that handle these for us as it simplifies and improves our code. 
 

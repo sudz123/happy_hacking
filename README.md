@@ -1,4 +1,4 @@
-# :tada::tada::smile: Hacking
+# :tada::tada::smile: Hacking :smile::tada::tada:
 
 Let's have a productive Hacktoberfest!!! Submit 5 PRs to this account after registering yourself [here](https://hacktoberfest.digitalocean.com/).
 

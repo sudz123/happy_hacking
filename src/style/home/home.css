@@ -74,7 +74,7 @@ header h3 span {
   opacity: 1;
 }
 
-.card {
+.maintainers {
   font-size: 20px;
   border: 1px solid #ddd;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -85,11 +85,6 @@ header h3 span {
   -o-transition: 0.3s;
   transition: 0.3s;
   padding: 1% 10%;
-}
-
-.card:hover {
-  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 #contact {
@@ -608,24 +603,63 @@ body > .container {
   margin: auto;
 }
 
-.profilecard {
+/* ===== Card ===== */
+.card-container {
+  margin: 1.875em auto 2.5em auto;
+  max-width: 920px;
+}
+
+.card-container * + * {
+  margin-left: 4%;
+}
+
+.card-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.card {
+  width: 48%;
+  float: left;
+}
+
+.profile {
+  position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
   text-align: center;
   font-family: arial;
-  display: inline-block;
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding: 0.3em 1em 0.3em 0.5em;
-  margin: 0.2em;
-  background-color: #dcdcdc;
+  border-radius: .625em;
+  padding: 1.2em 1.4em;
+  background-color: #fff;
   color: #000;
   -webkit-transition: background 0.07s linear;
   -o-transition: background 0.07s linear;
   transition: background 0.07s linear;
+  height: 28em;
 }
 
-.profilecard .pc {
+.profile::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  border-radius: .625em .625em 0 0;
+  background-color: midnightblue;
+  z-index: 1;
+}
+
+.card:nth-child(1) .profile::before {
+  background: center / cover no-repeat url('../../images/home/hacktoberfest2018.png');
+}
+
+.card:nth-child(2) .profile::before {
+  background: center / cover no-repeat url('../../images/home/hacktoberfest2017.jpeg');
+}
+
+.profile .pc {
   margin: 0 10px;
 }
 
@@ -639,15 +673,38 @@ body > .container {
   font-size: 17px;
 }
 
-.card_img {
+.profile__img {
+  position: relative;
+  display: inline-block;
+  margin-bottom: .8em;
+  width: 9.6em;
+  z-index: 5;
+}
+
+.profile__img img {
+  max-width: 100%;
   border-radius: 50%;
-  margin: 10px;
+  border: 0.2em solid #fff;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
-.card_img:hover {
+.social-links {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  bottom: 0.8em;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.profile__img img:hover {
   -webkit-filter: grayscale(0);
   filter: none;
 }
@@ -660,14 +717,19 @@ body > .container {
   font-size: 12px;
 }
 
-.pc a {
-  text-decoration: none;
-  font-size: 22px;
-  color: #000;
-}
-
 .fa {
   padding: 15px;
   text-align: center;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 803px) {
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .card:nth-child(odd) {
+    margin-bottom: 2.5em;
+  }
 }
