@@ -1,4 +1,5 @@
 # Contributors
+
 - [Sudarshan Kamath](https://github.com/sudz123)
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
@@ -133,7 +134,7 @@
 - [Muhammad Awais Haider](https://github.com/muhammadawaishaider)
 - [Manoela Reis](https://github.com/manoela-reis)
 - [Kevin Ullyott](https://github.com/Orrison)
-    - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
+  - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
 - [Akshama](https://github.com/Akshama)
 - [rana faisal](https://github.com/IRanaFaisal)
 - [Carlo Carlo Lizano](https://github.com/clizano)
@@ -162,3 +163,4 @@
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
+- [Atti](https://github.com/Platyka)
