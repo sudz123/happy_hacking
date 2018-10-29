@@ -1,5 +1,5 @@
-# Contributors
-
+- [kanda](https://github.com/kanda94/)
+  - [LinkedIn](https://www.linkedin.com/in/chamith-rasintha-74b007161/)
 - [Venusha Amarathunga](https://github.com/venushaamarathunga)
   - [LinkedIn](https://www.linkedin.com/in/venusha-amarathunga-9573b4172/)
 - [Sudarshan Kamath](https://github.com/sudz123)
