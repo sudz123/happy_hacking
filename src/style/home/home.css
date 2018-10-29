@@ -8,6 +8,17 @@ body {
   margin: 50px auto 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -21,6 +32,7 @@ header {
   box-sizing: border-box;
   overflow: hidden;
   padding-right: 15px;
+  color: #fff;
 }
 
 header h3 {
@@ -29,7 +41,6 @@ header h3 {
   line-height: 1.5;
   float: left;
   white-space: nowrap;
-  color: #fff;
   display: inline-block;
   margin: 0;
   position: relative;
@@ -59,7 +70,6 @@ header nav a {
   font-weight: bold;
   padding: 20px 25px;
   cursor: pointer;
-  color: white;
   text-decoration: none;
 }
 
@@ -496,49 +506,6 @@ label {
   outline: none;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
 @-webkit-keyframes halloween {
   from {
     background-position: 0 0;
@@ -603,13 +570,50 @@ body > .container {
   margin: auto;
 }
 
+/* ===== Social Links ===== */
+.social-links {
+  margin: 0;
+  padding: 0;
+}
+
+.social-link {
+  width: 2.4em;
+  padding: .4em;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.social-link:hover {
+  opacity: 0.7;
+}
+
+.social-links--inline li {
+  display: inline-block;
+}
+
+.social-links--inline li:not(:first-child) {
+  margin-left: .925em;
+}
+
+.social-link--twitter { background: #55acee; }
+
+.social-link--linkedin { background: #007bb5; }
+
+.social-link--facebook { background: #3b5998; }
+
+.social-link-google { background: #dd4b39; }
+
+.social-link-youtube { background: #bb0000; }
+
+.social-link-instagram { background: #125688; }
+
 /* ===== Card ===== */
 .card-container {
   margin: 1.875em auto 2.5em auto;
   max-width: 920px;
 }
 
-.card-container * + * {
+.card-container > * + * {
   margin-left: 4%;
 }
 
@@ -624,11 +628,12 @@ body > .container {
   float: left;
 }
 
+/* ===== Profile ===== */
 .profile {
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
   font-family: arial;
+  text-align: center;
   border-radius: .625em;
   padding: 1.2em 1.4em;
   background-color: #fff;
@@ -636,7 +641,7 @@ body > .container {
   -webkit-transition: background 0.07s linear;
   -o-transition: background 0.07s linear;
   transition: background 0.07s linear;
-  height: 28em;
+  height: 25em;
 }
 
 .profile::before {
@@ -651,26 +656,13 @@ body > .container {
   z-index: 1;
 }
 
+/* avoid creating an extra class for bg images */
 .card:nth-child(1) .profile::before {
   background: center / cover no-repeat url('../../images/home/hacktoberfest2018.png');
 }
 
 .card:nth-child(2) .profile::before {
   background: center / cover no-repeat url('../../images/home/hacktoberfest2017.jpeg');
-}
-
-.profile .pc {
-  margin: 0 10px;
-}
-
-.baseline {
-  color: #000;
-  font-size: 14px;
-}
-
-.title {
-  color: #000;
-  font-size: 17px;
 }
 
 .profile__img {
@@ -690,37 +682,32 @@ body > .container {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
-.social-links {
-  position: absolute;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  left: 0;
-  right: 0;
-  bottom: 0.8em;
-}
-
-.social-links li {
-  display: inline-block;
-}
-
 .profile__img img:hover {
   -webkit-filter: grayscale(0);
   filter: none;
-}
-
-.name {
-  color: #000;
 }
 
 .baseline {
   font-size: 12px;
 }
 
-.fa {
-  padding: 15px;
-  text-align: center;
-  border-radius: 50%;
+.title {
+  font-size: 17px;
+}
+
+/* position social links relative to profile */
+.profile .social-links {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0.8em;
+}
+
+@media screen and (max-width: 400px) {
+  .profile__img {
+    width: 7.6em;
+    margin-bottom: .1em;
+  }
 }
 
 @media screen and (max-width: 803px) {
