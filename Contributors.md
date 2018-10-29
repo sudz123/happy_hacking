@@ -164,6 +164,7 @@
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
+- [James Long](https://github.com/jameslongs37)
 - [Edwin Francis](https://github.com/edwinfrancis002)
 - [Melvin Abraham](https://github.com/melvinabraham)
 - [Naman](https://linkedin.com/in/naman-doshi)
