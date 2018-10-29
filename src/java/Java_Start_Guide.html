@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Java Start Guide</title>
+		<style>
+			body {
+			  max-width: 980px;
+			  border: 1px solid #ddd;
+			  outline: 1300px solid #fff;
+			  margin: 16px auto;
+			}
+
+			body .markdown-body {
+			  padding: 45px;
+			}
+
+			.markdown-body {
+			  font-family: sans-serif;
+			  -ms-text-size-adjust: 100%;
+			  -webkit-text-size-adjust: 100%;
+			  color: #333333;
+			  overflow: hidden;
+			  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+			  font-size: 16px;
+			  line-height: 1.6;
+			  word-wrap: break-word;
+			}
+
+			.markdown-body a {
+			  background: transparent;
+			}
+
+			.markdown-body a:active,
+			.markdown-body a:hover {
+			  outline: 0;
+			}
+
+			.markdown-body b,
+			.markdown-body strong {
+			  font-weight: bold;
+			}
+
+			.markdown-body mark {
+			  background: #ff0;
+			  color: #000;
+			  font-style: italic;
+			  font-weight: bold;
+			}
+
+			.markdown-body sub,
+			.markdown-body sup {
+			  font-size: 75%;
+			  line-height: 0;
+			  position: relative;
+			  vertical-align: baseline;
+			}
+			.markdown-body sup {
+			  top: -0.5em;
+			}
+			.markdown-body sub {
+			  bottom: -0.25em;
+			}
+
+			.markdown-body h1 {
+			  font-size: 2em;
+			  margin: 0.67em 0;
+			}
+
+			.markdown-body img {
+			  border: 0;
+			}
+
+			.markdown-body hr {
+			  -moz-box-sizing: content-box;
+			  box-sizing: content-box;
+			  height: 0;
+			}
+
+			.markdown-body pre {
+			  overflow: auto;
+			}
+
+			.markdown-body code,
+			.markdown-body kbd,
+			.markdown-body pre,
+			.markdown-body samp {
+			  font-family: monospace, monospace;
+			  font-size: 1em;
+			}
+
+			.markdown-body input {
+			  color: inherit;
+			  font: inherit;
+			  margin: 0;
+			}
+
+			.markdown-body html input[disabled] {
+			  cursor: default;
+			}
+
+			.markdown-body input {
+			  line-height: normal;
+			}
+
+			.markdown-body input[type="checkbox"] {
+			  box-sizing: border-box;
+			  padding: 0;
+			}
+
+			.markdown-body table {
+			  border-collapse: collapse;
+			  border-spacing: 0;
+			}
+
+			.markdown-body td,
+			.markdown-body th {
+			  padding: 0;
+			}
+
+			.markdown-body .codehilitetable {
+			  border: 0;
+			  border-spacing: 0;
+			}
+
+			.markdown-body .codehilitetable tr {
+			  border: 0;
+			}
+
+			.markdown-body .codehilitetable pre,
+			.markdown-body .codehilitetable div.codehilite {
+			  margin: 0;
+			}
+
+			.markdown-body .linenos,
+			.markdown-body .code,
+			.markdown-body .codehilitetable td {
+			  border: 0;
+			  padding: 0;
+			}
+
+			.markdown-body td:not(.linenos) .linenodiv {
+			  padding: 0 !important;
+			}
+
+			.markdown-body .code {
+			  width: 100%;
+			}
+
+			.markdown-body .linenos div pre,
+			.markdown-body .linenodiv pre,
+			.markdown-body .linenodiv {
+			  border: 0;
+			  -webkit-border-radius: 0;
+			  -moz-border-radius: 0;
+			  border-radius: 0;
+			  -webkit-border-top-left-radius: 3px;
+			  -webkit-border-bottom-left-radius: 3px;
+			  -moz-border-radius-topleft: 3px;
+			  -moz-border-radius-bottomleft: 3px;
+			  border-top-left-radius: 3px;
+			  border-bottom-left-radius: 3px;
+			}
+
+			.markdown-body .code div pre,
+			.markdown-body .code div {
+			  border: 0;
+			  -webkit-border-radius: 0;
+			  -moz-border-radius: 0;
+			  border-radius: 0;
+			  -webkit-border-top-right-radius: 3px;
+			  -webkit-border-bottom-right-radius: 3px;
+			  -moz-border-radius-topright: 3px;
+			  -moz-border-radius-bottomright: 3px;
+			  border-top-right-radius: 3px;
+			  border-bottom-right-radius: 3px;
+			}
+
+			.markdown-body * {
+			  -moz-box-sizing: border-box;
+			  box-sizing: border-box;
+			}
+
+			.markdown-body input {
+			  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+			  line-height: 1.4;
+			}
+
+			.markdown-body a {
+			  color: #4183c4;
+			  text-decoration: none;
+			}
+
+			.markdown-body a:hover,
+			.markdown-body a:focus,
+			.markdown-body a:active {
+			  text-decoration: underline;
+			}
+
+			.markdown-body hr {
+			  height: 0;
+			  margin: 15px 0;
+			  overflow: hidden;
+			  background: transparent;
+			  border: 0;
+			  border-bottom: 1px solid #ddd;
+			}
+
+			.markdown-body hr:before,
+			.markdown-body hr:after {
+			  display: table;
+			  content: " ";
+			}
+
+			.markdown-body hr:after {
+			  clear: both;
+			}
+
+			.markdown-body h1,
+			.markdown-body h2,
+			.markdown-body h3,
+			.markdown-body h4,
+			.markdown-body h5,
+			.markdown-body h6 {
+			  margin-top: 15px;
+			  margin-bottom: 15px;
+			  line-height: 1.1;
+			}
+
+			.markdown-body h1 {
+			  font-size: 30px;
+			}
+
+			.markdown-body h2 {
+			  font-size: 21px;
+			}
+
+			.markdown-body h3 {
+			  font-size: 16px;
+			}
+
+			.markdown-body h4 {
+			  font-size: 14px;
+			}
+
+			.markdown-body h5 {
+			  font-size: 12px;
+			}
+
+			.markdown-body h6 {
+			  font-size: 11px;
+			}
+
+			.markdown-body blockquote {
+			  margin: 0;
+			}
+
+			.markdown-body ul,
+			.markdown-body ol {
+			  padding: 0;
+			  margin-top: 0;
+			  margin-bottom: 0;
+			}
+
+			.markdown-body ol ol,
+			.markdown-body ul ol {
+			  list-style-type: lower-roman;
+			}
+
+			.markdown-body ul ul ol,
+			.markdown-body ul ol ol,
+			.markdown-body ol ul ol,
+			.markdown-body ol ol ol {
+			  list-style-type: lower-alpha;
+			}
+
+			.markdown-body dd {
+			  margin-left: 0;
+			}
+
+			.markdown-body code,
+			.markdown-body pre,
+			.markdown-body samp {
+			  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+			  font-size: 12px;
+			}
+
+			.markdown-body pre {
+			  margin-top: 0;
+			  margin-bottom: 0;
+			}
+
+			.markdown-body kbd {
+			  background-color: #e7e7e7;
+			  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+			  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+			  background-image: linear-gradient(#fefefe, #e7e7e7);
+			  background-repeat: repeat-x;
+			  border-radius: 2px;
+			  border: 1px solid #cfcfcf;
+			  color: #000;
+			  padding: 3px 5px;
+			  line-height: 10px;
+			  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+			  display: inline-block;
+			}
+
+			.markdown-body>*:first-child {
+			  margin-top: 0 !important;
+			}
+
+			.markdown-body>*:last-child {
+			  margin-bottom: 0 !important;
+			}
+
+			.markdown-body .headerlink {
+			  font: normal 400 16px fontawesome-mini;
+			  vertical-align: middle;
+			  margin-left: -16px;
+			  float: left;
+			  display: inline-block;
+			  text-decoration: none;
+			  opacity: 0;
+			  color: #333;
+			}
+
+			.markdown-body .headerlink:focus {
+			  outline: none;
+			}
+
+			.markdown-body h1 .headerlink {
+			  margin-top: 0.8rem;
+			}
+
+			.markdown-body h2 .headerlink,
+			.markdown-body h3 .headerlink {
+			  margin-top: 0.6rem;
+			}
+
+			.markdown-body h4 .headerlink {
+			  margin-top: 0.2rem;
+			}
+
+			.markdown-body h5 .headerlink,
+			.markdown-body h6 .headerlink {
+			  margin-top: 0;
+			}
+
+			.markdown-body .headerlink:hover,
+			.markdown-body h1:hover .headerlink,
+			.markdown-body h2:hover .headerlink,
+			.markdown-body h3:hover .headerlink,
+			.markdown-body h4:hover .headerlink,
+			.markdown-body h5:hover .headerlink,
+			.markdown-body h6:hover .headerlink {
+			  opacity: 1;
+			  text-decoration: none;
+			}
+
+			.markdown-body h1 {
+			  padding-bottom: 0.3em;
+			  font-size: 2.25em;
+			  line-height: 1.2;
+			  border-bottom: 1px solid #eee;
+			}
+
+			.markdown-body h2 {
+			  padding-bottom: 0.3em;
+			  font-size: 1.75em;
+			  line-height: 1.225;
+			  border-bottom: 1px solid #eee;
+			}
+
+			.markdown-body h3 {
+			  font-size: 1.5em;
+			  line-height: 1.43;
+			}
+
+			.markdown-body h4 {
+			  font-size: 1.25em;
+			}
+
+			.markdown-body h5 {
+			  font-size: 1em;
+			}
+
+			.markdown-body h6 {
+			  font-size: 1em;
+			  color: #777;
+			}
+
+			.markdown-body p,
+			.markdown-body blockquote,
+			.markdown-body ul,
+			.markdown-body ol,
+			.markdown-body dl,
+			.markdown-body table,
+			.markdown-body pre,
+			.markdown-body .admonition {
+			  margin-top: 0;
+			  margin-bottom: 16px;
+			}
+
+			.markdown-body hr {
+			  height: 4px;
+			  padding: 0;
+			  margin: 16px 0;
+			  background-color: #e7e7e7;
+			  border: 0 none;
+			}
+
+			.markdown-body ul,
+			.markdown-body ol {
+			  padding-left: 2em;
+			}
+
+			.markdown-body ul ul,
+			.markdown-body ul ol,
+			.markdown-body ol ol,
+			.markdown-body ol ul {
+			  margin-top: 0;
+			  margin-bottom: 0;
+			}
+
+			.markdown-body li>p {
+			  margin-top: 16px;
+			}
+
+			.markdown-body dl {
+			  padding: 0;
+			}
+
+			.markdown-body dl dt {
+			  padding: 0;
+			  margin-top: 16px;
+			  font-size: 1em;
+			  font-style: italic;
+			  font-weight: bold;
+			}
+
+			.markdown-body dl dd {
+			  padding: 0 16px;
+			  margin-bottom: 16px;
+			}
+
+			.markdown-body blockquote {
+			  padding: 0 15px;
+			  color: #777;
+			  border-left: 4px solid #ddd;
+			}
+
+			.markdown-body blockquote>:first-child {
+			  margin-top: 0;
+			}
+
+			.markdown-body blockquote>:last-child {
+			  margin-bottom: 0;
+			}
+
+			.markdown-body table {
+			  display: block;
+			  width: 100%;
+			  overflow: auto;
+			  word-break: normal;
+			  word-break: keep-all;
+			}
+
+			.markdown-body table th {
+			  font-weight: bold;
+			}
+
+			.markdown-body table th,
+			.markdown-body table td {
+			  padding: 6px 13px;
+			  border: 1px solid #ddd;
+			}
+
+			.markdown-body table tr {
+			  background-color: #fff;
+			  border-top: 1px solid #ccc;
+			}
+
+			.markdown-body table tr:nth-child(2n) {
+			  background-color: #f8f8f8;
+			}
+
+			.markdown-body img {
+			  max-width: 100%;
+			  -moz-box-sizing: border-box;
+			  box-sizing: border-box;
+			}
+
+			.markdown-body code,
+			.markdown-body samp {
+			  padding: 0;
+			  padding-top: 0.2em;
+			  padding-bottom: 0.2em;
+			  margin: 0;
+			  font-size: 85%;
+			  background-color: rgba(0,0,0,0.04);
+			  border-radius: 3px;
+			}
+
+			.markdown-body code:before,
+			.markdown-body code:after {
+			  letter-spacing: -0.2em;
+			  content: "\00a0";
+			}
+
+			.markdown-body pre>code {
+			  padding: 0;
+			  margin: 0;
+			  font-size: 100%;
+			  word-break: normal;
+			  white-space: pre;
+			  background: transparent;
+			  border: 0;
+			}
+
+			.markdown-body .codehilite {
+			  margin-bottom: 16px;
+			}
+
+			.markdown-body .codehilite pre,
+			.markdown-body pre {
+			  padding: 16px;
+			  overflow: auto;
+			  font-size: 85%;
+			  line-height: 1.45;
+			  background-color: #f7f7f7;
+			  border-radius: 3px;
+			}
+
+			.markdown-body .codehilite pre {
+			  margin-bottom: 0;
+			  word-break: normal;
+			}
+
+			.markdown-body pre {
+			  word-wrap: normal;
+			}
+
+			.markdown-body pre code {
+			  display: inline;
+			  max-width: initial;
+			  padding: 0;
+			  margin: 0;
+			  overflow: initial;
+			  line-height: inherit;
+			  word-wrap: normal;
+			  background-color: transparent;
+			  border: 0;
+			}
+
+			.markdown-body pre code:before,
+			.markdown-body pre code:after {
+			  content: normal;
+			}
+
+			/* Admonition */
+			.markdown-body .admonition {
+			  -webkit-border-radius: 3px;
+			  -moz-border-radius: 3px;
+			  position: relative;
+			  border-radius: 3px;
+			  border: 1px solid #e0e0e0;
+			  border-left: 6px solid #333;
+			  padding: 10px 10px 10px 30px;
+			}
+
+			.markdown-body .admonition table {
+			  color: #333;
+			}
+
+			.markdown-body .admonition p {
+			  padding: 0;
+			}
+
+			.markdown-body .admonition-title {
+			  font-weight: bold;
+			  margin: 0;
+			}
+
+			.markdown-body .admonition>.admonition-title {
+			  color: #333;
+			}
+
+			.markdown-body .attention>.admonition-title {
+			  color: #a6d796;
+			}
+
+			.markdown-body .caution>.admonition-title {
+			  color: #d7a796;
+			}
+
+			.markdown-body .hint>.admonition-title {
+			  color: #96c6d7;
+			}
+
+			.markdown-body .danger>.admonition-title {
+			  color: #c25f77;
+			}
+
+			.markdown-body .question>.admonition-title {
+			  color: #96a6d7;
+			}
+
+			.markdown-body .note>.admonition-title {
+			  color: #d7c896;
+			}
+
+			.markdown-body .admonition:before,
+			.markdown-body .attention:before,
+			.markdown-body .caution:before,
+			.markdown-body .hint:before,
+			.markdown-body .danger:before,
+			.markdown-body .question:before,
+			.markdown-body .note:before {
+			  font: normal normal 16px fontawesome-mini;
+			  -moz-osx-font-smoothing: grayscale;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			  line-height: 1.5;
+			  color: #333;
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  padding-top: 10px;
+			  padding-left: 10px;
+			}
+
+			.markdown-body .admonition:before {
+			  content: "\f056\00a0";
+			  color: 333;
+			}
+
+			.markdown-body .attention:before {
+			  content: "\f058\00a0";
+			  color: #a6d796;
+			}
+
+			.markdown-body .caution:before {
+			  content: "\f06a\00a0";
+			  color: #d7a796;
+			}
+
+			.markdown-body .hint:before {
+			  content: "\f05a\00a0";
+			  color: #96c6d7;
+			}
+
+			.markdown-body .danger:before {
+			  content: "\f057\00a0";
+			  color: #c25f77;
+			}
+
+			.markdown-body .question:before {
+			  content: "\f059\00a0";
+			  color: #96a6d7;
+			}
+
+			.markdown-body .note:before {
+			  content: "\f040\00a0";
+			  color: #d7c896;
+			}
+
+			.markdown-body .admonition::after {
+			  content: normal;
+			}
+
+			.markdown-body .attention {
+			  border-left: 6px solid #a6d796;
+			}
+
+			.markdown-body .caution {
+			  border-left: 6px solid #d7a796;
+			}
+
+			.markdown-body .hint {
+			  border-left: 6px solid #96c6d7;
+			}
+
+			.markdown-body .danger {
+			  border-left: 6px solid #c25f77;
+			}
+
+			.markdown-body .question {
+			  border-left: 6px solid #96a6d7;
+			}
+
+			.markdown-body .note {
+			  border-left: 6px solid #d7c896;
+			}
+
+			.markdown-body .admonition>*:first-child {
+			  margin-top: 0 !important;
+			}
+
+			.markdown-body .admonition>*:last-child {
+			  margin-bottom: 0 !important;
+			}
+
+			.markdown-body .candystripe-animate .progress-bar{
+			  -webkit-animation: animate-stripes 3s linear infinite;
+			  -moz-animation: animate-stripes 3s linear infinite;
+			  animation: animate-stripes 3s linear infinite;
+			}
+
+			@-webkit-keyframes animate-stripes {
+			  0% {
+			    background-position: 0 0;
+			  }
+
+			  100% {
+			    background-position: 60px 0;
+			  }
+			}
+
+			@-moz-keyframes animate-stripes {
+			  0% {
+			    background-position: 0 0;
+			  }
+
+			  100% {
+			    background-position: 60px 0;
+			  }
+			}
+
+			@keyframes animate-stripes {
+			  0% {
+			    background-position: 0 0;
+			  }
+
+			  100% {
+			    background-position: 60px 0;
+			  }
+			}
+
+			.markdown-body .gloss .progress-bar {
+			  box-shadow:
+			    inset 0 4px 12px rgba(255, 255, 255, .7),
+			    inset 0 -12px 0 rgba(0, 0, 0, .05);
+			}
+
+			/* Multimarkdown Critic Blocks */
+			.markdown-body .critic_mark {
+			  background: #ff0;
+			}
+
+			.markdown-body .critic_delete {
+			  color: #c82829;
+			  text-decoration: line-through;
+			}
+
+			.markdown-body .critic_insert {
+			  color: #718c00 ;
+			  text-decoration: underline;
+			}
+
+			.markdown-body .critic_comment {
+			  color: #8e908c;
+			  font-style: italic;
+			}
+
+			.markdown-body .headeranchor {
+			  font: normal normal 16px fontawesome-mini;
+			  line-height: 1;
+			  display: inline-block;
+			  text-decoration: none;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			}
+
+			.headeranchor:before {
+			  content: '\e157';
+			}
+
+			.markdown-body .task-list-item {
+			  list-style-type: none;
+			}
+
+			.markdown-body .task-list-item+.task-list-item {
+			  margin-top: 3px;
+			}
+
+			.markdown-body .task-list-item input {
+			  margin: 0 4px 0.25em -20px;
+			  vertical-align: middle;
+			}
+
+			/* Media */
+			@media only screen and (min-width: 480px) {
+			  .markdown-body {
+			    font-size:14px;
+			  }
+			}
+
+			@media only screen and (min-width: 768px) {
+			  .markdown-body {
+			    font-size:16px;
+			  }
+			}
+
+			@media print {
+			  .markdown-body * {
+			    background: transparent !important;
+			    color: black !important;
+			    filter:none !important;
+			    -ms-filter: none !important;
+			  }
+
+			  .markdown-body {
+			    font-size:12pt;
+			    max-width:100%;
+			    outline:none;
+			    border: 0;
+			  }
+
+			  .markdown-body a,
+			  .markdown-body a:visited {
+			    text-decoration: underline;
+			  }
+
+			  .markdown-body .headeranchor-link {
+			    display: none;
+			  }
+
+			  .markdown-body a[href]:after {
+			    content: " (" attr(href) ")";
+			  }
+
+			  .markdown-body abbr[title]:after {
+			    content: " (" attr(title) ")";
+			  }
+
+			  .markdown-body .ir a:after,
+			  .markdown-body a[href^="javascript:"]:after,
+			  .markdown-body a[href^="#"]:after {
+			    content: "";
+			  }
+
+			  .markdown-body pre {
+			    white-space: pre;
+			    white-space: pre-wrap;
+			    word-wrap: break-word;
+			  }
+
+			  .markdown-body pre,
+			  .markdown-body blockquote {
+			    border: 1px solid #999;
+			    padding-right: 1em;
+			    page-break-inside: avoid;
+			  }
+
+			  .markdown-body .progress,
+			  .markdown-body .progress-bar {
+			    -moz-box-shadow: none;
+			    -webkit-box-shadow: none;
+			    box-shadow: none;
+			  }
+
+			  .markdown-body .progress {
+			    border: 1px solid #ddd;
+			  }
+
+			  .markdown-body .progress-bar {
+			    height: 22px;
+			    border-right: 1px solid #ddd;
+			  }
+
+			  .markdown-body tr,
+			  .markdown-body img {
+			    page-break-inside: avoid;
+			  }
+
+			  .markdown-body img {
+			    max-width: 100% !important;
+			  }
+
+			  .markdown-body p,
+			  .markdown-body h2,
+			  .markdown-body h3 {
+			    orphans: 3;
+			    widows: 3;
+			  }
+
+			  .markdown-body h2,
+			  .markdown-body h3 {
+			    page-break-after: avoid;
+			  }
+			}
+		</style>
+	</head>
+	<body><article class="markdown-body"><h1 id="java">Introduction to Java<a class="headerlink" href="java" title="Permanent link"></a></h1>
+		<h3><a id="What_is_Java_1"></a>What is Java?</h3>
+		<p>Java is a programming language that is used to create computer applications. The most recent version, Java 11, is now available and that is what we’ll be focusing on in this start guide.</p>
+		<p>The language of Java revolves around Object Oriented Programming (OOP), which allows for the programmer to manipulate ‘objects’ that are created through the code with functional commands called ‘methods.’</p>
+		<p>Documentation can be found <a href="https://www.oracle.com/technetwork/java/javase/documentation/index.html">here</a>.</p>
+		<h3><a id="Getting_Started_7"></a>Getting Started</h3>
+		<p>You need to download the Java Development Kit (JDK) off of Oracle’s <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">official website</a>. You also need an Integrated Development Environment (IDE) to begin writing code. Some examples can be found below:</p>
+		<ul>
+		<li><a href="https://www.bluej.org/%5D">BlueJ</a></li>
+		<li><a href="https://www.eclipse.org/ide/">Eclipse</a></li>
+		<li><a href="https://www.jetbrains.com/idea/">IntelliJ</a></li>
+		<li><a href="https://netbeans.org/">Netbeans</a></li>
+		</ul>
+		<h3><a id="Hello_World_13"></a>Hello World!</h3>
+		<p>As is tradition with most languages, you first learn how to output “Hello World!” In Java, this is done through an output method. But before you can do that, you need to learn how to declare a class and method in Java.</p>
+		<pre><code>public class HelloWorld {
+		    public static void main(String[]args) {
+		        System.out.println(&quot;Hello World!&quot;);
+		    }
+		}
+		</code></pre>
+		<p>The code above declared the class in Line 1, declared the main method in Line 2, and called upon the ‘System’ to output the string “Hello World!” In Java, blocks of code are separated by open brackets ({) and closed brackets (}). Whenever a class or method is declared, the code that relates to that class or method should be encapsulated in brackets.</p>
+		<p>Line 1 creates a class with ‘public’ access and the name ‘HelloWorld’.</p>
+		<p>Let’s take a closer look at Line 2:</p>
+		<pre><code>public static void main(String[]args)
+		</code></pre>
+		<p>This line initiates the main method, which is where you would create objects and manipulate data relating to your objects.</p>
+		<ul>
+		<li>‘Public’ marks the method as global and it can be accessed by any other class.</li>
+		<li>‘Static’ allows you to use this method without creating an object first.</li>
+		<li>‘Void’ means that the method does not return a value, which is the job of accessor methods.</li>
+		<li>‘Main’ denotes the main method, which is where you would create objects and manipulate data relating to your objects.</li>
+		<li>‘String[]args’ creates an array called ‘args’ with the variable type of String, but this is a more complex concept and can be delved into later.</li>
+		</ul>
+		<p>And finally, we arrive at the method that prints ‘Hello World!’ So what exactly does it do? It calls upon a predefined object called the System to output something onto the next line. This is a commonly used method and is used whenever you want to display something.</p>
+		<h3><a id="Compiling_Your_Code_36"></a>Compiling Your Code</h3>
+		<p>Now that you’ve written a simple class, you will need to compile it. Depending on your IDE, the shortcut or button for compiling is different. However, the process is the same. The computer converts the code into binary (0s and 1s) which it understands. Whereever the computer fails to understand the code, it will return an error.</p>
+		<h3><a id="Moving_On_38"></a>Moving On</h3>
+		<p>Now you can try executing your code and you will receive the following:</p>
+		<pre><code>Hello World!
+		</code></pre>
+		<p>Now what? There’s not that much syntax for Java, but there’s so many ways you can program and explore. Consider visiting a tutorial site such as <a href="https://www.learnjavaonline.org/">LearnJava</a> or <a href="https://www.codecademy.com/learn/learn-java">CodeAcademy</a> to delve deeper into the language of Java.</p>
+	</body>
+</html>

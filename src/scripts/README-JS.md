@@ -2,7 +2,7 @@
 
 ## What is JavaScript?
 
-JavaScript (JS) is an interpreted language, most commonly associated with scripting for web pages, though it can also be used for non-browser environemnts like Node.js. JavaScript is a prototype-based dynamic language supporting many coding styles such as object-oriented, imperative, and declarative (functional programming).
+JavaScript (JS) is an interpreted language, most commonly associated with scripting for web pages, though it can also be used for non-browser environments like Node.js. JavaScript is a prototype-based dynamic language supporting many coding styles such as object-oriented, imperative, and declarative (functional programming).
 
 JavaScript can be used to bring additional functionality and interactivity to a web page such as creating a to-do list, fetching data from various services, and so much more!
 
