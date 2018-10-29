@@ -3,7 +3,7 @@ $(function(){
 });
 
 // To Add todo 
-function addToDo(){
+addToDo = () => {
     
     var text = $('#newToDo').val();
     if(!text){
@@ -17,7 +17,7 @@ function addToDo(){
 }
 
 // To create To do card
-function createCard(content){
+createCard = (content) => {
     var text = '<div class="text">' + content + '</div>';
     var img = '<img src="images/todolist/delete.png" alt="" class="delete"><img src="images/todolist/001-right.png" alt="" class="check">';
     var card =  '<div class="card newCard">' + text + img + '</div>';
@@ -25,7 +25,7 @@ function createCard(content){
 }
 
 // To Remove Existing card
-function removeCard(){
+removeCard = () => {
     var x = this;
     $(this).parent().addClass('removeCard');
 
@@ -35,7 +35,7 @@ function removeCard(){
 }
 
 // To add todo to the done catagody
-function doneCard(){
+doneCard = () => {
     var x = $(this).parent().html();
     $(this).parent().remove();
     
