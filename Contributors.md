@@ -2,7 +2,7 @@
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
   - [LinkedIn](https://www.linkedin.com/in/diptanshu-agarwal/)
-- [Sarah Perea](https://github.com/sarahperea)
+- [Saraah Perea](https://github.com/sarahperea)
   - [LinkedIn](https://www.linkedin.com/in/sarahperea/)
 - [Yoga Agung](https://github.com/yogaap24)
   - [LinkedIn](https://www.linkedin.com/in/yogaap24/)
