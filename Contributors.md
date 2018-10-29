@@ -165,6 +165,8 @@
 - [LinkedIn](https://www.linkedin.com/in/amulya-gaur-792054109/)
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
+- [Nick Huang](https://github.com/NickHuangDev)
+- [Mon](https://github.com/mon555)
 - [Mon](https://github.com/mon555)
 - [MUHAMMAD ADNAN](https://github.com/adnanpak)
 - [Muhammad Babar Shabbir](https://github.com/Babarbwn123)
