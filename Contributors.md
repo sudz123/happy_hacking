@@ -166,6 +166,7 @@
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
+- [Nayan](https://github.com/Nayan942)
 - [confixyu](https://github.com/confixyu)
 - [Atti](https://github.com/Platyka)
 - [Johan Reji](https://github.com/johanreji)
