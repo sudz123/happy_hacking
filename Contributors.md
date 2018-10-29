@@ -180,6 +180,8 @@
   - [LinkedIn](https://www.linkedin.com/in/athuljayaram/)
 - [James Long](https://github.com/jameslongs37)
 - [Edwin Francis](https://github.com/edwinfrancis002)
+- [Naman](https://linkedin.com/in/naman-doshi)
+- [vatsal](https://github.com/vatsalvv)
 - [Shoaib majeed](https://github.com/mshoaib85)
 - [Melvin Abraham](https://github.com/melvinabraham)
 - [Naman](https://linkedin.com/in/naman-doshi)
