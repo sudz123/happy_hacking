@@ -1,5 +1,7 @@
 # Contributors
 
+- [Venusha Amarathunga](https://github.com/venushaamarathunga)
+  - [LinkedIn](https://www.linkedin.com/in/venusha-amarathunga-9573b4172/)
 - [Sudarshan Kamath](https://github.com/sudz123)
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
@@ -164,3 +166,10 @@
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
 - [Atti](https://github.com/Platyka)
+- [Johan Reji](https://github.com/johanreji)
+- [Athul Jayaram](https://github.com/juniorhero)
+  - [LinkedIn](https://www.linkedin.com/in/athuljayaram/)
+- [James Long](https://github.com/jameslongs37)
+- [Edwin Francis](https://github.com/edwinfrancis002)
+- [Melvin Abraham](https://github.com/melvinabraham)
+- [Naman](https://linkedin.com/in/naman-doshi)

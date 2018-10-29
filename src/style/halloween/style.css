@@ -50,21 +50,6 @@ section {
 	margin-bottom: 10px;
 }
 
-section img {
-	border-radius: 5px;
-	margin-bottom: 10px;
-
-	position: relative;
-	display: inline-block;
-	box-shadow: 0 1px 2px rgba(80, 80, 80, 0.226);
-	transition: all 0.3s ease-out;
-}
-
-section img:hover {
-	transform: scale(1.1);
-	box-shadow: 0px 5px 15px rgba(48, 112, 42, 0.2);
-}
-
 #countdown {
 	color: yellow;
 	text-align: center;
