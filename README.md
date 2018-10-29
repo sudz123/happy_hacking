@@ -4,13 +4,13 @@ Let's have a productive Hacktoberfest!!! Submit 5 PRs to this account after regi
 
 # :construction_worker: About
 
-My name is Sudarshan Kamath and I am hosting this repository for the month of October 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy contributing!
+<p>My name is Sudarshan Kamath and I am hosting this repository for the month of October 2018. The idea is to create a website over the month, about Open-Source Programming. This site is open to all forms of suggestions. Happy contributing!</p>
 
 The project follows the following [Code of Conduct](CODE_OF_CONDUCT.md).
 
-If you want to see what the site looks like, you can do so through GitHub. All you need to do is click the HTML file you want to view, click the button Raw, and then change the URL. You need to remove ".githubusercontent" and replace it with just "git" so the link looks like this - https://rawgit.com
+<p>If you want to see what the site looks like, you can do so through GitHub. All you need to do is click the HTML file you want to view, click the button Raw, and then change the URL. You need to remove ".githubusercontent" and replace it with just "git" so the link looks like this - https://rawgit.com</p>
 
-If you want to continue using the rawgit trick on another project, you might need to switch to just using githack. As with using gitraw, all you need to do is change "githubusercontent" for "githack" instead.  The link now looks like this - https://raw.githack.com/
+<p>If you want to continue using the rawgit trick on another project, you might need to switch to just using githack. As with using gitraw, all you need to do is change "githubusercontent" for "githack" instead.  The link now looks like this - https://raw.githack.com/ </p>
 
 Here is what our homepage looks like!
 https://rawgit.com/sudz123/Happy_Hacking/master/src/home.html
