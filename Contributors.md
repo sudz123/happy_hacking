@@ -1,4 +1,5 @@
-﻿# Contributors
+# Contributors
+
 - [Venusha Amarathunga](https://github.com/venushaamarathunga)
   - [LinkedIn](https://www.linkedin.com/in/venusha-amarathunga-9573b4172/)
 - [Sudarshan Kamath](https://github.com/sudz123)
@@ -135,7 +136,7 @@
 - [Muhammad Awais Haider](https://github.com/muhammadawaishaider)
 - [Manoela Reis](https://github.com/manoela-reis)
 - [Kevin Ullyott](https://github.com/Orrison)
-    - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
+  - [LinkedIn](https://www.linkedin.com/in/kevin-ullyott-9b206460/)
 - [Akshama](https://github.com/Akshama)
 - [rana faisal](https://github.com/IRanaFaisal)
 - [Carlo Carlo Lizano](https://github.com/clizano)
@@ -164,6 +165,7 @@
 - [Rajani Sharma](https://github.com/Rajni123)
 - [Abdulsamad Aliyu](https://github.com/nitrocoder234)
 - [Mon](https://github.com/mon555)
+- [Atti](https://github.com/Platyka)
 - [Johan Reji](https://github.com/johanreji)
 - [Athul Jayaram](https://github.com/juniorhero)
   - [LinkedIn](https://www.linkedin.com/in/athuljayaram/)
