@@ -1,4 +1,4 @@
-- [Sudarshan Kamath](https://github.com/sudz123)
+﻿- [Sudarshan Kamath](https://github.com/sudz123)
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
   - [LinkedIn](https://www.linkedin.com/in/diptanshu-agarwal/)
@@ -176,5 +176,7 @@
   - [LinkedIn](https://www.linkedin.com/in/athuljayaram/)
 - [James Long](https://github.com/jameslongs37)
 - [Edwin Francis](https://github.com/edwinfrancis002)
-- [Melvin Abraham](https://github.com/melvinabraham)
+- [Melvin Abraham](2% (1278/3896), 5.94 MiB | 172.00 KiB/s
+melvinabraham)
 - [Naman](https://linkedin.com/in/naman-doshi)
+- [vatsal](https://github.com/vatsalvv)
