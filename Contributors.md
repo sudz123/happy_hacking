@@ -19,6 +19,7 @@
   - [LinkedIn Profile](https://www.linkedin.com/in/meetashishpatel)
 - [Ashish Sinha](https://github.com/sinashish)
 - [Muhammad Ali](https://github.com/designsbyali)
+- [Pradeep](https://github.com/gariya95)
 - [Brian Barry](https://github.com/bribarry)
 - [Hamid Reside](https://github.com/hallowcard13)
 - [Udit Agarwal](https://github.com/Udit1999)
