@@ -1,7 +1,8 @@
-# Contributors
+﻿# Contributors
 - [Sudarshan Kamath](https://github.com/sudz123)
   - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
 - [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
+   [amina cheema](https://github.com/aminacheema)
   - [LinkedIn](https://www.linkedin.com/in/diptanshu-agarwal/)
 - [Sarah Perea](https://github.com/sarahperea)
   - [LinkedIn](https://www.linkedin.com/in/sarahperea/)
