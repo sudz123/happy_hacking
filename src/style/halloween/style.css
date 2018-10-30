@@ -1,73 +1,184 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: black;  
-    font-family: 'Griffy', cursive;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	font-family: "Griffy", cursive;
 }
 
-#header{
-    background-color:black;
-    width: 100%;
-    color: #f9690e;
-    min-height: 70px;
-
+#header {
+	background-color: black;
+	width: 100%;
+	color: #f9690e;
+	min-height: 70px;
 }
 
 /*GLOW EFFECT FOR TITLE*/
-#page-title{
-    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+#page-title {
+	text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 /*TEXT FORMATTINT*/
-p{
-    font-size: large;
-    font-family: 'Mali', cursive;
-
+p {
+	font-size: large;
+	font-family: "Mali", cursive;
 }
 
-#jumbotron{
-    background-image: url('../../images/halloween/jumbotron.jpg');
-    min-height: 450px;
-    background-position: center;
+/*BODY HEADER FORMATTING*/
+.body-header{
+	background-color: rgba(0,0,0,0.8)
 }
 
-#content{
-    color: white;
-    font-size: 18px;
-    min-height: 200px;
-    margin-bottom: 10px;
+/*BODY PARAGRAPH FORMATTING*/
+.body-paragraph{
+	background-color: rgba(0,0,0,0.8)
+}
+
+#jumbotron {
+  min-height: 450px;
+  background: url("../../images/halloween/jumbotron.jpg") center;
+  position: relative;
+}
+
+#floatingwitch {
+  position: absolute;
+}
+
+#content {
+	color: white;
+	font-size: 18px;
+	min-height: 200px;
+	margin-bottom: 10px;
 }
 
 #content img {
-    border-radius: 5px;
-    margin-bottom: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	transition: transform 0.3s;
 }
 
-.orange-content{
-    background-color: #f9690e;
-    min-height: 400px;
-    padding: 10px;
+#content img:hover {
+	transform: scale(1.1);
+}
+
+#countdown {
+	color: yellow;
+	text-align: center;
+	font-size: 40px;
+}
+
+#countdownheader {
+	color: yellow;
+	text-align: center;
+	font-size: 45px;
+}
+
+.video {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.orange-content {
+	min-height: 400px;
+}
+
+@media (max-width: 768px) {
+	.orange-content {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+.orange-content img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.orange-content p,
+.orange-content h2 {
+	color: #fff;
+}
+
+.orange-content h2 {
+	margin-top: 20px;
 }
 
 .footer {
-   position: relative;
-   left: 0;
-   bottom:-20px;
-   width: 100%;
-   background-color: black;
-   color: #fff;
-   text-align: left;
-   font-family:"Playfair Display", Georgia, serif;
-   padding:10px 0;
+	position: relative;
+	left: 0;
+	bottom: -20px;
+	width: 100%;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	font-family: "Playfair Display", Georgia, serif;
+	padding: 10px 0;
 }
 
-.copyright{
-    text-align:center;
-    display:inline-block;
-    clear:both;
-    width:100%;
+.copyright {
+	text-align: center;
+	display: inline-block;
+	clear: both;
+	width: 100%;
 }
 
 .footer .copyright p {
-    font-family: "Karla", Arial, sans-serif;
-    font-size: 12px;
+	font-family: "Karla", Arial, sans-serif;
+	font-size: 12px;
+}
+
+/*Buttons To-the-top and Back-to-home in the footer  */
+#back_to_top,
+#back_to_home {
+	outline: none;
+	text-decoration: none;
+	font-family: "Griffy", cursive;
+	background-color: orange;
+	color: black;
+	padding: 15px;
+	border-radius: 30px;
+	transition-duration: 0.5s;
+	display: inline-block;
+	margin: 15px auto;
+}
+#back_to_top:hover,
+#back_to_home:hover {
+	outline: none;
+	text-decoration: none;
+	background-color: orange;
+	color: white;
+	padding: 15px;
+	border-radius: 30px;
+}
+.halloween-body {
+	overflow-x: hidden;
+}
+
+.alert-easter-egg {
+	position: absolute;
+	top: 82px;
+	width: 100%;
+	-webkit-animation: FADE-OUT 1s 1;
+	animation: FADE-OUT 1s 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-delay: 5s;
+	animation-delay: 5s;
+	opacity: 1;
+}
+
+@-webkit-keyframes FADE-OUT {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes FADE-OUT {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }

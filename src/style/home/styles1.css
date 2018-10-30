@@ -1,47 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 body {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Mono", monospace;
 }
 
-#header{
-  display: flex;
-  justify-content: flex-end;
+#header {
+  display: block;
   width: 100%;
   background-color: #263238;
   box-sizing: border-box;
-  padding-right: 10px;
-  padding-left: 10px;
-  
+  overflow: hidden;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-
+#header nav {
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+}
 #header nav a {
   display: inline-block;
   font-weight: bold;
   padding: 20px 25px;
   cursor: pointer;
   color: white;
-  text-decoration: none; 
-  font-family: "Cursive" ;
-
+  text-decoration: none;
 }
 
 #header nav a:hover {
   background: white;
   color: #263238;
-  transition: all 0.2s linear;
+  transition: all 0.07s linear;
 }
 
-#img{
-  height: 100vh;
+.image-wrapper {
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+.image-wrapper nav {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+}
+#img {
+  height: auto;
   width: 100%;
 }
 
-.halloweenButton{
+.halloweenButton {
   width: 15em;
 }
 
