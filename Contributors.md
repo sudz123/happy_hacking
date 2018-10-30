@@ -185,5 +185,6 @@
 - [Shoaib majeed](https://github.com/mshoaib85)
 - [Melvin Abraham](https://github.com/melvinabraham)
 - [Naman](https://linkedin.com/in/naman-doshi)
+- [DuskyPrawn](https://github.com/duskyprawn)
 - [Yarka Lyba](https://linkedin.com/in/yarkalyba)
 - [kaffikaffi](https://github.com/kaffikaffi)
