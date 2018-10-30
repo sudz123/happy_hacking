@@ -5,14 +5,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace !important;
 }
 
 #header {
@@ -63,5 +63,5 @@ h5 {
 }
 
 nav {
-  text-align: center;
+  text-align: center /*isn't great idea;
 }
