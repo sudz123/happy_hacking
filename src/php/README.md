@@ -5,7 +5,7 @@ For example, WordPress is a common and popular blogging platform that is written
 
 It assists to create dynamic web pages such as CRUD systems (create, read, update, delete), photo galleries and more! Nowadays, frameworks like Laravel or Symfony exist to simplify PHP development by adding functionality such as web templating and caching. 
 
-Documentation for the language can be found at [https://secure.php.net/](https://secure.php.net/), and tutorials are present for just about anything you want to know about the langauge.
+Documentation for the language can be found at [https://secure.php.net/](https://secure.php.net/), and tutorials are present for just about anything you want to know about the language.
 
 ## Hello, world!
 

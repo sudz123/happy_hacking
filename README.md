@@ -1,6 +1,6 @@
 # :tada::tada::smile: Hacking :smile::tada::tada:
 
-Let's have a productive Hacktoberfest!!! Submit 5 PRs to this account after registering yourself [here](https://hacktoberfest.digitalocean.com/).
+Let's have a productive Hacktoberfest! Submit 5 PRs to this account after registering yourself [here](https://hacktoberfest.digitalocean.com/).
 
 # :construction_worker: About
 
@@ -70,8 +70,8 @@ Here are some important links for learning the basics of web & further understan
 3. [Learn Javascript](https://www.w3schools.com/js/)
 4. [Learn PHP](https://www.w3schools.com/php/)
 5. [Learn Bootstrap](https://www.w3schools.com/bootstrap/)
-6. [Learn how to make pull request](https://help.github.com/articles/creating-a-pull-request/)
-7. [Learn how to fork a repository](https://help.github.com/articles/fork-a-repo/)
+6. [Learn how to make pull request on github](https://help.github.com/articles/creating-a-pull-request/)
+7. [Learn how to fork a repository on github](https://help.github.com/articles/fork-a-repo/)
 
 A few other tutorial links:
 
