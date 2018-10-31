@@ -195,3 +195,4 @@
 - [Ashish Yadav](https://github.com/ashishyadav400)
 - [vamisola](https://github.com/vamisola)
 - [diogoalexsmachado](https://github.com/diogoalexsmachado)
+- [Beattie282](https://github.com/beattie282)
