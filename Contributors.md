@@ -1,7 +1,11 @@
 # Contributors
-
+- [Ashish Sinha](https://github.com/sinashish)
+- [Udit Agarwal](https://github.com/Udit1999)
+    - [LinkedIn](https://www.linkedin.com/in/udit-agarwal-83416b160)
 - [Sudarshan Kamath](https://github.com/sudz123)
     - [LinkedIn](https://www.linkedin.com/in/sudarshankamath/)
+- [Diptanshu Agarwal](https://github.com/diptanshu-sopho)
+    - [LinkedIn](https://www.linkedin.com/in/diptanshu-agarwal/)
 - [CallmeHenry](https://github.com/CallmeHenry)
 - [Yusuf Adeyemo](https://github.com/Yusadolat)
     - [LinkedIn](https://www.linkedin.com/in/yusadolat/)
@@ -34,3 +38,17 @@
 - [Andrew Hong](https://github.com/FlamesRunner)
 - [Chamod Rathnayaka](https://github.com/chamibc)
 - [Reid Sox-Harris](https://github.com/eosti)
+- [Zero soul Eater](https://github.com/ZeroSoulEater)
+- [Laura Meikle](https://github.com/lmeikle)
+- [Colin Schindler](https://github.com/colinschindler)
+- [Bill Hefty](https://github.com/bhefty)
+- [Jay Song](https://github.com/LordofPotatoes)
+- [Sarthak Trivedi](https://github.com/sarthak-trivedi)
+- [Rahul Makhija](https://github.com/rahuls360)
+- [Hayden Sykes](https://github.com/hasykes)
+- [Vishwajeet Srivastava](https://github.com/vjs3)
+- [Francesco Mistri](https://github.com/Ball-Man)
+- [Paulo Henrique](https://github.com/paulokenza)
+- [Mike Perry Y Attara](https://github.com/mikeattara)
+
+

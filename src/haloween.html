@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Welcome to Halloween Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Link for load boostrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <!-- Link for load costum CSS-->
     <link rel="stylesheet" type="text/css" media="screen" href="style/halloween/style.css" />
     <!-- Link for load Griffy Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
     <!--mali google font-->
     <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link href="style/style.css" type="text/css" rel="stylesheet" />
 </head>
-<body>
+
+<body class="halloween-body">
     <header id="header">
         <div class="container">
             <div class="navbar-brand mt-3">
@@ -30,7 +33,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="container">
-                    <p class="mt-5">
+                    <h2>Halloween's Origins</h2>
+                    <p class="mt-3">
                         Halloween or Hallowe'en (a contraction of All Hallows' Evening),
                         also known as Allhalloween, All Hallows' Eve, or All
                         Saints' Eve, is a celebration observed in a number of
@@ -61,7 +65,8 @@
             </div>
             <div class="col-md-6">
                 <div class="container">
-                    <p class="mt-5">
+                    <h2>Halloween Traditions</h2>
+                    <p class="mt-3">
                         Halloween is the season for little ghosts and goblins to take
                         to the streets, asking for candy and scaring one another silly.
                         Spooky stories are told around fires, scary movies appear in
@@ -74,40 +79,46 @@
     </section>
 
     <section class="orange-content">
-        <div class="img-section" style="width: 50%; margin:0 auto;">
-            <img src="images/halloween/spooky3.png" class="mt-3" alt="Spooky Images" style="width:100%; border-radius: 10px;">
-        </div>
-        <div class="description-section" style="width:50%; margin: 0 auto;">
-            <p class="mt-3" style="color: white; font-size: 18px; text-align: justify;">
-                These days Halloween is not usually considered a religious holiday. It is
-                primarily a fun day for children. Children dress up in costumes like
-                people did a thousand years ago. But instead of worrying about evil spirits,
-                they go from house to house. They knock on doors and say "trick or treat."
-                The owner of each house gives candy or something special to each trick or treater.
-            </p>
+        <div class="row">
+            <div class="col-md-6 offset-md-3 container">
+                <img src="images/halloween/spooky3.png" class="mt-3" alt="Spooky Images">
+                <div class="container">
+                    <h2>Halloween Today</h2>
+                    <p class="mt-3">
+                        These days Halloween is not usually considered a religious holiday. It is
+                        primarily a fun day for children. Children dress up in costumes like
+                        people did a thousand years ago. But instead of worrying about evil spirits,
+                        they go from house to house. They knock on doors and say "trick or treat."
+                        The owner of each house gives candy or something special to each trick or treater.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
-	<section id="content" class="mt-4 container">
-		<div class="video">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/-vnbaB0pAuE"></iframe>
-		</div>
-	</section>
+    <section id="content" class="mt-4 container">
+        <div class="video">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/-vnbaB0pAuE"></iframe>
+        </div>
+    </section>
 
     <div class="footer">
-      <div class="wrap">
-        <div class="copyright">
-          <p>
-            <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED
-          </p>
+        <div class="wrap">
+            <div class="copyright">
+                <p>
+                    <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED
+                </p>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="alert alert-warning alert-easter-egg" role="alert">
-      Only a real <a href="https://en.wikipedia.org/wiki/Konami_Code" target="_blank">konami</a> nerd can experience true horror.
+        Only a real <a href="https://en.wikipedia.org/wiki/Konami_Code" target="_blank">konami</a> nerd can experience
+        true horror.
     </div>
 
     <script type="text/javascript" src="./scripts/halloween/easter_egg.js"></script>
+    <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center><br /><br />
 </body>
+
 </html>
