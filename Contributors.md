@@ -189,3 +189,4 @@
 - [DuskyPrawn](https://github.com/duskyprawn)
 - [Yarka Lyba](https://linkedin.com/in/yarkalyba)
 - [kaffikaffi](https://github.com/kaffikaffi)
+- [diogoalexsmachado](https://github.com/diogoalexsmachado)
