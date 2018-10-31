@@ -17,6 +17,7 @@
   - [LinkedIn](https://www.linkedin.com/in/chamith-rasintha-74b007161/)
 - [Venusha Amarathunga](https://github.com/venushaamarathunga)
   - [LinkedIn](https://www.linkedin.com/in/venusha-amarathunga-9573b4172/)
+- [Neo Anoman](https://github.com/NeoAnoman/)
 - [Ashish Sinha](https://github.com/sinashish)
 - [Muhammad Ali](https://github.com/designsbyali)
 - [Pradeep](https://github.com/gariya95)
