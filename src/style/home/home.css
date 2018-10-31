@@ -569,6 +569,9 @@ body > .container {
   height: 100% !important;
   margin: auto;
 }
+.carousel-inner > .item > img {
+  object-fit: cover;
+}
 
 /* ===== Social Links ===== */
 .social-links {
