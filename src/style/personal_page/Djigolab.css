@@ -20,3 +20,15 @@ h1 {
     font-size: 28px;
   }
 }
+
+li {
+  list-style-type: none;
+  top: 90%;
+  right: 90%;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
