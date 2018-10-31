@@ -1,0 +1,86 @@
+<html>
+<style>
+
+input[type=text],input[type=number],input[type=textarea],select{
+	width:100%;
+	border : 1px solid blue;
+	border-radius:3px;
+	margin : 10px 0;
+	padding: 15px 20px;
+}
+
+input[type=color]{
+	width:100%;
+	border-radius:3px;
+	margin : 10px 0;
+}
+
+input:focus,select:focus{
+	outline : 4px solid green;
+	
+}
+
+input[type=submit]{
+	margin:right:6%;
+	margin-top:15px;
+	width:94%;
+	padding:15px 20px;
+	color : white;
+	background-color:blue;
+}
+input[type="submit"]:hover{
+	background-color : green;
+}
+
+.b1{
+	width : 25%;
+}
+.b2{
+	width : 75%;
+}
+</style>
+<body>
+<center><h2>FORM MAKER</h2>
+<form action="php_new.php" method="POST">
+<table style="width:94%;margin-left:3%;margin-right:3%">
+	<tr>
+		<td class="b1">HEADER  </td>
+		<td class="b2"><input type="text" name="header_name" placeholder="Headimg of the form">
+	</tr>
+	<tr>
+		<td class="b1">INFO ABOUT FORM</td>
+	  	<td class="b2"><input type="textarea" name="infor" rows="4" placeholder="Little Information About Form"></td>
+	</tr>
+	<tr>
+		<td class="b1">NO OF FIELDS</td>
+		<td class="b2"><input type="number" name="no_of_fields" placeholder="1-n"></td>
+	</tr>
+	<tr>
+		<td class="b1">FONT FAMILY</td>
+		<td class="b2">
+			<select name="font_family">
+				<option value="Times New Roman">Times New Roman</option>
+				<option value="Calibri">Calibri</option>
+				<option value="Comic Sans MS">Comic Sans MS</option>
+				<option value="Helvetica">Helvetica</option>
+				<option value="Verdana">Verdana</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="b1">FONT SIZE</td>
+		<TD class="b2"><input type="number" name="font_size" placeholder="25"></td>
+	</tr>
+	<tr>
+		<td class="b1">FONT COLOUR</td>
+		<td class="b2"><input type="color" name="font_color" value="yellow"></td>
+	</tr>
+	<tr>
+		<td class="b1">BACKGROUND COLOUR</td>
+		<td class="b2"><input type="color" name="background_color" value="black"></td>
+	</tr>
+</table>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
