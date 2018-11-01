@@ -1,0 +1,6 @@
+#include<iostream>
+int main()
+{
+ cout<<"HAPPY HACKING";
+ return 0;
+ }
