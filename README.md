@@ -87,6 +87,7 @@ A few other tutorial links:
 - [Functionality with php](./src/php/README.md)
 - [CSS Tips and tricks](https://css-tricks.com)
 - [Learn HTML and CSS](https://www.oreilly.com)
+- [Mozilla Developer Docs](https://developer.mozilla.org/en-US/docs/Learn)
 - [Design Patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 - [Freecodecamp](https://www.freecodecamp.org/)
 
