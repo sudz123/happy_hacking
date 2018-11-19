@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Alan</title>
+  <link href="style/style.css" type="text/css" rel="stylesheet" />
+  <script src="../js/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    // setup the hex colours to be used in five different scroll areas 
+    var
+      one = "#10e88a",
+      two = "#7f3995",
+      three = "#0d78e7",
+      four = "#f88f18",
+      five = "#bb6774";
+
+    // this function will fire on user scrolling or touching and dragging (for mobile)
+    $(window).on("scroll touchmove", function () {
+
+      // these statements give the body a new CSS data-color if 
+      // the scrollbar is greater than the elements position on page
+      // we target each <article> using it's id - #one for example
+      if ($(document).scrollTop() >= $("#one").position().top) {
+        $('body').css('background', $("#one").attr("data-color"));
+      };
+      if ($(document).scrollTop() > $("#two").position().top) {
+        $('body').css('background', $("#two").attr("data-color"))
+      };
+      if ($(document).scrollTop() > $("#three").position().top) {
+        $('body').css('background', $("#three").attr("data-color"))
+      };
+      if ($(document).scrollTop() > $("#four").position().top) {
+        $('body').css('background', $("#four").attr("data-color"))
+      };
+      if ($(document).scrollTop() >= $("#five").position().top) {
+        $('body').css('background', $("#five").attr("data-color"))
+      };
+    });
+  </script>
+  <style>
+    body {
+      background: #10e88a;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      transition: all 200ms;
+      will-change: background;
+    }
+
+    article {
+      display: block;
+      width: 100%;
+      text-align: right;
+      height: 100vh;
+      margin: 6em 0 0 0;
+    }
+
+    h1 {
+      font-size: 15em;
+      font-weight: 900;
+      margin: 0 0.1em;
+    }
+
+    p {
+      width: 50%;
+      float: right;
+      font-size: 1.1em;
+      margin: 0 2em;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    li{
+        list-style-type: none;
+
+    }
+    a{
+        color: inherit;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <article id="one" data-color="#10e88a">
+    <h1>hi</h1>
+    <div class="clear"></div>
+  </article>
+  <article id="two" data-color="#7f3995">
+    <h1>i'm alan</h1>
+    <div class="clear"></div>
+  </article>
+  <article id="three" data-color="#0d78e7">
+    <h1>find me on...</h1>
+    <div class="clear"></div>
+  </article>
+  <article id="four" data-color="#f88f18">
+    <h1>
+      <a href="https://twitter.com/alangordonn" target="_blank">
+        twitter
+      </a>
+    </h1>
+    <div class="clear"></div>
+  </article>
+  <article id="five" data-color="#E91E63">
+    <h1>happy hacking!</h1>
+    <div class="clear"></div>
+  </article>
+  <div>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</div>
+  <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
+</body>
+
+</html>

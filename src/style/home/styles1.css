@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Mono", monospace;
+}
+
+#header {
+  display: block;
+  width: 100%;
+  background-color: #263238;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#header nav {
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+}
+#header nav a {
+  display: inline-block;
+  font-weight: bold;
+  padding: 20px 25px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+#header nav a:hover {
+  background: white;
+  color: #263238;
+  transition: all 0.07s linear;
+}
+
+.image-wrapper {
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+.image-wrapper nav {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+}
+#img {
+  height: auto;
+  width: 100%;
+}
+
+.halloweenButton {
+  width: 15em;
+}
+
+nav {
+  text-align: center;
+}

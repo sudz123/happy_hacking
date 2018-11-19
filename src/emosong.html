@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>EmoSong</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <main>
+	<div class="container">
+		<h1>Get music on the basis on your mood or facial recognition</h1>
+		<h2>Try below!</h2>
+		<div class="search-box">
+			<div class="search-icon"><i class="fa fa-search search-icon"></i></div>
+			<form action="text_emo.php" class="search-form" method="get">
+				<input type="text" placeholder="Type your Mood" id="search" autocomplete="off" name="search">
+			</form>
+			<svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+			 xml:space="preserve">
+          <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+          <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+        </svg>
+			<div class="go-icon"><i class="fa fa-arrow-right"></i></div>
+		</div>
+        <br>
+        <h2>OR</h2>
+        <center>
+        <div id="my_camera" style="visibility:hidden;"></div>
+        <div id="start_cam">
+        	<a class="button circle" href="#" onclick="camsearch();">Detect my Mood</a>
+        </div>
+        <div id="cam_search" style="visibility: hidden;">
+        	<a class="button circle" href="#" onclick="take_snapshot();">Detect</a>
+        </div>
+    </center>
+  	<br><br>
+	</div>
+</main>
+  <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
+	<!-- First, include the Webcam.js JavaScript Library -->
+	<script type="text/javascript" src="webcam.js"></script>
+	<script language="JavaScript">
+    function camsearch(){
+        document.getElementById('my_camera').style.visibility="visible";
+        document.getElementById('start_cam').style.visibility="hidden";
+        document.getElementById('cam_search').style.visibility="visible";
+		Webcam.set({
+			width: 300,
+			height: 230,
+			image_format: 'jpeg',
+			jpeg_quality: 90
+		});
+
+		Webcam.attach( '#my_camera' );
+
+    }
+	</script>
+	<script language="JavaScript">
+        var img_location;
+		function take_snapshot() {
+			// take snapshot and get image data
+			Webcam.snap( function(data_uri) {
+				// display results in page
+
+				Webcam.upload( data_uri, 'http://localhost/sentiment/saveimage.php', function(code, text) {
+				} );
+			} );
+
+           window.location = 'http://localhost/sentiment/webcam_emo.php';
+		}
+	</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
