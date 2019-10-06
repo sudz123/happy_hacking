@@ -196,5 +196,5 @@
 - [vamisola](https://github.com/vamisola)
 - [diogoalexsmachado](https://github.com/diogoalexsmachado)
 - [Simon Plaistowe](https://github.com/plaistos)
-- [Rafldev](https://github.com/raflidev)
+- [Raflidev](https://github.com/raflidev)
 
