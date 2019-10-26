@@ -196,4 +196,4 @@
 - [vamisola](https://github.com/vamisola)
 - [diogoalexsmachado](https://github.com/diogoalexsmachado)
 - [Simon Plaistowe](https://github.com/plaistos)
-
+- [Ahmet Tügür](https://github.com/plaistos)

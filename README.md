@@ -90,6 +90,8 @@ A few other tutorial links:
 - [Mozilla Developer Docs](https://developer.mozilla.org/en-US/docs/Learn)
 - [Design Patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 - [Freecodecamp](https://www.freecodecamp.org/)
+- [Learn CSS (javatpoint)](https://www.javatpoint.com/css-tutorial)
+- [Learn Javascript (javatpoint)](https://www.javatpoint.com/javascript-tutorial)
 
 ## HALL OF FAME
 
