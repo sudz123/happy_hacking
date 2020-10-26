@@ -2,7 +2,10 @@
    Displaying the time left for Halloween
 */
 
-var waitdate=new Date("Oct 31, 2018 00:00:00").getTime();
+// Making timer dynamic to every year
+var currentYear = new Date().getFullYear();
+var countDownDateString = "Oct 31, " + currentYear + " 00:00:00";
+var waitdate = new Date(countDownDateString).getTime();
 
 //function to update the timer every second
 
