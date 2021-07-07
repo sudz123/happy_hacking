@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    h2 {
+      padding-left: 50px
+    }
+
+    #container {
+      padding: 50px;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .disco-light {
+      margin: 2px;
+      height: 10px;
+      width: 10px;
+      background: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Party room to chill and hang out after all your hard contributions!</h2>
+  <div id="container">
+
+  </div>
+  <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
+  <script>
+    const colors = ['green', 'blue', 'purple', 'yellow', 'orange', 'red'];
+    const lightsCount = 3000;
+
+    const newLight = () => document.createElement('div')
+    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min
+    const randomColor = () => colors[randomNumber(0, colors.length)]
+
+    // generate new disco lights
+    for (let i = 1; i <= lightsCount; i++) {
+      let nextLight = newLight()
+      nextLight.classList.add('disco-light')
+      document.querySelector('#container').appendChild(
+        nextLight
+      )
+    }
+
+    // change their color every 100ms
+    setInterval(() => {
+      document.querySelectorAll('.disco-light').forEach(item => item.style.background = randomColor())
+    }, 100);
+
+  </script>
+</body>
+
+</html>

@@ -1,113 +1,221 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Happy Hacking</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" id="home-styles" href="style/home/home.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="style/home/styles1.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+        <script src="../js/jquery.js"></script>
+        <script src="scripts/home/home.js"></script>
+        <!--Scripts for Carousel-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    </head>
+    <body onload="" class="home">
+        <header id="head">
+            <h3>Happy<span>_</span><strong>Hacking</strong></h3>
+            <nav>
+                <a href="#containCarousel" onclick="animatedScroll('#containCarousel');">HOME</a>
+                <a href="#video-holder" onclick="animatedScroll('#video-holder');">WATCH TEASER</a>
+                <a href="#about" onclick="animatedScroll('.card');this.blur();">ABOUT</a>
+                <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
+                <a onclick="goToHalloween();">HALLOWEEN PAGE</a>
+            </nav>
+        </header>
+        <div class="container" id="containCarousel">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-<html>
-   <head>
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
 
-    <title>Happy Hackers!</title>
-      <link rel='stylesheet' id='home-styles'  href='style/home/home.css' type='text/css' media='all' />
-      <link rel="stylesheet" href="style/home/styles1.css" />
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-	   <script src="../js/jquery.js"></script>
-	   <script src="scripts/home/home.js"></script>
-</head>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/home/hacktoberfest2018.png" alt="Hacktober Fest 2018">
+                    </div>
+                    <div class="item">
+                        <img src="images/home/hacktoberfest2017.jpeg" alt="Hacktober Fest 2017">
+                    </div>
+                    <div class="item">
+                        <img src="images/home/hacktoberfest2016.jpg" alt="Hacktober Fest 2016">
+                    </div>
+                    <div class="item">
+                        <img src="images/home/hackopensource.jpg" alt="Hacktober Fest Open Source Sprints Oct 6th">
+                    </div>
+                    <div class="item">
+                        <img src="images/home/hack_shirt.png" alt="Hacktober Fest 2018 Shirt">
+                    </div>
 
-<body onload="startTimer()" class="home">
-  <div class="header" id="header">
-    <h3>Happy<span>_</span><strong>Hacking</strong></h3>
-    <nav>
-      <a href="#img" onclick="animatedScroll('#img');">HOME</a>
-      <a href="#about" onclick="animatedScroll('#about');">ABOUT</a>
-      <a href="#contact" onclick="animatedScroll('#contact');">CONTACT US</a>
-    </nav>
-  </div>
-  
-  <img id="img" src="startpicture.jpg" />
-  <nav>
-    <button type="button" onclick="displayPreviousImage()">Previous</button>
-    <button type="button" onclick="displayNextImage()">Next</button>
-    <button type="button" onclick="goToBamsarts()">bamsarts</button>
-    <button type="button" onclick="goToHalloween()" class="halloweenButton">Go to Halloween Page</button>
-  </nav>
-  <div class="card" id="about">
-    <h1>Contributors: </h1>
-    <p id="contributors-links">
-      <a href="akshat.html">Akshat Ahuja</a>
-      <a href="mufti.html">Mufti Ismi</a>
-      <a href="sudz.html">Sudarshan Kamath</a>
-      <a href="sarahperea.html">Sarah Perea</a>
-      <a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a>
-      <a href="http://carrielau.com/">Carrie Lau</a>
-      <a href="./navindu.html">Navindu Amarakoon</a>
-      <a href="https://ahong.ca">Andrew Hong</a>
-    </p>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
 
-    <div>
-      <h3>What is Hacktober Fest?</h3>
-      <p>Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with
-        GitHub and Twilio.
-      </p>
-      <ul>
-        <li>Hacktoberfest is open to everyone in the global community!</li>
-        <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
-        <li>You can sign up anytime between October 1 and October 31.</li>
-      </ul>
-    </div>
-  </div>
+            <div id="video-holder">
+                <h1>Watch the Hacktoberfest Teaser!</h1>
+                <div id="teaser-video">
+                    <iframe id="iframe-video" src="https://www.youtube.com/embed/wPlTQjOEPWo" allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            
+      <div class="maintainers">
+        <h1>Maintainers</h1>
+        <p id="maintainers-links"></p>
+        <div class="card-container">
+           <div class="card">
+              <div class="profile">
+                 <div class="profile__img">
+                    <img src="https://avatars2.githubusercontent.com/u/18459822?s=400&v=4" alt="Sudarshan Kamath">
+                 </div>
+                 <div class="profile__info">
+                   <h3><a class="name" href="./sudz.html">Sudarshan Kamath</a></h3>
+                   <p class="title">Deep Learning Engineer at Strato IT Korea | Industrial Automation | Autonomous Systems</p>
+                   <p class="baseline"><b>Mechanical Engineer, IIT Guwahati</b></p>
+                 </div>
+                 <ul class="social-links social-links--inline">
+                    <li class="social-link social-link--twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-link social-link--linkedin"><a href="https://www.linkedin.com/in/sudarshankamath/"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="social-link social-link--facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                 </ul>
+              </div>
+           </div>
 
-  <div id="contact">
-    <h2>Don't be a stranger. Contact me.</h2>
+           <div class="card">
+              <div class="profile">
+                 <div class="profile__img">
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Diptanshu Agarwal">
+                 </div>
+                 <div class="profile__info">
+                   <h3><a class="name" href="#"></a>Diptanshu Agarwal</a></h3>
+                   <p class="title">Founding Member at Strategy Storm<br><br></p>
+                   <p class="baseline"><b>Mechanical Engineer, IIT Guwahati</b></p>
+                 </div>
+                 <ul class="social-links social-links--inline">
+                    <li class="social-link social-link--twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-link social-link--linkedin"><a href="https://www.linkedin.com/in/diptanshu-agarwal/"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="social-link social-link--facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                 </ul>
+              </div>
+           </div>
+        </div><!-- ./card-container -->
 
-    <form class="contact-form" action="#">
-      <label for="name"> Name: </label>
-      <input type="text" id="name" placeholder="Enter your name" class="field" required><br>
-      <label for="email"> Email: </label>
-      <input type="email" id="email" placeholder="Enter your email" class="field" required><br>
-      <label for="message"> Message: </label>
-      <textarea class="message" id="message" name="message" placeholder="Say something..." style="resize:vertical;" required></textarea><br>
-      <button class="submit"> Submit </button>
-    </form>
-   </div>
+                    <div>
+                        <h3>What is Hacktoberfest?</h3>
+                        <p>Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. </p>
+                        <ul>
+                            <li>Hacktoberfest is open to everyone in the global community!</li>
+                            <li>Five quality pull requests must be submitted to public GitHub repositories.</li>
+                            <li>You can sign up anytime between October 1 and October 31.</li>
+                            <li>For more information and to sign up visit:</li>
+                            <li><strong><a href="https://hacktoberfest.digitalocean.com" target="_blank">Hacktoberfest on Digital Ocean</a></strong></li>
+                        </ul>
+                        <hr>
+                        <h3>How can I request for a Hacktoberfest T-shirt?</h3>
+                        <br />
+                        <p>After you have made 5 pull requests, all you need to do is wait!<br />
+                           DigitalOcean will send you an e-mail about 1 week after Hacktoberfest ends, <br />
+                           with a unique link to request for your shirt. <br />
+                           You can submit your name, address, shirt size and other details through the link, <br />
+                           after which you will receive a confirmation e-mail. <br />
+                           Finally, your shirt will be shipped in around 1-2 weeks, and arrive about 1 month later. <br />
+                        </p>
+                    </div>
+            </div>
 
-  <div class="footer">
-    <div class="wrap">
-      <div class="intro">
-        <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
-      </div>
-      <div class="contributors">
-        <h4>Contributors:</h4>
-        <ul>
-          <li><a href="./bamsarts/index.html">Bamsarts</a></li>
-          <li><a href="akshat.html">Akshat Ahuja</a></li>
-          <li><a href="https://github.com/CallmeHenry">CallmeHenry</a></li>
-          <li><a href="https://github.com/Yusadolat">Yusuf Adeyemo</a></li>
-          <li><a href="https://github.com/yurichandra">Yuri Chandra</a></li>
-          <li><a href="https://github.com/TexasBullet26">Glenn Lanzer III</a></li>
-          <li><a href="https://github.com/zenithcoder">Awonusi Olajide</a></li>
-          <li><a href="https://github.com/dsdeeptisharma/">Deepti Sharma</a></li>
-          <li><a href="https://github.com/shariffnour">Nura Musa Shariff</a></li>
-          <li><a href="https://github.com/vonralls">Von Ralls</a></li>
-          <li><a href="https://github.com/DjigoLab/">Antonio Djigo</a></li>
-          <li><a href="https://github.com/irvandoval">Irvin Sandoval</a></li>
-          <li><a href="mufti.html">Mufti Ismi</a></li>
-          <li><a href="sudz.html">Sudarshan Kamath</a></li>
-          <li><a href="sarahperea.html">Sarah Perea</a></li>
-          <li><a href="nir099.html">Nir</a></li>
-          <li><a href="https://github.com/bigseaadam" target="blank">Adam Kuhn</a></li>
-          <li><a href="dulcetti.html">Bruno Dulcetti</a></li>
-          <li><a href="./navindu.html"> Navindu </a></li>
-          <li><a href="https://github.com/joshuaGlass808" target="blank">Joshua Glass</a></li>
-          <li><a href="./alan.html" target="blank">Alan Gordon</a></li>
-          <li><a href="https://github.com/ChameeraD">Chameera Dulanga</a></li>
-          <li><a href="https://github.com/amrtaher1234">Sekab</a></li>
-          <li><a href="https://ahong.ca">Andrew Hong</a></li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <p>
-          <script>document.write(new Date().getFullYear());</script> ALL RIGHTS RESERVED</p>
-      </div>
-    </div>
-  </div>
-</body>
+            <div id="contact">
+                <h1>Don't be a stranger, contact me!</h1>
+                <form action="#">
+                    <span class="input">
+                        <input type="text" id="name" placeholder="Name" class="field" required>
+                    </span>
+                    <span class="input">
+                        <input type="email" id="email" placeholder="Email" class="field" required>
+                    </span>
+                    <span class="text">
+                        <textarea class="message" id="message" name="message" placeholder="Message" style="resize:vertical;"
+                            required></textarea>
+                    </span>
+                    <button class="submit"> Submit </button>
+                </form>
+            </div>
+
+            <footer>
+                <div class="wrap">
+                    <div class="intro">
+                        <a class="btn" href="https://github.com/sudz123/Happy_Hacking" target="blank">Contribute</a>
+                    </div>
+                    <div class="contributors">
+                        <h4>Contributors</h4>
+                        <ul>
+                            <li><b><a target="_blank" href="./bamsarts/index.html">Bamsarts</a></b></li>
+                            <li><a target="_blank" href="akshat.html">Akshat Ahuja</a></li>
+                            <li><a target="_blank" href="https://github.com/CallmeHenry">CallmeHenry</a></li>
+                            <li><a target="_blank" href="https://github.com/Yusadolat">Yusuf Adeyemo</a></li>
+                            <li><a target="_blank" href="https://github.com/yurichandra">Yuri Chandra</a></li>
+                            <li><a target="_blank" href="https://github.com/TexasBullet26">Glenn Lanzer III</a></li>
+                            <li><a target="_blank" href="https://github.com/zenithcoder">Awonusi Olajide</a></li>
+                            <li><a target="_blank" href="https://github.com/dsdeeptisharma/">Deepti Sharma</a></li>
+                            <li><a target="_blank" href="https://github.com/shariffnour">Nura Musa Shariff</a></li>
+                            <li><a target="_blank" href="https://github.com/vonralls">Von Ralls</a></li>
+                            <li><a target="_blank" href="https://github.com/DjigoLab/">Antonio Djigo</a></li>
+                            <li><a target="_blank" href="https://github.com/irvandoval">Irvin Sandoval</a></li>
+                            <li><a target="_blank" href="mufti.html">Mufti Ismi</a></li>
+                            <li><a target="_blank" href="sarahperea.html">Sarah Perea</a></li>
+                            <li><a target="_blank" href="nir099.html">Nir</a></li>
+                            <li><a target="_blank" href="https://github.com/bigseaadam">Adam Kuhn</a></li>
+                            <li><a target="_blank" href="dulcetti.html">Bruno Dulcetti</a></li>
+                            <li><a target="_blank" href="./navindu.html"> Navindu </a></li>
+                            <li><a target="_blank" href="./peanutcoder.html"> Peanutcoder </a></li>
+                            <li><a target="_blank" href="https://github.com/joshuaGlass808">Joshua Glass</a></li>
+                            <li><a target="_blank" href="./alan.html" target="blank">Alan Gordon</a></li>
+                            <li><a target="_blank" href="https://github.com/ChameeraD">Chameera Dulanga</a></li>
+                            <li><a target="_blank" href="https://github.com/amrtaher1234">Sekab</a></li>
+                            <li><a target="_blank" href="https://ahong.ca">Andrew Hong</a></li>
+                            <li><a target="_blank" href="siliwangi.html">Ricky Sukma</a></li>
+                            <li><a target="_blank" href="https://github.com/colinschindler">Colin Schindler</a></li>
+                            <li><a target="_blank" href="https://github.com/sarthak-trivedi">Sarthak Trivedi</a></li>
+                            <li><a target="_blank" href="https://github.com/vjs3">Vishwajeet Srivastava</a></li>
+                            <li><a target="_blank" href="https://github.com/abisummers">Abi Summers</a></li>
+                            <li><a target="_blank" href="https://github.com/rahuls360">Rahul Makhija</a></li>
+                            <li><a target="_blank" href="https://github.com/iDoppioclick">Mattia Effendi</a></li>
+                            <li><a target="_blank" href="https://github.com/gormleymark">Mark Gormley</a></li>
+                            <li><a target="_blank" href="https://github.com/howieandersen">Howie Andersen</a></li>
+                        </ul>
+                    </div>
+                    <div class="contributors">
+                        <h4>Designer</h4>
+                        <ul>
+                            <li><a href="sarahperea.html"><b>Sarah Perea</b></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p id='pcopyright'>
+                            
+                        </p>
+                    </div>
+                    <script>
+                          document.getElementById("pcopyright").innerHTML=new Date().getFullYear() + ' ALL RIGHTS RESERVED'
+                    </script> 
+                </div>
+            </footer>
+        </div>
+        <!-- Scripts for Carousel -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
 </html>
-
