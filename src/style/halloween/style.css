@@ -193,3 +193,15 @@ section {
 .zoom-container {
   overflow: hidden;
 }
+
+@media screen and (max-width:1000px) {
+	.spells11{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.halloimg1{
+		margin-bottom: 30px;
+	}
+	
+}
