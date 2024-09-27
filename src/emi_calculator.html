@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EMI Calculator</title>
+
+
+<!-- script for calculating EMI -->
+<script>
+function EmiCalc(){
+    
+   
+  	var mt = document.getElementById("emiMonth").value;
+  	var r =document.getElementById("InterestRate").value; 
+  	var p =document.getElementById("prncipleAmount").value; 
+  	
+  	document.getElementById("period").innerHTML=mt;
+  	document.getElementById("rate").innerHTML=r;
+  	document.getElementById("amt").innerHTML=p;
+
+   var monthlyInterestRatio = (r/1200);
+   var monthlyInterest = (monthlyInterestRatio*p);
+      var top = Math.pow((1+monthlyInterestRatio),mt);
+         var bottom = top -1;
+         var sp = top / bottom;
+         var emi = ((p * monthlyInterestRatio) * sp);
+   var result = emi.toFixed(2);
+   var totalAmount = emi*mt;
+   var yearlyInteret = totalAmount-p;
+   var downPayment = p*0.2;
+      //alert(emi);
+
+   document.getElementById("emi").innerHTML=result;   
+
+    
+}
+</script>
+
+<style>
+h2{
+ color:blue;
+}
+#box{
+ margin-top:10%;
+ margin-left: 100px;
+ width: 500px;
+ border:2px solid #001 ;
+ padding-bottom:20px;
+ 
+
+}
+table{
+	margin-left: 30px;
+}
+</style>
+</head>
+
+<body>
+ <div class="container">
+ <div id="box"  align="center">
+ <h2> <center> EMI Calculator </center></h2>
+   <table width="85%" align="center">
+    <tr><br>
+    <td width="147" style="font-size: 120%;"> Interest Rate </td>
+     <td width="193" style="padding-top:10px;"> 1<input type="range" min="1" max="20" id="InterestRate" name="InterestRate" required class="form-control" placeholder="Enter Rate of Interest" onchange="EmiCalc()" /> 20</td>
+     <td> <label id="rate"></label> </td> 
+    </tr>
+    <tr> 	
+    <td width="147" style="font-size: 120%;"> Loan Amount  </td>
+     <td width="250">1000 <input type="range" min="1000" max="500000" id="prncipleAmount" name="prncipleAmount" required class="form-control" placeholder="Enter Loan Amount" onchange="EmiCalc()" /> 500000</td> 
+     <td> <label id="amt"></label> </td> 
+    </tr>
+    <tr>
+    <td width="147" style="font-size: 120%;">
+      Loan Period (in month)
+    </td>
+     <td style="padding-top:10px;">
+      0 <input type="range" min="0" max="12" id="emiMonth" name="emiMonth" required class="form-control" placeholder="Enter Period in Month" onchange="EmiCalc()" />12
+       <td> <label id="period"></label> </td> 
+     </td>
+    
+    </tr>
+    <tr>
+      <td style="padding-top:10px; " colspan="2"><br><br>
+       <center><button class="btn btn-success btn-block" onclick="EmiCalc();" style="size: 100px;"> Find EMI </button></center>
+      </td>
+    </tr>
+    <tr>
+    	<td style="font-size: 120%;">
+    		<center> Total EMI: <label id="emi"></label></center>
+    	</td>
+    </tr>
+   </table>
+
+  <div id="result" align="center" style="color:#006;margin-top:20px;">    </div></div>
+ </div>
+
+</body>
+</html>

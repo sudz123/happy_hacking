@@ -1,0 +1,106 @@
+body {
+  background: #06d7d9;
+  color: #fafafa !important;
+  font-size: 3vh;
+  display: flex;
+  flex-flow: row wrap;
+  /* flex-direction: column; */
+  min-height: 100vh;
+  align-content: center;
+  padding: 2% 21% 1.5%;
+  text-align: left;
+}
+
+.container>* {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.email {
+  color: #fff;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.pad-top {
+  padding-top: 2%;
+}
+
+
+.icons-social a {
+  color: #fafafa !important;
+  text-decoration: none;
+}
+
+.icons-social a svg path {
+  fill: #fafafa !important;
+}
+
+img {
+  position: absolute;
+  top: 2vh;
+  left: -12vh;
+}
+
+html {
+  font-family: 'Roboto', sans-serif !important;
+  min-height: 100%;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.icons-social i {
+  font-size: 3.6vh;
+}
+
+.letter {
+  display: inline-block;
+}
+
+.icons-social i {
+  padding: 5px;
+}
+
+button {
+  width: 10%;
+  margin-left: 1rem;
+}
+
+.btn-primary {
+  background-color: #cc0099;
+  border-color: #cc0099;
+  border-radius: 6%;
+}
+
+.btn-primary a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 1.4vh;
+}
+
