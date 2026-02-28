@@ -1,6 +1,6 @@
 body {
-	padding: 0;
-	margin: 0;
+	padding: 1px;
+	margin: 1px;
 	background-color: black;
 	font-family: "Griffy", cursive;
 }
@@ -36,27 +36,18 @@ p {
   min-height: 450px;
   background: url("../../images/halloween/jumbotron.jpg") center;
   position: relative;
+	overflow: hidden;
 }
 
 #floatingwitch {
   position: absolute;
 }
 
-#content {
+section {
 	color: white;
 	font-size: 18px;
 	min-height: 200px;
 	margin-bottom: 10px;
-}
-
-#content img {
-	border-radius: 5px;
-	margin-bottom: 10px;
-	transition: transform 0.3s;
-}
-
-#content img:hover {
-	transform: scale(1.1);
 }
 
 #countdown {
@@ -153,6 +144,10 @@ p {
 	overflow-x: hidden;
 }
 
+.body-bg {
+	background-image: url('../../images/halloween/img.gif');
+}
+
 .alert-easter-egg {
 	position: absolute;
 	top: 82px;
@@ -181,4 +176,20 @@ p {
 	100% {
 		opacity: 0;
 	}
+}
+
+.navbar {
+	background-color: #000000;
+}
+
+.zoom {
+  transition: transform .5s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.zoom-container {
+  overflow: hidden;
 }

@@ -51,10 +51,31 @@ button.addEventListener("click", function() {
 ```
 
 Before clicking button:
+```
 <div>Click the button to change my color!</div>
+```
 
 After clicking button:
+```
 <div style="color:blue;">Click the button to change my color!</div>
+```
+
+**Closures**
+
+```
+function greet( msg ) {
+
+  return function( name ) {
+       console.log( msg + ' ' + name);
+  }
+
+}
+
+var sayHello = greet( 'Hello' );
+sayHello( 'learner' );
+```
+
+A Closure is when a function can access variables in outer functions ( scopes ) even after those outer functions have returned / terminated.
 
 ## How to use JavaScript
 The most common and recommended practice is to write your JavaScript in separate files from your HTML and then import it using the **script** element.

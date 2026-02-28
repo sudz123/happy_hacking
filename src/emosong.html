@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <title>EmoSong</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600" rel="stylesheet">
-  
+
   <link rel='stylesheet' href='https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
@@ -45,6 +45,7 @@
   	<br><br>
 	</div>
 </main>
+  <br /><br /><center><a id="back_to_home" href="home.html">Go back to home</a></center>
 	<!-- First, include the Webcam.js JavaScript Library -->
 	<script type="text/javascript" src="webcam.js"></script>
 	<script language="JavaScript">
@@ -58,9 +59,9 @@
 			image_format: 'jpeg',
 			jpeg_quality: 90
 		});
-        
+
 		Webcam.attach( '#my_camera' );
-        
+
     }
 	</script>
 	<script language="JavaScript">
@@ -69,17 +70,17 @@
 			// take snapshot and get image data
 			Webcam.snap( function(data_uri) {
 				// display results in page
-					
+
 				Webcam.upload( data_uri, 'http://localhost/sentiment/saveimage.php', function(code, text) {
-				} );	
+				} );
 			} );
-           
-           window.location = 'http://localhost/sentiment/webcam_emo.php'; 
+
+           window.location = 'http://localhost/sentiment/webcam_emo.php';
 		}
 	</script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 
-  
+
 
     <script  src="js/index.js"></script>
 

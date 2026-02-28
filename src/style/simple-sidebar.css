@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --shadow:rgba(0,0,0,.3) 1px 1px 1px 1px;
+    
+}
+
+body{
+    color: #333;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: #ac5358;
+    color:rgba(255, 255, 255);
+    padding: 20px 0;
+    box-shadow: var(--shadow);
+}
+
+main{
+    width: 75%;
+    margin: 50px auto;
+    line-height: 1.5em;
+}
+
+main h2{
+    text-align: center;
+    margin: 20px;
+}
+
+main section{
+    margin: 20px 0;
+    background-color: #ccc;
+    padding: 20px 30px;
+    box-shadow: var(--shadow);
+    color: #333;
+}
+
+main p {
+    margin: 10px 0;
+}
+
+.writer{
+    text-align: right;
+    font-style: italic;
+    font-size: 95%;
+}
+
+
+#slider{
+    color:#fff;
+    text-align: center;
+    margin: 60px;
+}
+
+#slider h1{
+    margin:20px;
+    border: 2px solid #fff;
+    padding: 5px;
+    transform: scale(1.3,1.3);
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:-250px;
+    z-index: 1000;
+    background-color: rgba(51, 51, 51, 0.98);
+    height: 100vh;
+    width: 250px;
+    display: inline-block;
+    color:#fff;
+    transition: all 400ms ease-in-out;
+}
+
+nav a{
+    text-decoration: none;
+    color:#fff;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    line-height: 3em;
+   
+}
+
+nav a{
+    display: block;
+    width:100%;
+    height: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+nav a:hover{
+    color:#999;
+    border-bottom: 1px solid #999;
+}
+
+#cross{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 15px;
+    transform: scale(1.2,1);
+    cursor: pointer;
+}
+
+#toggle{
+    position: absolute;
+    left:0;
+    top:0;
+    margin: 20px 10px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    background-image: url("../images/simple-sidebar/nav.png");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: opacity 400ms ease-in-out;
+}
+
+.remove{
+    opacity: 0;
+}
+
+@media(min-width:850px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        grid-gap: 10px;
+    }
+}

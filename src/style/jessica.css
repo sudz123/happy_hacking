@@ -1,0 +1,75 @@
+section { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg, #29051c, #764278, #d768a1, #9b2449, #3c000a, #f05457, #d78081, #d7ae90, #e7cb9f);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  text-align: justify;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.3;
+}
+
+footer p, footer div {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.fab {
+  font-size: 22px;
+  padding: 0 3px;
+}
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
